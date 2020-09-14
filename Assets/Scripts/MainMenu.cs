@@ -48,16 +48,13 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 
-
-
-
     public void MainPause()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             paused = !paused;
         }
-
+ 
         if (paused)
         {
             Panel.SetActive(true);
