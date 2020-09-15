@@ -38,7 +38,7 @@ public class MainMenu : MonoBehaviour
     public void Menu()
     {
 
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene(0);
 
     }
 
@@ -52,20 +52,13 @@ public class MainMenu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+       
             paused = !paused;
+            Time.timeScale=(paused) ? 0 : 1;
+            Panel.SetActive(paused);
         }
  
-        if (paused)
-        {
-            Panel.SetActive(true);
-            Time.timeScale = 0;
-        }
-
-        if (!paused)
-        {
-            Panel.SetActive(false);
-            Time.timeScale = 1;
-        }
+       
     }
 }
 
