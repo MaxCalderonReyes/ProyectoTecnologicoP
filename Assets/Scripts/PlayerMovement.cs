@@ -6,6 +6,12 @@ public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rgbd;
     [SerializeField]private float speed;
+    [SerializeField]private float Live;
+    public float live
+    {
+        get { return Live; }
+        set { Live = value; }
+    }
     void Start()
     {
         rgbd = GetComponent<Rigidbody2D>();        
