@@ -21,7 +21,8 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         float x = Input.GetAxis("Horizontal");
-        float y = Input.GetAxis("Vertical");
-        rgbd.velocity = new Vector3(x * speed, y * speed, 0);
+        
+        rgbd.velocity = new Vector3(x * speed, rgbd.velocity.y, 0);
+
     }
 }
