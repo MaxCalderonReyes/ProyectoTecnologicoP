@@ -10,6 +10,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]private LayerMask ground;
    [SerializeField] private float DistanceTOGround;
     [SerializeField]private float jumpForce;
+    //Disparo Del Player
+    [SerializeField]private GameObject prefab;
+ 
     public float live
     {
         get { return Live; }
@@ -17,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     }
     void Start()
     {
+       
         rgbd = GetComponent<Rigidbody2D>();        
     }
 
@@ -34,9 +38,28 @@ public class PlayerMovement : MonoBehaviour
                 rgbd.AddForce(Vector2.up* jumpForce, ForceMode2D.Impulse);
             }
         }
+        shoot();
+        Mousepos();
     }
     private void OnDrawGizmos()
     {
         Gizmos.DrawLine(transform.position, transform.position + Vector3.down * DistanceTOGround);
+    }
+    public void shoot()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+         GameObject prfb=   Instantiate(prefab,transform.position,transform.rotation);
+            prfb.GetComponent<BullDirections>().Direction(Mousepos());
+            prfb.GetComponent<BullDirections>().velocityShoot(15);
+        }
+    }
+    private Vector3 Mousepos()
+    {
+        Vector3 actualPos = transform.position;
+        Vector3 mousepos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector3 MDirection = mousepos - actualPos;
+     
+        return MDirection;
     }
 }
