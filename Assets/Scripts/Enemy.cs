@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public float speed;
-    public float lenght;
+    [SerializeField]private float speed;
+    [SerializeField]private float lenght;
     private float counter;
     private float startPosition;
 
     private float actualPosition;
     private float lastPosition;
 
-    public bool horizontal;
+    [SerializeField]private bool horizontal;
 
     // Start is called before the first frame update
     void Start()
@@ -38,5 +38,9 @@ public class Enemy : MonoBehaviour
         {
             transform.position = new Vector2(transform.position.x, Mathf.PingPong(counter, lenght) + startPosition);
         }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        
     }
 }
