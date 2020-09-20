@@ -1593,12 +1593,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  Live: 20
+  Live: 0
   ground:
     serializedVersion: 2
-    m_Bits: 256
-  DistanceTOGround: 1.24
-  jumpForce: 5
+    m_Bits: 0
+  DistanceTOGround: 0
+  jumpForce: 0
 --- !u!61 &1018586066
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2015,7 +2015,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 12.599976, y: -8.130005}
+  m_AnchoredPosition: {x: 12.600006, y: -8.13}
   m_SizeDelta: {x: 117.92938, y: 20.665487}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1738924644
@@ -2188,7 +2188,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000061035156}
+  m_AnchoredPosition: {x: -0.000030517578, y: 0.000061035156}
   m_SizeDelta: {x: 0, y: 0.000061035156}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1885702607
