@@ -1599,6 +1599,7 @@ MonoBehaviour:
     m_Bits: 0
   DistanceTOGround: 0
   jumpForce: 0
+  prefab: {fileID: 2694216852373266838, guid: ef10adb531f70e64984c289c5741fc9a, type: 3}
 --- !u!61 &1018586066
 BoxCollider2D:
   m_ObjectHideFlags: 0
