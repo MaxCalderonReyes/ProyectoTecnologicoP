@@ -12,15 +12,26 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]private float jumpForce;
     //Disparo Del Player
     [SerializeField]private GameObject prefab;
- 
+    public GameObject Panel;
+
+
     public float live
     {
         get { return Live; }
         set { Live = value; }
     }
+
+    void vida()
+    {
+
+        Panel.SetActive(true);
+        Time.timeScale = 0;
+    }
+
+
     void Start()
     {
-       
+        Panel.SetActive(false);
         rgbd = GetComponent<Rigidbody2D>();        
     }
 
@@ -40,6 +51,12 @@ public class PlayerMovement : MonoBehaviour
         }
         shoot();
         Mousepos();
+
+
+        if (live == 0)
+        {
+            vida();
+        }
     }
     private void OnDrawGizmos()
     {
