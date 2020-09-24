@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     //Disparo Del Player
     [SerializeField]private GameObject prefab;
     public GameObject Panel;
-
+    
 
     public float live
     {
@@ -26,13 +26,15 @@ public class PlayerMovement : MonoBehaviour
 
         Panel.SetActive(true);
         Time.timeScale = 0;
+        
     }
 
 
     void Start()
     {
         Panel.SetActive(false);
-        rgbd = GetComponent<Rigidbody2D>();        
+        rgbd = GetComponent<Rigidbody2D>();       
+        
     }
 
     // Update is called once per frame
