@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     //Disparo Del Player
     [SerializeField]private GameObject prefab;
     public GameObject Panel;
-
+    GameObject playerSpri;
 
     public float live
     {
@@ -31,6 +31,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        playerSpri = GameObject.FindGameObjectWithTag("Player");
+
         Panel.SetActive(false);
         rgbd = GetComponent<Rigidbody2D>();        
     }
@@ -42,6 +44,14 @@ public class PlayerMovement : MonoBehaviour
         float x = Input.GetAxis("Horizontal");
         
         rgbd.velocity = new Vector3(x * speed, rgbd.velocity.y, 0);
+        if (x < 0)
+        {
+           playerSpri.GetComponent<SpriteRenderer>().flipX=true;
+        }
+        else
+        {
+            playerSpri.GetComponent<SpriteRenderer>().flipX = false;
+        }
         if (InGround)
         {
             if (Input.GetKeyDown(KeyCode.Space))
@@ -67,11 +77,19 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
          GameObject prfb=   Instantiate(prefab,transform.position,transform.rotation);
-            prfb.GetComponent<BullDirections>().Direction(Mousepos());
+            if (!playerSpri.GetComponent<SpriteRenderer>().flipX)
+            {
+                prfb.GetComponent<BullDirections>().Direction(Vector3.right);
+            }
+            else
+            {
+                prfb.GetComponent<BullDirections>().Direction(Vector3.left);
+            }
+          
             prfb.GetComponent<BullDirections>().velocityShoot(15);
         }
     }
-    private Vector3 Mousepos()
+    private Vector3 Mousepos()//opcional
     {
         Vector3 actualPos = transform.position;
         Vector3 mousepos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
