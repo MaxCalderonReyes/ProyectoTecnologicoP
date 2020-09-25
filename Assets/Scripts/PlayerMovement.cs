@@ -13,8 +13,8 @@ public class PlayerMovement : MonoBehaviour
     //Disparo Del Player
     [SerializeField]private GameObject prefab;
     public GameObject Panel;
-    
-
+    public GameObject musica;
+    public GameObject musicaOver;
     public float live
     {
         get { return Live; }
@@ -32,6 +32,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+
+       
         Panel.SetActive(false);
         rgbd = GetComponent<Rigidbody2D>();       
         
@@ -58,6 +60,14 @@ public class PlayerMovement : MonoBehaviour
         if (live == 0)
         {
             vida();
+            musica.SetActive(false);
+           
+            for (int i = 0; i <= 1; i++)
+            {
+
+                musicaOver.SetActive(true);
+
+            }
         }
     }
     private void OnDrawGizmos()
