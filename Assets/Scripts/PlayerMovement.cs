@@ -13,8 +13,13 @@ public class PlayerMovement : MonoBehaviour
     //Disparo Del Player
     [SerializeField]private GameObject prefab;
     public GameObject Panel;
+<<<<<<< HEAD
     GameObject playerSpri;
 
+=======
+    public GameObject musica;
+    public GameObject musicaOver;
+>>>>>>> 79598e98b85feae75a4243bb32bb66df3fd38aa6
     public float live
     {
         get { return Live; }
@@ -26,15 +31,22 @@ public class PlayerMovement : MonoBehaviour
 
         Panel.SetActive(true);
         Time.timeScale = 0;
+        
     }
 
 
     void Start()
     {
+<<<<<<< HEAD
         playerSpri = GameObject.FindGameObjectWithTag("Player");
 
+=======
+
+       
+>>>>>>> 79598e98b85feae75a4243bb32bb66df3fd38aa6
         Panel.SetActive(false);
-        rgbd = GetComponent<Rigidbody2D>();        
+        rgbd = GetComponent<Rigidbody2D>();       
+        
     }
 
     // Update is called once per frame
@@ -66,6 +78,14 @@ public class PlayerMovement : MonoBehaviour
         if (live == 0)
         {
             vida();
+            musica.SetActive(false);
+           
+            for (int i = 0; i <= 1; i++)
+            {
+
+                musicaOver.SetActive(true);
+
+            }
         }
     }
     private void OnDrawGizmos()
