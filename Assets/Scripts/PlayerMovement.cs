@@ -37,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-
+        musicaOver.SetActive(false);
         playerSpri = GameObject.FindGameObjectWithTag("Player");
 
 
