@@ -9,17 +9,32 @@ public class Wheel : MonoBehaviour
     private bool coroutineAllowed;
     private int finalAngle;
     private bool toggle;
+    private bool showOptions;
 
     [SerializeField]
     private Text textQuestion;
 
-    public bool Toggle { get => toggle; set => toggle = value; }
+    [SerializeField]
+    private Text textOption1;
+    [SerializeField]
+    private Text textOption2;
+    [SerializeField]
+    private Text textOption3;
+    
 
+    public bool Toggle { get => toggle; set => toggle = value; }
+    public bool ShowOptions { get => showOptions; set => showOptions = value; }
+    public int FinalAngle { get => finalAngle; set => finalAngle = value; }
+    public Text TextQuestion { get => textQuestion; set => textQuestion = value; }
+
+
+   
 
     // Use this for initialization
     private void Start()
     {
         toggle = false;
+        showOptions = false;
         textQuestion.text = "Pregunta...";
         coroutineAllowed = true;
     }
@@ -57,48 +72,80 @@ public class Wheel : MonoBehaviour
                 if (toggle == false)
                 {
                     textQuestion.text = "Pregunta 1: ¿sabes cual ...?";
+                    textOption1.text = "1.A";
+                    textOption2.text = "1.B";
+                    textOption3.text = "1.C";
+                    showOptions = true;
                 }               
                 break;
             case 45:
                 if (toggle == false)
                 {
                     textQuestion.text = "Pregunta 2: ¿sabes cual ...?";
+                    textOption1.text = "2.A";
+                    textOption2.text = "2.B";
+                    textOption3.text = "2.C";
+                    showOptions = true;
                 }
                 break;
             case 90:
                 if (toggle == false)
                 {
                     textQuestion.text = "Pregunta 3: ¿sabes cual ...?";
+                    textOption1.text = "3.A";
+                    textOption2.text = "3.B";
+                    textOption3.text = "3.C";
+                    showOptions = true;
                 }
                 break;
             case 135:
                 if (toggle == false)
                 {
                     textQuestion.text = "Pregunta 4: ¿sabes cual ...?";
+                    textOption1.text = "4.A";
+                    textOption2.text = "4.B";
+                    textOption3.text = "4.C";
+                    showOptions = true;
                 }
                 break;
             case 180:
                 if (toggle == false)
                 {
                     textQuestion.text = "Pregunta 5: ¿sabes cual ...?";
+                    textOption1.text = "5.A";
+                    textOption2.text = "5.B";
+                    textOption3.text = "5.C";
+                    showOptions = true;
                 }
                 break;
             case 225:
                 if (toggle == false)
                 {
                     textQuestion.text = "Pregunta 6: ¿sabes cual ...?";
+                    textOption1.text = "6.A";
+                    textOption2.text = "6.B";
+                    textOption3.text = "6.C";
+                    showOptions = true;
                 }
                 break;
             case 270:
                 if (toggle == false)
                 {
                     textQuestion.text = "Pregunta 7: ¿sabes cual ...?";
+                    textOption1.text = "7.A";
+                    textOption2.text = "7.B";
+                    textOption3.text = "7.C";
+                    showOptions = true;
                 }
                 break;
             case 315:
                 if (toggle == false)
                 {
                     textQuestion.text = "Pregunta 8: ¿sabes cual ...?";
+                    textOption1.text = "8.A";
+                    textOption2.text = "8.B";
+                    textOption3.text = "8.C";
+                    showOptions = true;
                 }
                 break;
         }

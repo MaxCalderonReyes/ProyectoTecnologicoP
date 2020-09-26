@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Menu : MonoBehaviour
 {
+
     public void play()
     {
         SceneManager.LoadScene("Game1");
@@ -15,4 +16,17 @@ public class Menu : MonoBehaviour
 
         Application.Quit();
     }
+
+
+    public void menu()
+    {
+
+        SceneManager.LoadScene("Menu");
+
+    }
+
+
+
+
+
 }
