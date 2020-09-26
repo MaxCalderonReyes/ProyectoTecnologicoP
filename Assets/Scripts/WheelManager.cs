@@ -75,6 +75,7 @@ public class WheelManager : MonoBehaviour
             timerShowCongratulations += Time.deltaTime;
             if (timerShowCongratulations >= 1.5f)
             {
+                RuletaMusic.instance.win();
                 panelCongratulations.SetActive(true);
             }
         }
