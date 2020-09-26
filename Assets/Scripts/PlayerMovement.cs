@@ -68,6 +68,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
+                SFXController.intance.OnJump();
                 rgbd.AddForce(Vector2.up* jumpForce, ForceMode2D.Impulse);
             }
         }
@@ -79,13 +80,7 @@ public class PlayerMovement : MonoBehaviour
         {
             vida();
             musica.SetActive(false);
-           
-            for (int i = 0; i <= 1; i++)
-            {
-
-                musicaOver.SetActive(true);
-
-            }
+            musicaOver.SetActive(true);   
         }
     }
     private void OnDrawGizmos()
@@ -96,6 +91,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            SFXController.intance.OnShoot();
          GameObject prfb=   Instantiate(prefab,transform.position,transform.rotation);
             if (!playerSpri.GetComponent<SpriteRenderer>().flipX)
             {

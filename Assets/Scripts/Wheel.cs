@@ -28,6 +28,8 @@ public class Wheel : MonoBehaviour
     public Text TextQuestion { get => textQuestion; set => textQuestion = value; }
 
 
+   
+
     // Use this for initialization
     private void Start()
     {

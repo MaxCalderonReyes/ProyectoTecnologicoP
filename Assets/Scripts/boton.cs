@@ -17,13 +17,32 @@ public class boton : MonoBehaviour
 
         if (!showMenu) { 
             showMenu = true;
-            ActiveOpcion.instance.activate();
+           ActiveOpcion.instance.activate();
+   
+        }
+        else if (showMenu)
+        {    
+            showMenu = false;
+            ActiveOpcion.instance.desactivate();
+           
+        }
+    }
+
+    public void ButtonShowMenuRuleta()
+    {
+
+        if (!showMenu)
+        {
+            showMenu = true;
+            
+            RuletaMusic.instance.Inicio();
         }
         else if (showMenu)
         {
             showMenu = false;
-            ActiveOpcion.instance.desactivate();
+          
+            RuletaMusic.instance.Final();
         }
-    } 
+    }
 
 }
