@@ -7,6 +7,10 @@ TagManager:
   - Enemy
   - Wheel
   - PlayerBull
+  - Boleadora
+  - LanzasTrampa
+  - PisoFalso
+  - Rocas
   layers:
   - Default
   - TransparentFX
