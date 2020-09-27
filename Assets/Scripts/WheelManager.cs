@@ -120,6 +120,7 @@ public class WheelManager : MonoBehaviour
                     result.text = "1.Correcto";
                     numberCorrectAnswers++;
                     textCorrectAnswers.text = "Respuestas correctas: " + numberCorrectAnswers;
+
                 }
                 else
                 {
