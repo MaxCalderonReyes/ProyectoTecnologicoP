@@ -23,6 +23,19 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float velocidadBull;
     private bool canshoot=true;
     // Start is called before the first frame update
+    //Vida del enemigo
+    public static Enemy enmi;
+   
+    [SerializeField] private int live;
+    public int Live
+    {
+        get { return live; }
+        set { live = value; }
+    }
+    private void Awake()
+    {
+        if (enmi == null) enmi = this;
+    }
     void Start()
     {
         sprite = GetComponent<SpriteRenderer>();
@@ -41,19 +54,31 @@ public class Enemy : MonoBehaviour
         {
             transform.position = new Vector2(Mathf.PingPong(counter, lenght) + startPosition, transform.position.y);
             actualPosition = transform.position.x;
-            if (actualPosition < lastPosition) transform.localScale = new Vector3(-1, 1, 1);
-            if (actualPosition > lastPosition) transform.localScale = new Vector3(1, 1, 1);
+            if (actualPosition < lastPosition)
+            {
+                sprite.flipX = false;
+          
+            }
+
+            if (actualPosition > lastPosition)
+            {
+                sprite.flipX = true;
+              
+            }
+          
+           
             lastPosition = transform.position.x;
         }
         else
         {
             transform.position = new Vector2(transform.position.x, Mathf.PingPong(counter, lenght) + startPosition);
         }
+        if (live <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        
-    }
+   
     private void SoldierEF()
     {
         if (Soldier)
@@ -64,11 +89,11 @@ public class Enemy : MonoBehaviour
                 GameObject bull = Instantiate(Bull,transform.position,transform.rotation);
                 if (sprite.flipX)
                 {
-                    bull.GetComponent<BullDirections>().Direction(Vector3.left);
+                    bull.GetComponent<BullDirections>().Direction(Vector3.right);
                 }
                 else
                 {
-                    bull.GetComponent<BullDirections>().Direction(Vector3.right);
+                    bull.GetComponent<BullDirections>().Direction(Vector3.left);
                 }
                
                 bull.GetComponent<BullDirections>().velocityShoot(velocidadBull);
@@ -81,5 +106,12 @@ public class Enemy : MonoBehaviour
         canshoot = false;
         yield return new WaitForSeconds(1);
         canshoot = true;
+    }
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "PlayerBull")
+        {
+            live -= 1;
+        }
     }
 }

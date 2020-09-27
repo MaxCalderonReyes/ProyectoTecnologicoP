@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public static PlayerMovement instancie;
     private Rigidbody2D rgbd;
     [SerializeField]private float speed;
     [SerializeField]private float Live;
@@ -13,13 +14,29 @@ public class PlayerMovement : MonoBehaviour
     //Disparo Del Player
     [SerializeField]private GameObject prefab;
     public GameObject Panel;
-
+    [SerializeField]private float SecondsToShoot;
+    private bool Shoot=true;
+    public bool _shoot
+    {
+        get
+        {
+            return Shoot;
+        }
+    }
     GameObject playerSpri;
 
 
     public GameObject musica;
     public GameObject musicaOver;
-
+    private Collider2D collider;
+    private float width;
+    private bool InGround;
+    public void Awake()
+    {
+        if (instancie == null) instancie = this;
+        collider = GetComponent<Collider2D>();
+        width = collider.bounds.size.x;
+    }
     public float live
     {
         get { return Live; }
@@ -52,7 +69,9 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        RaycastHit2D InGround = Physics2D.Raycast(transform.position,Vector2.down,DistanceTOGround,ground);
+        InGround = (Physics2D.Raycast(transform.position, Vector2.down, DistanceTOGround, ground) && Physics2D.Raycast((Vector2)transform.position + Vector2.left * width / 2, Vector2.down, DistanceTOGround, ground));
+       
+
         float x = Input.GetAxis("Horizontal");
         
         rgbd.velocity = new Vector3(x * speed, rgbd.velocity.y, 0);
@@ -89,7 +108,7 @@ public class PlayerMovement : MonoBehaviour
     }
     public void shoot()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0)&&Shoot)
         {
             SFXController.intance.OnShoot();
          GameObject prfb=   Instantiate(prefab,transform.position,transform.rotation);
@@ -103,6 +122,7 @@ public class PlayerMovement : MonoBehaviour
             }
           
             prfb.GetComponent<BullDirections>().velocityShoot(15);
+            StartCoroutine(canShoot());
         }
     }
     private Vector3 Mousepos()//opcional
@@ -119,5 +139,11 @@ public class PlayerMovement : MonoBehaviour
         {
             live--;
         }
+    }
+    IEnumerator canShoot()
+    {
+        Shoot = false;
+        yield return new WaitForSecondsRealtime(SecondsToShoot);
+        Shoot = true;
     }
 }

@@ -7,9 +7,11 @@ public class BullDirections : MonoBehaviour
    
     private float speedbull;
     Vector3 _directionBull;
-    
+    [SerializeField] private bool Enemi;
+ 
     void Start()
     {
+     
         Destroy(this.gameObject, 3);
     }
 
@@ -31,5 +33,20 @@ public class BullDirections : MonoBehaviour
         Vector3 Position = Velocidad * Time.deltaTime;
         transform.position += new Vector3(Position.x,Position.y,0);
    
+    }
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+         
+        if (collision.gameObject.tag == "Player"&&Enemi)
+        {
+        
+            PlayerMovement.instancie.live -= 1;
+            Destroy(gameObject);
+        }
+        if (collision.gameObject.tag == "Enemy"&&!Enemi)
+        {
+            Destroy(gameObject);
+        }
+      
     }
 }

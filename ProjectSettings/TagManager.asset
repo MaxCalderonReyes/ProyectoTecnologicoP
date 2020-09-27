@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Wheel
+  - PlayerBull
   layers:
   - Default
   - TransparentFX
