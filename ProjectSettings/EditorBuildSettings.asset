@@ -12,9 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Game1.unity
     guid: 237da2d391c20574cbf1d53993d3737b
   - enabled: 1
-    path: Assets/Scenes/WheelOfFortune.unity
+    path: Assets/Scenes/Wheel-1.unity
     guid: 2e3308f74ed4f5641b3a7b6457c63d56
   - enabled: 1
     path: Assets/Scenes/Game2.unity
     guid: ea2975f7f5b0a3244a55dcf9dbcc6b78
+  - enabled: 1
+    path: Assets/Scenes/Wheel-2.unity
+    guid: 589786bf2e0b8a84590b08d0d6b4497f
+  - enabled: 1
+    path: Assets/Scenes/Game3.unity
+    guid: 4873a056ae73631489a6cd84e8b78c1e
   m_configObjects: {}
