@@ -33,6 +33,9 @@ public class WheelManager : MonoBehaviour
     [SerializeField]
     private Button btnNextLevel;
 
+    [SerializeField]
+    private string RptaP1, RptaP2, RptaP3, RptaP4, RptaP5, RptaP6, RptaP7, RptaP8;
+
 
     private void Awake()
     {
@@ -114,107 +117,108 @@ public class WheelManager : MonoBehaviour
         switch (wheel.FinalAngle)
         {
             case 0:
-                correctAnswer = "1.A";
+                correctAnswer = RptaP1;
                 if (textBtn.text.Equals(correctAnswer))
                 {
-                    result.text = "1.Correcto";
+                    result.text = "Correcto";
                     numberCorrectAnswers++;
                     textCorrectAnswers.text = "Respuestas correctas: " + numberCorrectAnswers;
+
                 }
                 else
                 {
-                    result.text = "1.Incorrecto";
+                    result.text = "Incorrecto";
                 }
                 break;
             case 45:
-                correctAnswer = "2.A";
+                correctAnswer = RptaP2;
                 if (textBtn.text.Equals(correctAnswer))
                 {
-                    result.text = "2.Correcto";
+                    result.text = "Correcto";
                     numberCorrectAnswers++;
                     textCorrectAnswers.text = "Respuestas correctas: " + numberCorrectAnswers;
                 }
                 else
                 {
-                    result.text = "2.Incorrecto";
+                    result.text = "Incorrecto";
                 }
                 break;
             case 90:
-                correctAnswer = "3.A";
+                correctAnswer = RptaP3;
                 if (textBtn.text.Equals(correctAnswer))
                 {
-                    result.text = "3.Correcto";
+                    result.text = "Correcto";
                     numberCorrectAnswers++;
                     textCorrectAnswers.text = "Respuestas correctas: " + numberCorrectAnswers;
                 }
                 else
                 {
-                    result.text = "3.Incorrecto";
+                    result.text = "Incorrecto";
                 }
                 break;
             case 135:
-                correctAnswer = "4.A";
+                correctAnswer = RptaP4;
                 if (textBtn.text.Equals(correctAnswer))
                 {
-                    result.text = "4.Correcto";
+                    result.text = "Correcto";
                     numberCorrectAnswers++;
                     textCorrectAnswers.text = "Respuestas correctas: " + numberCorrectAnswers;
                 }
                 else
                 {
-                    result.text = "4.Incorrecto";
+                    result.text = "Incorrecto";
                 }
                 break;
             case 180:
-                correctAnswer = "5.A";
+                correctAnswer = RptaP5;
                 if (textBtn.text.Equals(correctAnswer))
                 {
-                    result.text = "5.Correcto";
+                    result.text = "Correcto";
                     numberCorrectAnswers++;
                     textCorrectAnswers.text = "Respuestas correctas: " + numberCorrectAnswers;
                 }
                 else
                 {
-                    result.text = "5.Incorrecto";
+                    result.text = "Incorrecto";
                 }
                 break;
             case 225:
-                correctAnswer = "6.A";
+                correctAnswer = RptaP6;
                 if (textBtn.text.Equals(correctAnswer))
                 {
-                    result.text = "6.Correcto";
+                    result.text = "Correcto";
                     numberCorrectAnswers++;
                     textCorrectAnswers.text = "Respuestas correctas: " + numberCorrectAnswers;
                 }
                 else
                 {
-                    result.text = "6.Incorrecto";
+                    result.text = "Incorrecto";
                 }
                 break;
             case 270:
-                correctAnswer = "7.A";
+                correctAnswer = RptaP7;
                 if (textBtn.text.Equals(correctAnswer))
                 {
-                    result.text = "7.Correcto";
+                    result.text = "Correcto";
                     numberCorrectAnswers++;
                     textCorrectAnswers.text = "Respuestas correctas: " + numberCorrectAnswers;
                 }
                 else
                 {
-                    result.text = "7.Incorrecto";
+                    result.text = "Incorrecto";
                 }
                 break;
             case 315:
-                correctAnswer = "8.A";
+                correctAnswer = RptaP8;
                 if (textBtn.text.Equals(correctAnswer))
                 {
-                    result.text = "8.Correcto";
+                    result.text = "Correcto";
                     numberCorrectAnswers++;
                     textCorrectAnswers.text = "Respuestas correctas: " + numberCorrectAnswers;
                 }
                 else
                 {
-                    result.text = "8.Incorrecto";
+                    result.text = "Incorrecto";
                 }
                 break;
         }
@@ -222,6 +226,6 @@ public class WheelManager : MonoBehaviour
 
     public void nextLevel()
     {
-        SceneManager.LoadScene("Game2");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

@@ -96,7 +96,7 @@ public class PlayerMovement : MonoBehaviour
         Mousepos();
 
 
-        if (live == 0)
+        if (live <= 0)
         {
             vida();
             musica.SetActive(false);
@@ -139,6 +139,27 @@ public class PlayerMovement : MonoBehaviour
         if (other.CompareTag("Enemy"))
         {
             live--;
+        }
+
+        if (other.CompareTag("Boleadora"))
+        {
+            live -= 2;
+            Destroy(other.gameObject);
+        }
+
+        if (other.CompareTag("LanzasTrampa"))
+        {
+            live -= 10;
+        }
+
+        if (other.CompareTag("PisoFalso"))
+        {
+            other.gameObject.GetComponent<ActivarPisoFalso>().ActivarTrampa = true;
+        }
+
+        if (other.CompareTag("Rocas"))
+        {
+            live = 0;
         }
     }
     IEnumerator canShoot()

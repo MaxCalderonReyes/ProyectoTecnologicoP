@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RuletaMusic : MonoBehaviour
 {
@@ -49,13 +50,16 @@ public class RuletaMusic : MonoBehaviour
         ruletaFinal.SetActive(false);
     }
 
-    public void ganar()
+    public void resultado(Text result)
     {
-        ruletaganar.SetActive(true);
-    }
-    public void  perder()
-    {
-        ruletaperder.SetActive(true);
+        if (result.text.Equals("Correcto"))
+        {
+            ruletaganar.SetActive(true);
+        }
+        else if (result.text.Equals("Incorrecto"))
+        {
+            ruletaperder.SetActive(true);
+        }
     }
 
     public void desactivar()
