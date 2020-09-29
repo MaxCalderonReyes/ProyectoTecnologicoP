@@ -12,7 +12,7 @@ public class BullDirections : MonoBehaviour
     void Start()
     {
      
-        Destroy(this.gameObject, 3);
+        Destroy(this.gameObject, 10);
     }
 
     // Update is called once per frame
