@@ -11,6 +11,7 @@ TagManager:
   - LanzasTrampa
   - PisoFalso
   - Rocas
+  - BOSS
   layers:
   - Default
   - TransparentFX
