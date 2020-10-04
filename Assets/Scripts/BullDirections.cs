@@ -47,6 +47,7 @@ public class BullDirections : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        
       
     }
 }

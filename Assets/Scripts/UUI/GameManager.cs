@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Slider sliderLive;
     private PlayerMovement player;
     public Enemy[] enemigos;
-    
+   
     private void Awake()
     {
         enemigos = new Enemy[20];

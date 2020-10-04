@@ -27,6 +27,7 @@ public class Enemy : MonoBehaviour
     public static Enemy enmi;
    
     [SerializeField] private int live;
+    [SerializeField] private bool Boss;
     public int Live
     {
         get { return live; }
@@ -81,7 +82,7 @@ public class Enemy : MonoBehaviour
    
     private void SoldierEF()
     {
-        if (Soldier)
+        if (Soldier&&!Boss)
         {
             float DistPlayer = Vector3.Distance(transform.position,Player.transform.position);
             if (DistPlayer < DistancieEnemigo&&canshoot)

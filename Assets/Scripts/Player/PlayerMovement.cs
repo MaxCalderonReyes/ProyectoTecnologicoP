@@ -16,6 +16,12 @@ public class PlayerMovement : MonoBehaviour
     public GameObject Panel;
     [SerializeField]private float SecondsToShoot;
     private bool Shoot=true;
+    private bool ActionsCan=true;
+    public bool _ActionCan
+    {
+        get { return ActionsCan; }
+        set { ActionsCan = value; }
+    }
     public bool _shoot
     {
         get
@@ -74,26 +80,29 @@ public class PlayerMovement : MonoBehaviour
 
 
         float x = Input.GetAxis("Horizontal");
-        
-        rgbd.velocity = new Vector3(x * speed, rgbd.velocity.y, 0);
-        if (x < 0)
+        if (ActionsCan)
         {
-           playerSpri.GetComponent<SpriteRenderer>().flipX=true;
-        }
-        else
-        {
-            playerSpri.GetComponent<SpriteRenderer>().flipX = false;
-        }
-        if (InGround)
-        {
-            if (Input.GetKeyDown(KeyCode.Space))
+            rgbd.velocity = new Vector3(x * speed, rgbd.velocity.y, 0);
+            if (x < 0)
             {
-                SFXController.intance.OnJump();
-                rgbd.AddForce(Vector2.up* jumpForce, ForceMode2D.Impulse);
+                playerSpri.GetComponent<SpriteRenderer>().flipX = true;
             }
+            else
+            {
+                playerSpri.GetComponent<SpriteRenderer>().flipX = false;
+            }
+            if (InGround)
+            {
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    SFXController.intance.OnJump();
+                    rgbd.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+                }
+            }
+            shoot();
+            Mousepos();
         }
-        shoot();
-        Mousepos();
+       
 
 
         if (live <= 0)
