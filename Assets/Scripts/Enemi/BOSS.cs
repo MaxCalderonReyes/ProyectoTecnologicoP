@@ -4,16 +4,22 @@ using UnityEngine;
 
 public class BOSS : MonoBehaviour
 {
+    public static BOSS instancia;
     public List<Vector3> BullDirection;
    [SerializeField] private GameObject bala;
     private bool CinematicOFF=false;
     //Boss Campos Requeridos para hacer una accion
     [SerializeField]private int Charge;
     private bool canShot;
-    private bool defensa;
+    [SerializeField]private bool defensa;
+    public bool _DEFENSAS { get { return defensa; } }
    
     private float SecuenciaHabilidades;
     bool startcountAtack;
+    private void Awake()
+    {
+        if (instancia == null) instancia = this;
+    }
     void Start()
     {
         defensa = false;
@@ -24,13 +30,20 @@ public class BOSS : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print(SecuenciaHabilidades);
-        print(startcountAtack);
-        if(startcountAtack)
-        SecuenciaHabilidades += Time.deltaTime;
+
+      
+            SecuenciaHabilidades += Time.deltaTime;
+
+       
         if (SecuenciaHabilidades < 8)
         {
             ATAQUE();
+            print("RealizandoATAQUE");
+        }
+        else
+        {
+            DEFENSA();
+            print("RealizandoDefensa");
         }
     
        
@@ -45,8 +58,7 @@ public class BOSS : MonoBehaviour
       
         if (canShot)
         {
-            for (int j = 0; j < 4; j++)
-            {
+         
                 for (int i = 0; i < BullDirection.Count; i++)
                 {
                     GameObject bulls = Instantiate(bala, transform.position, transform.rotation);
@@ -57,8 +69,8 @@ public class BOSS : MonoBehaviour
                 }
 
                 StartCoroutine(CanShoot());
-            }
-            DEFENSA();
+            
+        
            
         }
        
@@ -75,7 +87,7 @@ public class BOSS : MonoBehaviour
     }
     IEnumerator DesactivarEscudos()
     {
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(20);
         defensa = false;
         SecuenciaHabilidades = 0;
     }

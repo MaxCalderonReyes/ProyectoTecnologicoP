@@ -12,6 +12,7 @@ TagManager:
   - PisoFalso
   - Rocas
   - BOSS
+  - Ground
   layers:
   - Default
   - TransparentFX
