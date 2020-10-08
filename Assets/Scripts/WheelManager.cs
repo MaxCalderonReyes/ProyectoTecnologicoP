@@ -224,8 +224,8 @@ public class WheelManager : MonoBehaviour
         }
     }
 
-    public void nextLevel()
+    public void museo()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Museo");
     }
 }
