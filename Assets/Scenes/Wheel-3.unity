@@ -499,7 +499,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -115, y: -129.80002}
+  m_AnchoredPosition: {x: -115, y: -144}
   m_SizeDelta: {x: 230.48468, y: 30}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &381338297
@@ -579,7 +579,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -26.773, y: -76.3}
+  m_AnchoredPosition: {x: -26.773, y: -96}
   m_SizeDelta: {x: 397.62866, y: 42.05533}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &400200328
@@ -1719,38 +1719,38 @@ MonoBehaviour:
   textOption1: {fileID: 1870422576}
   textOption2: {fileID: 138175293}
   textOption3: {fileID: 846156468}
-  Pregunta1: "\xBFD\xF3nde se libr\xF3 la \xFAltima batalla?"
-  Alternativa1A: 'Huanacopampa '
-  Alternativa1B: Quito
-  Alternativa1C: Cajamarca
-  Pregunta2: "En esta batalla \xBFqui\xE9n lider\xF3 al ej\xE9rcito de Hu\xE1scar?"
-  Alternativa2A: 'Atahualpa '
-  Alternativa2B: "El mismo Hu\xE1scar "
-  Alternativa2C: Quisquis
-  Pregunta3: "\xBFQui\xE9n se sent\xEDa ganador de la guerra?"
-  Alternativa3A: "Chalcuch\xEDmac "
-  Alternativa3B: "Hu\xE1scar"
-  Alternativa3C: Quisquis
-  Pregunta4: "\xBFA qu\xE9 ej\xE9rcito pertenec\xEDa Quisquis?"
-  Alternativa4A: Al de Atahualpa
-  Alternativa4B: Al de Ninan Cuyochi
-  Alternativa4C: "Al de Hu\xE1scar"
-  Pregunta5: "\xBFA qu\xE9 ej\xE9rcito se les tendi\xF3 una emboscada?"
-  Alternativa5A: "Al de Hu\xE1scar "
-  Alternativa5B: "Al de Huayna C\xE1pac"
-  Alternativa5C: Al de Atahualpa
-  Pregunta6: "\xBFQu\xE9 ej\xE9rcito prepar\xF3 una emboscada?"
-  Alternativa6A: "El de Huayna C\xE1pac"
-  Alternativa6B: El de Atahualpa
-  Alternativa6C: El de Atoc
-  Pregunta7: "\xBFQui\xE9n fue capturado en Huanacopampa?"
-  Alternativa7A: Quisquis
-  Alternativa7B: Ninan Cuyochi
-  Alternativa7C: "Hu\xE1scar"
-  Pregunta8: "\xBFQui\xE9n gano la guerra civil?"
-  Alternativa8A: "Hu\xE1scar"
-  Alternativa8B: Ninan Cuyochi
-  Alternativa8C: Atahualpa
+  Pregunta1: "\xBFD\xF3nde se produjo el primer encuentro con los conquistadores?"
+  Alternativa1A: Tumbes
+  Alternativa1B: Cajamarca
+  Alternativa1C: Cuzco
+  Pregunta2: "\xBFC\xF3mo fue el primer encuentro?"
+  Alternativa2A: Agresivo
+  Alternativa2B: Amistoso
+  Alternativa2C: Irrespetuoso
+  Pregunta3: "\xBFC\xF3mo se llamaba la sociedad privada de exploraci\xF3n y conquista?"
+  Alternativa3A: "La Compa\xF1\xEDa de Levante"
+  Alternativa3B: "La Compa\xF1\xEDa de Pizarro"
+  Alternativa3C: Los Conquistadores
+  Pregunta4: "\xBFQui\xE9nes pertenec\xEDan a La Compa\xF1\xEDa de Levante?"
+  Alternativa4A: "P\xE9rez, Fern\xE1ndez y Luque"
+  Alternativa4B: "Pizarro, Almagro y P\xE9rez"
+  Alternativa4C: Pizarro, Almagro y Luque
+  Pregunta5: "\xBFQui\xE9n es el l\xEDder de los conquistadores?"
+  Alternativa5A: Almagro
+  Alternativa5B: "Fern\xE1ndez"
+  Alternativa5C: Pizarro
+  Pregunta6: "\xBFC\xF3mo se llama la licencia que recibi\xF3 Pizarro?"
+  Alternativa6A: "Capitulaci\xF3n de Toledo"
+  Alternativa6B: "Capitulaci\xF3n de Almagro"
+  Alternativa6C: "Capitulaci\xF3n de Pizarro"
+  Pregunta7: "\xBFHacia d\xF3nde se dirigi\xF3 Pizarro?"
+  Alternativa7A: A Piura
+  Alternativa7B: A Cuzco
+  Alternativa7C: A Cajamarca
+  Pregunta8: "\xBFQui\xE9n otorg\xF3 la licencia a Pizarro?"
+  Alternativa8A: El Rey Carlos V
+  Alternativa8B: La Reina Diana
+  Alternativa8C: La Reina Isabel
 --- !u!1 &873356569
 GameObject:
   m_ObjectHideFlags: 0
@@ -1914,7 +1914,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -26.773, y: -18.7}
+  m_AnchoredPosition: {x: -26.77301, y: -38.399994}
   m_SizeDelta: {x: 397.62866, y: 42.05533}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &915697077
@@ -2055,7 +2055,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -26.773, y: 38.3}
+  m_AnchoredPosition: {x: -26.77301, y: 18.600006}
   m_SizeDelta: {x: 397.62872, y: 42.05533}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1137292890
@@ -2194,8 +2194,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -26.77301, y: 111.090034}
-  m_SizeDelta: {x: 407.88297, y: 91.63147}
+  m_AnchoredPosition: {x: -26.77301, y: 100.44}
+  m_SizeDelta: {x: 407.88297, y: 121.633026}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1243908672
 MonoBehaviour:
@@ -2679,7 +2679,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -44, y: -179.80002}
+  m_AnchoredPosition: {x: -44, y: -184}
   m_SizeDelta: {x: 390.65552, y: 30}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1637903778
@@ -3082,14 +3082,14 @@ MonoBehaviour:
   option3: {fileID: 400200328}
   panelCongratulations: {fileID: 1424784679}
   btnNextLevel: {fileID: 515218665}
-  RptaP1: 'Huanacopampa '
-  RptaP2: "El mismo Hu\xE1scar "
-  RptaP3: "Hu\xE1scar"
-  RptaP4: Al de Atahualpa
-  RptaP5: "Al de Hu\xE1scar "
-  RptaP6: El de Atahualpa
-  RptaP7: "Hu\xE1scar"
-  RptaP8: Atahualpa
+  RptaP1: Tumbes
+  RptaP2: Amistoso
+  RptaP3: "La Compa\xF1\xEDa de Levante"
+  RptaP4: Pizarro, Almagro y Luque
+  RptaP5: Pizarro
+  RptaP6: "Capitulaci\xF3n de Toledo"
+  RptaP7: A Cajamarca
+  RptaP8: La Reina Isabel
 --- !u!4 &2031210100
 Transform:
   m_ObjectHideFlags: 0
