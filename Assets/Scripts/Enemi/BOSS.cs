@@ -35,7 +35,7 @@ public class BOSS : MonoBehaviour
             SecuenciaHabilidades += Time.deltaTime;
 
        
-        if (SecuenciaHabilidades < 8)
+        if (SecuenciaHabilidades <= 8)
         {
             ATAQUE();
             print("RealizandoATAQUE");
@@ -77,7 +77,7 @@ public class BOSS : MonoBehaviour
      
     }public void HABILIDADESPECIAL()
     {
-
+        //aca no se que hacer , la habilidad especial
     }
     IEnumerator CanShoot()
     {
@@ -87,7 +87,7 @@ public class BOSS : MonoBehaviour
     }
     IEnumerator DesactivarEscudos()
     {
-        yield return new WaitForSeconds(20);
+        yield return new WaitForSeconds(6);
         defensa = false;
         SecuenciaHabilidades = 0;
     }
