@@ -13,6 +13,7 @@ TagManager:
   - Rocas
   - BOSS
   - Ground
+  - Puerta
   layers:
   - Default
   - TransparentFX

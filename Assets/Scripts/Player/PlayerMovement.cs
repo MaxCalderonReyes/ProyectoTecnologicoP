@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -17,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]private float SecondsToShoot;
     private bool Shoot=true;
     private bool ActionsCan=true;
+
     public bool _ActionCan
     {
         get { return ActionsCan; }
@@ -37,11 +40,14 @@ public class PlayerMovement : MonoBehaviour
     private Collider2D collider;
     private float width;
     private bool InGround;
+    //Para el guardado de dato
+    [HideInInspector]public string Path;
     public void Awake()
     {
         if (instancie == null) instancie = this;
         collider = GetComponent<Collider2D>();
         width = collider.bounds.size.x;
+       
     }
     public float live
     {
@@ -60,49 +66,55 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        Path = Application.dataPath + "Datos.json";
         musicaOver.SetActive(false);
         playerSpri = GameObject.FindGameObjectWithTag("Player");
 
 
-
        
-
         Panel.SetActive(false);
-        rgbd = GetComponent<Rigidbody2D>();       
-        
+        rgbd = GetComponent<Rigidbody2D>();
+        BaseDatosNivel bd = new BaseDatosNivel(SceneManager.GetActiveScene().buildIndex);
+        string content = JsonUtility.ToJson(bd, true);
+        File.WriteAllText(Path, content);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        InGround = (Physics2D.Raycast(transform.position, Vector2.down, DistanceTOGround, ground) || Physics2D.Raycast((Vector2)transform.position + Vector2.left * width / 2, Vector2.down, DistanceTOGround, ground)
-             || Physics2D.Raycast((Vector2)transform.position + Vector2.right * width / 2, Vector2.down, DistanceTOGround, ground));
-
-
-        float x = Input.GetAxis("Horizontal");
-        if (ActionsCan)
-        {
-            rgbd.velocity = new Vector3(x * speed, rgbd.velocity.y, 0);
-            if (x < 0)
-            {
-                playerSpri.GetComponent<SpriteRenderer>().flipX = true;
-            }
-            else
-            {
-                playerSpri.GetComponent<SpriteRenderer>().flipX = false;
-            }
-            if (InGround)
-            {
-                if (Input.GetKeyDown(KeyCode.Space))
-                {
-                    SFXController.intance.OnJump();
-                    rgbd.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-                }
-            }
-            shoot();
-            Mousepos();
-        }
        
+            InGround = (Physics2D.Raycast(transform.position, Vector2.down, DistanceTOGround, ground) || Physics2D.Raycast((Vector2)transform.position + Vector2.left * width / 2, Vector2.down, DistanceTOGround, ground)
+                       || Physics2D.Raycast((Vector2)transform.position + Vector2.right * width / 2, Vector2.down, DistanceTOGround, ground));
+
+
+            float x = Input.GetAxis("Horizontal");
+            if (ActionsCan)
+            {
+                rgbd.velocity = new Vector3(x * speed, rgbd.velocity.y, 0);
+                if (x < 0)
+                {
+                    playerSpri.GetComponent<SpriteRenderer>().flipX = true;
+                }
+                else
+                {
+                    playerSpri.GetComponent<SpriteRenderer>().flipX = false;
+                }
+                if (InGround)
+                {
+                    if (Input.GetKeyDown(KeyCode.Space))
+                    {
+                        SFXController.intance.OnJump();
+                        rgbd.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+                    }
+                }
+                shoot();
+                Mousepos();
+            }
+
+        
+       
+
 
 
         if (live <= 0)
@@ -124,11 +136,11 @@ public class PlayerMovement : MonoBehaviour
          GameObject prfb=   Instantiate(prefab,transform.position,transform.rotation);
             if (!playerSpri.GetComponent<SpriteRenderer>().flipX)
             {
-                prfb.GetComponent<BullDirections>().Direction(Vector3.right);
+                prfb.GetComponent<BullDirections>().Direction(Mousepos());
             }
             else
             {
-                prfb.GetComponent<BullDirections>().Direction(Vector3.left);
+                prfb.GetComponent<BullDirections>().Direction(Mousepos());
             }
           
             prfb.GetComponent<BullDirections>().velocityShoot(15);

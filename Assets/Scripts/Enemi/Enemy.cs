@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Enemy : MonoBehaviour
 {
     [SerializeField]private float speed;
@@ -76,7 +76,16 @@ public class Enemy : MonoBehaviour
         }
         if (live <= 0)
         {
-            Destroy(gameObject);
+            if (Boss)
+            {
+                Destroy(gameObject);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
+           
         }
     }
    

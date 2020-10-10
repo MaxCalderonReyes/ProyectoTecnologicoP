@@ -55,6 +55,7 @@ public class RuletaMusic : MonoBehaviour
         if (result.text.Equals("Correcto"))
         {
             ruletaganar.SetActive(true);
+           
         }
         else if (result.text.Equals("Incorrecto"))
         {
@@ -68,8 +69,5 @@ public class RuletaMusic : MonoBehaviour
         ruletaperder.SetActive(false);
     }
 
-    void Update()
-    {
-        
-    }
+   
 }
