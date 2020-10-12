@@ -713,6 +713,7 @@ MonoBehaviour:
   Bull: {fileID: 1289040670002056456, guid: 29341bdda27d3c44ea9f9386fc06c0b2, type: 3}
   velocidadBull: 4
   live: 5
+  Boss: 0
 --- !u!212 &124723745
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2131,6 +2132,7 @@ MonoBehaviour:
   Bull: {fileID: 1289040670002056456, guid: 29341bdda27d3c44ea9f9386fc06c0b2, type: 3}
   velocidadBull: 4
   live: 5
+  Boss: 0
 --- !u!212 &557140410
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2573,6 +2575,7 @@ MonoBehaviour:
   Bull: {fileID: 1289040670002056456, guid: 29341bdda27d3c44ea9f9386fc06c0b2, type: 3}
   velocidadBull: 4
   live: 5
+  Boss: 0
 --- !u!212 &627333252
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3995,6 +3998,7 @@ MonoBehaviour:
   Bull: {fileID: 1289040670002056456, guid: 29341bdda27d3c44ea9f9386fc06c0b2, type: 3}
   velocidadBull: 4
   live: 5
+  Boss: 0
 --- !u!212 &854864374
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4346,6 +4350,7 @@ MonoBehaviour:
   Bull: {fileID: 1289040670002056456, guid: 29341bdda27d3c44ea9f9386fc06c0b2, type: 3}
   velocidadBull: 4
   live: 5
+  Boss: 0
 --- !u!212 &936781281
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4798,6 +4803,7 @@ MonoBehaviour:
   SecondsToShoot: 2
   musica: {fileID: 2077710022}
   musicaOver: {fileID: 748045078}
+  Path: 
 --- !u!61 &1018586066
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5233,6 +5239,7 @@ MonoBehaviour:
   Bull: {fileID: 1289040670002056456, guid: 29341bdda27d3c44ea9f9386fc06c0b2, type: 3}
   velocidadBull: 4
   live: 5
+  Boss: 0
 --- !u!212 &1121793765
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7107,6 +7114,7 @@ MonoBehaviour:
   Bull: {fileID: 1289040670002056456, guid: 29341bdda27d3c44ea9f9386fc06c0b2, type: 3}
   velocidadBull: 4
   live: 5
+  Boss: 0
 --- !u!212 &1387246178
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7366,6 +7374,7 @@ MonoBehaviour:
   Bull: {fileID: 1289040670002056456, guid: 29341bdda27d3c44ea9f9386fc06c0b2, type: 3}
   velocidadBull: 4
   live: 5
+  Boss: 0
 --- !u!212 &1479231370
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7733,6 +7742,7 @@ MonoBehaviour:
   Bull: {fileID: 1289040670002056456, guid: 29341bdda27d3c44ea9f9386fc06c0b2, type: 3}
   velocidadBull: 4
   live: 5
+  Boss: 0
 --- !u!212 &1543291413
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8833,6 +8843,7 @@ MonoBehaviour:
   Bull: {fileID: 1289040670002056456, guid: 29341bdda27d3c44ea9f9386fc06c0b2, type: 3}
   velocidadBull: 4
   live: 5
+  Boss: 0
 --- !u!212 &1810394478
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9032,6 +9043,7 @@ MonoBehaviour:
   Bull: {fileID: 1289040670002056456, guid: 29341bdda27d3c44ea9f9386fc06c0b2, type: 3}
   velocidadBull: 4
   live: 5
+  Boss: 0
 --- !u!61 &1837862436
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9558,6 +9570,7 @@ MonoBehaviour:
   Bull: {fileID: 1289040670002056456, guid: 29341bdda27d3c44ea9f9386fc06c0b2, type: 3}
   velocidadBull: 4
   live: 5
+  Boss: 0
 --- !u!212 &1914471656
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -93895,7 +93908,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 797738f71fd34fe4bb0ee0e3ec5c8e5d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e949e422ed4ec2d4bb6d244f73de24e8, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -94168,6 +94181,7 @@ MonoBehaviour:
   Bull: {fileID: 1289040670002056456, guid: 29341bdda27d3c44ea9f9386fc06c0b2, type: 3}
   velocidadBull: 4
   live: 5
+  Boss: 0
 --- !u!212 &2097107761
 SpriteRenderer:
   m_ObjectHideFlags: 0
