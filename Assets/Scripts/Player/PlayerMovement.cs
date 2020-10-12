@@ -182,6 +182,19 @@ public class PlayerMovement : MonoBehaviour
         {
             live = 0;
         }
+
+        if (other.CompareTag("Tumi"))
+        {
+            other.gameObject.GetComponent<Tumi>().MostrarBtn = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Tumi"))
+        {
+            other.gameObject.GetComponent<Tumi>().MostrarBtn = false;
+        }
     }
     IEnumerator canShoot()
     {
