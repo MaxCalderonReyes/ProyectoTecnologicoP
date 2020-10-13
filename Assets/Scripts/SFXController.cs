@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(AudioSource))]
 public class SFXController : MonoBehaviour
 {
-    public AudioClip hurtSound;
+    public GameObject hurtSound;
     public AudioClip dieSound;
     public AudioClip shootSound;
     public AudioClip jump;
@@ -16,18 +16,19 @@ public class SFXController : MonoBehaviour
 
     private void Awake()
     {
+        hurtSound.SetActive(false);
         intance = this;
         _audioSource = GetComponent<AudioSource>();
     }
 
     public void OnHurt()
     {
-        if (hurtSound != null) _audioSource.PlayOneShot(hurtSound);
+        hurtSound.SetActive(true);
     }
 
     public void OnDie()
     {
-        if (dieSound != null) _audioSource.PlayOneShot(dieSound);
+       
     }
 
     public void OnShoot()
