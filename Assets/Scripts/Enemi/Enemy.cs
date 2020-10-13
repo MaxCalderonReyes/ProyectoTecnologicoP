@@ -78,11 +78,13 @@ public class Enemy : MonoBehaviour
         {
             if (Boss)
             {
+                SFXController.intance.OnHurt();
                 Destroy(gameObject);
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
             else
             {
+                SFXController.intance.OnHurt();
                 Destroy(gameObject);
             }
            

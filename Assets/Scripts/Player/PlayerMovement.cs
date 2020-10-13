@@ -120,6 +120,8 @@ public class PlayerMovement : MonoBehaviour
         if (live <= 0)
         {
             vida();
+            SFXController.intance.OnHurt();
+            live = -2;
             musica.SetActive(false);
             musicaOver.SetActive(true);   
         }
