@@ -29,7 +29,7 @@ public class enemiRadio : MonoBehaviour
         _rgbd = GetComponent<Rigidbody2D>();
         _rgbd.freezeRotation = true;
 
-        _rgbd.gravityScale = 100;
+        _rgbd.gravityScale = 0;
      
         _sprite = GetComponent<SpriteRenderer>();
     }

@@ -11,11 +11,12 @@ public class MainMenu : MonoBehaviour
     void Start()
     {
         Panel.SetActive(false);
+        Time.timeScale = 1;
     }
 
     void Update()
     {
-        MainPause();
+        
     }
 
     public void exit()
@@ -25,20 +26,24 @@ public class MainMenu : MonoBehaviour
 
     public void Resume()
     {
-
         paused = false;
+        Panel.SetActive(false);
+        Time.timeScale = 1;
+
     }
 
     public void Reiniciar()
     {
 
         SceneManager.LoadScene(SceneManager.GetSceneAt(0).path);
+        Time.timeScale = 1;
     }
 
     public void Menu()
     {
 
         SceneManager.LoadScene("Menu");
+        Time.timeScale = 1;
 
     }
 
@@ -50,10 +55,9 @@ public class MainMenu : MonoBehaviour
 
     public void MainPause()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            paused = !paused;
-        }
+        Panel.SetActive(true);
+        paused = !paused;
+        
  
         if (paused)
         {
