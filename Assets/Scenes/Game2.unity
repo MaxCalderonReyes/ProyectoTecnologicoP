@@ -2270,7 +2270,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &557140405
 GameObject:
@@ -2793,6 +2793,86 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 567605941}
   m_CullTransparentMesh: 0
+--- !u!1001 &573313195
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6336491056077190561, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_Name
+      value: Tumi3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -24.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190565, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: historiaNota
+      value: "Chalcuch\xEDmac y Quisquis retroceden y preparan una emboscada para
+        Hu\xE1scar."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491057359583935, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7986fbbbf336b2b47ac45d305c621b58, type: 3}
 --- !u!1 &588493219
 GameObject:
   m_ObjectHideFlags: 0
@@ -6412,6 +6492,86 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1168676405}
   m_CullTransparentMesh: 0
+--- !u!1001 &1175875631
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6336491056077190561, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_Name
+      value: Tumi2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 91.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -14.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190565, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: historiaNota
+      value: "Hu\xE1scar ya se sent\xEDa ganador de la guerra, por hacer retroceder
+        a las fuerzas de su medio hermano Atahualpa."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491057359583935, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7986fbbbf336b2b47ac45d305c621b58, type: 3}
 --- !u!1 &1180945101
 GameObject:
   m_ObjectHideFlags: 0
@@ -8213,6 +8373,86 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1446662682
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6336491056077190561, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_Name
+      value: Tumi4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -55.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190565, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: historiaNota
+      value: "Al d\xEDa siguiente Hu\xE1scar aparece con su ej\xE9rcito para atacar
+        al ej\xE9rcito de Atahualpa, pero cae en la emboscada y es capturado."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491057359583935, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7986fbbbf336b2b47ac45d305c621b58, type: 3}
 --- !u!1 &1479231365
 GameObject:
   m_ObjectHideFlags: 0
@@ -9254,7 +9494,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1658578231
 GameObject:
@@ -11366,6 +11606,86 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1943579871
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6336491056077190561, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_Name
+      value: Tumi1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190564, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491056077190565, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: historiaNota
+      value: "El ej\xE9rcito de Hu\xE1scar en esta ocasi\xF3n es superior y hace
+        retroceder a las fuerzas de Atahualpa. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491057359583935, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7986fbbbf336b2b47ac45d305c621b58, type: 3}
 --- !u!1 &1949901141
 GameObject:
   m_ObjectHideFlags: 0
@@ -96740,7 +97060,7 @@ Transform:
   - {fileID: 8772005294173405076}
   - {fileID: 8772005293852645245}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!223 &8772005293852645240
 Canvas:

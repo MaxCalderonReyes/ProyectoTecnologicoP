@@ -415,8 +415,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 8}
-  m_SizeDelta: {x: 550.1247, y: 248.00049}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 650.80414, y: 183.45697}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &868073561
 MonoBehaviour:
@@ -439,7 +439,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 739dfcfd8bebc5a47b82efaaf7c6d3d5, type: 3}
-    m_FontSize: 20
+    m_FontSize: 26
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -450,13 +450,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Chalcuch\xEDmac y Quisquis generales de Atahualpa se enfrentan al ej\xE9rcito
-    de Hu\xE1scar liderados esta vez por el mismo. El ej\xE9rcito de Hu\xE1scar es
-    superior y hace retroceder a las fuerzas de Atahualpa. Hu\xE1scar ya se sent\xEDa
-    ganador de la guerra.\r\nAnte esto Chalcuch\xEDmac y Quisquis preparan una emboscada
-    en la cual Hu\xE1scar cae, es capturado y pierde as\xED la guerra civil.\r\n\r\nTe
-    encuentras en Huanacopampa y ser\xE1s parte del ej\xE9rcito de Atahualpa, esta
-    vez te enfrentar\xE1s al mismo Hu\xE1scar.\r\n"
+  m_Text: "La Guerra Civil continua, esta vez Chalcuch\xEDmac y Quisquis generales
+    de Atahualpa se enfrentan al ej\xE9rcito de Hu\xE1scar liderados esta vez por
+    \xE9l mismo. \r\n\nTe encuentras en Huanacopampa y ser\xE1s parte del ej\xE9rcito
+    de Atahualpa.\r\n"
 --- !u!222 &868073562
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -501,7 +498,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -6, y: -398}
+  m_AnchoredPosition: {x: -6, y: -379}
   m_SizeDelta: {x: 206.32968, y: 38.686813}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1127272630
@@ -949,8 +946,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -22}
-  m_SizeDelta: {x: 408.6983, y: 36.904003}
+  m_AnchoredPosition: {x: 0, y: -51}
+  m_SizeDelta: {x: 577.1203, y: 51.64091}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1604112500
 MonoBehaviour:
@@ -973,11 +970,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 739dfcfd8bebc5a47b82efaaf7c6d3d5, type: 3}
-    m_FontSize: 30
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 60
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
