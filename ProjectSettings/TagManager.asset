@@ -15,6 +15,7 @@ TagManager:
   - Ground
   - Puerta
   - Tumi
+  - BOSS2
   layers:
   - Default
   - TransparentFX
