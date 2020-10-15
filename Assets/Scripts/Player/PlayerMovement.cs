@@ -121,7 +121,7 @@ public class PlayerMovement : MonoBehaviour
         {
             vida();
             SFXController.intance.OnHurt();
-            live = -2;
+           
             musica.SetActive(false);
             musicaOver.SetActive(true);   
         }
@@ -188,6 +188,16 @@ public class PlayerMovement : MonoBehaviour
         if (other.CompareTag("Tumi"))
         {
             other.gameObject.GetComponent<Tumi>().MostrarBtn = true;
+        }
+
+       
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("BOSS2"))
+        {
+            live -= 5;
         }
     }
 

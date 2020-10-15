@@ -9,19 +9,15 @@ public class enemiRadio : MonoBehaviour
     [SerializeField] private LayerMask ground;
     public float _damage;
     public float speedy;
-
     public float Radio;
-
     private GameObject player;
     private Vector3 inicioPosition;
-    private SpriteRenderer _sprite;
-   
-    private Rigidbody2D _rgbd;
-   
+    private SpriteRenderer _sprite; 
+    private Rigidbody2D _rgbd;   
    
     private Vector2 _posLastFrame;
-
-   
+    [SerializeField] private int live;
+    [SerializeField] private bool Boss;
     // Start is called before the first frame update
 
     private void Awake()
@@ -34,27 +30,25 @@ public class enemiRadio : MonoBehaviour
         _sprite = GetComponent<SpriteRenderer>();
     }
 
-
+    public int Live
+    {
+        get { return live; }
+        set { live = value; }
+    }
 
     void Start()
-    {
-        
+    {    
         player = GameObject.FindGameObjectWithTag("Player");
         inicioPosition = transform.position;
        
     }
 
-    // Update is called once per frame
+  
     void Update()
-
-
     {
 
-
          Physics2D.Raycast((Vector2)transform.position + Vector2.right  / 2, Vector2.down, ground);
-
         Vector3 target = inicioPosition;
-
         float dist = Vector3.Distance(player.transform.position, transform.position);
         Vector3 dir = (target - transform.position).normalized;
 
@@ -69,11 +63,26 @@ public class enemiRadio : MonoBehaviour
  
             flix();
         _posLastFrame = transform.position;
-        
+
+
+
+        if (live <= 0)
+        {
+            if (Boss)
+            {
+                SFXController.intance.OnHurt();
+                Destroy(gameObject);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
+            else
+            {
+                SFXController.intance.OnHurt();
+                Destroy(gameObject);
+            }
+
+        }
     }
     
-
-
     void flix() {
 
 
@@ -89,7 +98,14 @@ public class enemiRadio : MonoBehaviour
     }
 
 
-
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "PlayerBull" && !Boss)
+        {
+            live -= 1;
+        }
+    
+    }
 
 
 
@@ -100,9 +116,6 @@ public class enemiRadio : MonoBehaviour
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position,Radio );
     }
-
-
-
 
 
 }

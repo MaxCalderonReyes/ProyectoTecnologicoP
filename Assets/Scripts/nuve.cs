@@ -13,7 +13,7 @@ public class nuve : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
         rgbd = GetComponent<Rigidbody2D>();

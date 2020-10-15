@@ -34,16 +34,16 @@ public class MainMenu : MonoBehaviour
 
     public void Reiniciar()
     {
-
-        SceneManager.LoadScene(SceneManager.GetSceneAt(0).path);
         Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetSceneAt(0).path);
+        
     }
 
     public void Menu()
     {
-
-        SceneManager.LoadScene("Menu");
         Time.timeScale = 1;
+        SceneManager.LoadScene("Menu");
+       
 
     }
 
