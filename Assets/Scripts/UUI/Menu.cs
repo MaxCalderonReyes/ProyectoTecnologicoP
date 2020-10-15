@@ -5,10 +5,17 @@ using UnityEngine;
 
 public class Menu : MonoBehaviour
 {
+    private void Start()
+    {
+        Time.timeScale = 1;
+    }
+
+
 
     public void play()
     {
         SceneManager.LoadScene("Game1");
+
     }
 
     public void exit()
