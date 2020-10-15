@@ -873,7 +873,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &92401099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2896,7 +2896,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -48.82, y: -2.18, z: -10}
+  m_LocalPosition: {x: -48.93, y: -2.14, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1349932193}
@@ -3329,6 +3329,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1385562476}
     m_Modifications:
+    - target: {fileID: 6336491055742018620, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -11.400024
+      objectReference: {fileID: 0}
     - target: {fileID: 6336491056077190561, guid: 7986fbbbf336b2b47ac45d305c621b58,
         type: 3}
       propertyPath: m_Name
@@ -6261,7 +6266,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1018586061}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -48.82, y: -2.18, z: 0}
+  m_LocalPosition: {x: -48.93, y: -2.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 158472577}
@@ -8356,6 +8361,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1385562476}
     m_Modifications:
+    - target: {fileID: 6336491055742018620, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -11.400024
+      objectReference: {fileID: 0}
     - target: {fileID: 6336491056077190561, guid: 7986fbbbf336b2b47ac45d305c621b58,
         type: 3}
       propertyPath: m_Name
@@ -9480,7 +9490,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1349932192}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.049999237, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.0400002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1233751276}
@@ -19827,6 +19837,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1385562476}
     m_Modifications:
+    - target: {fileID: 6336491055742018620, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -11.400024
+      objectReference: {fileID: 0}
     - target: {fileID: 6336491056077190561, guid: 7986fbbbf336b2b47ac45d305c621b58,
         type: 3}
       propertyPath: m_Name
@@ -20818,6 +20833,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1385562476}
     m_Modifications:
+    - target: {fileID: 6336491055742018620, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -11.400024
+      objectReference: {fileID: 0}
     - target: {fileID: 6336491056077190561, guid: 7986fbbbf336b2b47ac45d305c621b58,
         type: 3}
       propertyPath: m_Name
@@ -140817,10 +140837,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 800, y: 450}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -141361,10 +141381,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 800, y: 450}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -141458,10 +141478,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 800, y: 450}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
