@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BaseDatosNivel
+[System.Serializable]public class BaseDatosNivel
 {
     public int level;
 

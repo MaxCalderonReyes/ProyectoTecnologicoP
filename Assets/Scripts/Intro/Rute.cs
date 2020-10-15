@@ -10,9 +10,10 @@ public class Rute : MonoBehaviour
     [SerializeField]private IntroGame IGame;
     [SerializeField] private Animator presentacion;
     private bool AnimacionBossFInal=false; float countFinal = 0; float countStart = 0;
-    void Start()
+   
+    void Awake()
     {
-        
+        IGame._IntroGame = true;
     }
 
     // Update is called once per frame

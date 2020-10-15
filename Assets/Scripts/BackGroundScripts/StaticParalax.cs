@@ -16,6 +16,11 @@ public class StaticParalax : MonoBehaviour
     Tilemap _tilemap;
     // Start is called before the first frame update
     private bool InPersecute;
+    public bool _InPersecute
+    {
+        get => InPersecute;
+        set => InPersecute = value;
+    }
     public void Start()
     {
         CamaraTransform = Camera.main.transform;

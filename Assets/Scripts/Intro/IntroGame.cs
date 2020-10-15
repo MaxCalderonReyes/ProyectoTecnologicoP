@@ -5,13 +5,21 @@ using Cinemachine;
 
 public class IntroGame : MonoBehaviour
 {
+    
     private CinemachineVirtualCamera brain;
     [SerializeField]private GameObject FollowIntro;
-    private bool InIntro=true;
+    private bool InIntro=false;
+    private bool JustLook=false;
+    [SerializeField]private bool Mcamera;
     public bool _IntroGame
     {
         get { return InIntro; }
         set { InIntro = value; }
+    }
+    public bool _JustLook
+    {
+        get => JustLook;
+        set => JustLook = value;
     }
     void Start()
     {
@@ -22,15 +30,39 @@ public class IntroGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Mcamera)
+        {
+            GoIntro();
+        }
+        else
+        {
+            GoFight();
+        }
+       
+    }
+    public void GoIntro()
+    {
         if (InIntro)
         {
             brain.Follow = FollowIntro.transform;
             PlayerMovement.instancie._ActionCan = false;
         }
-        else
+        if (!InIntro)
         {
             brain.Follow = PlayerMovement.instancie.transform;
             PlayerMovement.instancie._ActionCan = true;
+        }
+
+    }
+    public void GoFight()
+    {
+        if (JustLook)
+        {
+            brain.Follow = FollowIntro.transform;
+        }
+        else
+        {
+            brain.Follow = PlayerMovement.instancie.transform;
         }
     }
 }

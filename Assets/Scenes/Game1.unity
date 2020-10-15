@@ -5721,6 +5721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FollowIntro: {fileID: 855618403}
+  Mcamera: 1
 --- !u!1 &1357256225
 GameObject:
   m_ObjectHideFlags: 0

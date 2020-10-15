@@ -19,15 +19,19 @@ public class TopDownMovement : MonoBehaviour
         {
             instancia = this;
         }
-       
+        Path = Application.dataPath + "Datos.json";
     }
     void Start()
     {
-        Path = Application.dataPath + "Datos.json";
+      
         rgbd = GetComponent<Rigidbody2D>();
-        string datos = File.ReadAllText(Path);
-        Dts = JsonUtility.FromJson<BaseDatosNivel>(datos);
-        print(Dts.level);
+        if (File.Exists(Path))
+        {
+            string datos = File.ReadAllText(Path);
+            Dts = JsonUtility.FromJson<BaseDatosNivel>(datos);
+            print(Dts.level);
+        }
+      
     }
 
     // Update is called once per frame
