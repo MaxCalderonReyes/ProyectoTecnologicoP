@@ -2137,7 +2137,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -49.9, y: -2.56, z: -10}
+  m_LocalPosition: {x: -47.6, y: -2.7, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1349932193}
@@ -4929,8 +4929,8 @@ GameObject:
   - component: {fileID: 936781284}
   - component: {fileID: 936781283}
   m_Layer: 0
-  m_Name: EnemigoDisparador (12)
-  m_TagString: Enemy
+  m_Name: Bross
+  m_TagString: BOSS2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5010,10 +5010,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ground:
     serializedVersion: 2
-    m_Bits: 256
-  _damage: 2
+    m_Bits: 0
+  _damage: 5.85
   speedy: 3.86
   Radio: 15.09
+  live: 2
+  Boss: 0
 --- !u!212 &936781281
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5077,7 +5079,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a529494182ea8b41a618e1493f64699, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BullDirection: []
+  BullDirection:
+  - {x: 2.27, y: 0.45, z: 0}
+  - {x: 0.72, y: 0.9, z: 0}
   bala: {fileID: 1289040670002056456, guid: 29341bdda27d3c44ea9f9386fc06c0b2, type: 3}
   Charge: 35
   defensa: 0
@@ -5564,7 +5568,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1018586061}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -49.9, y: -2.56, z: 0}
+  m_LocalPosition: {x: -47.6, y: -2.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 158472577}
@@ -7753,7 +7757,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1349932192}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.19999695, y: 0.20000005, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1233751276}
@@ -95868,7 +95872,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e949e422ed4ec2d4bb6d244f73de24e8, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.59
+  m_Volume: 0.324
   m_Pitch: 1
   Loop: 1
   Mute: 0

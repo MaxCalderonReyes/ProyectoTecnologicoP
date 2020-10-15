@@ -189,6 +189,16 @@ public class PlayerMovement : MonoBehaviour
         {
             other.gameObject.GetComponent<Tumi>().MostrarBtn = true;
         }
+
+       
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("BOSS2"))
+        {
+            live -= 5;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
