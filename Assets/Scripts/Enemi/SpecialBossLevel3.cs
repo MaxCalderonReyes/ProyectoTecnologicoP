@@ -83,7 +83,7 @@ public class SpecialBossLevel3 : MonoBehaviour
             PlayerMovement.instancie.transform.position = new Vector3(Mathf.Clamp(PlayerMovement.instancie.transform.position.x, 354, 380), PlayerMovement.instancie.transform.position.y, 0);
             
             count += Time.deltaTime;
-            if (count < 10)
+            if (count < 40)
             {
                 print("Se esta ejectando");
                  Run();
@@ -94,7 +94,7 @@ public class SpecialBossLevel3 : MonoBehaviour
             
 
 
-            if (count > 10)
+            if (count > 40)
             {
                 tt = true;
                
