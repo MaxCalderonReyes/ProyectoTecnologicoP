@@ -59,6 +59,7 @@ public class IntroGame : MonoBehaviour
         if (JustLook)
         {
             brain.Follow = FollowIntro.transform;
+           
         }
         else
         {

@@ -46,11 +46,11 @@ public class TopDownMovement : MonoBehaviour
         if (collision.gameObject.tag == "Puerta" &&Dts.level<3)
         {
             SceneManager.LoadScene(2);
-        }else if(collision.gameObject.tag == "Puerta" && Dts.level == 3)
+        }else if(collision.gameObject.tag == "Puerta" && Dts.level == 4)
         {
             SceneManager.LoadScene(5);
         }
-        else if(collision.gameObject.tag == "Puerta" && Dts.level == 6)
+        else if(collision.gameObject.tag == "Puerta" && Dts.level == 7)
         {
             SceneManager.LoadScene(8);
         }

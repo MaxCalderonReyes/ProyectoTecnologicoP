@@ -8,12 +8,19 @@ public class SpecialBossLevel3 : MonoBehaviour
     public Animator animator;
      public Animator textPresentation;
     private bool Carrera;
+    public bool _Carrera
+    {
+        get => Carrera;
+    }
     private float count;
     public List<GameObject> bulls;
-    int tiempoDisparo;
+     int tiempoDisparo;
     [SerializeField]private StaticParalax staticParalax;
     [SerializeField]private IntroGame intro;
-    
+    bool CanCount=true;
+    [SerializeField] private StaticParalax Bridge;
+    bool tt = false;
+
     private void Awake()
     {
         if (instnacie == null)
@@ -46,32 +53,54 @@ public class SpecialBossLevel3 : MonoBehaviour
     }
     private void Run()
     {
-        
-        for (int i = 0; i < bulls.Count; i++)
+        if (CanCount)
         {
-           
-            GameObject bul = Instantiate(bulls[i],transform.position , transform.rotation);
-            bul.GetComponent<BullDirections>().Direction(Vector2.down);
-            bul.GetComponent<BullDirections>().velocityShoot(5);
+            for (int i = 0; i < bulls.Count; i++)
+            {
+                float xran = Random.Range(354,380);
+                Vector3 vtemp = new Vector3(xran,-42,0);
+                GameObject bul = Instantiate(bulls[i], vtemp, transform.rotation);
+                bul.GetComponent<BullDirections>().Direction(Vector2.down);
+                bul.GetComponent<BullDirections>().velocityShoot(5);
+               
 
+            }
+            StartCoroutine(DispararCada());
         }
+     
         
+
     }
    private void Update()
     {
+       
+        if (tt)
+        {
+            PlayerMovement.instancie.transform.position = new Vector3(Mathf.Clamp(PlayerMovement.instancie.transform.position.x, 354, 600), PlayerMovement.instancie.transform.position.y, 0);
+        }
         if (Carrera)
         {
+            PlayerMovement.instancie.transform.position = new Vector3(Mathf.Clamp(PlayerMovement.instancie.transform.position.x, 354, 380), PlayerMovement.instancie.transform.position.y, 0);
+            
             count += Time.deltaTime;
-            while (count < 40)
+            if (count < 10)
             {
-                Run();
-                StartCoroutine(DispararCada());
-            }
+                print("Se esta ejectando");
+                 Run();
+              
 
-            if (count > 40)
+            }
+         
+            
+
+
+            if (count > 10)
             {
+                tt = true;
+               
                 Carrera = false;
                 intro._JustLook = false;
+                Bridge._InPersecute = false;
             }
         }
      
@@ -80,7 +109,9 @@ public class SpecialBossLevel3 : MonoBehaviour
     }
     IEnumerator DispararCada()
     {
+        CanCount = false;
         yield return new WaitForSeconds(tiempoDisparo);
+        CanCount = true;
     }
     public void StartRun()
     {
@@ -89,7 +120,8 @@ public class SpecialBossLevel3 : MonoBehaviour
     public void MovementRestrictions()
     {
         intro._JustLook = true;
-        PlayerMovement.instancie.transform.position = new Vector3(Mathf.Clamp(transform.position.x, 366, 393), transform.position.y, 0);
+        print("me estoy ejecutando");
+      
         
     }
 }
