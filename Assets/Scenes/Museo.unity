@@ -366,6 +366,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  Dts:
+    level: 0
 --- !u!1 &484746221
 GameObject:
   m_ObjectHideFlags: 0
