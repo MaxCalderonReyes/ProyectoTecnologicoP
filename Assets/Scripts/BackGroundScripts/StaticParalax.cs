@@ -71,27 +71,30 @@ public class StaticParalax : MonoBehaviour
         }
         if(Tilemap)
         {
-            float xpos = CamaraTransform.position.x * ParalaxxEfectMuliply;
-            float Ypos = CamaraTransform.position.y * ParalaxxEfectMuliply;
-            _tilemap.transform.position += new Vector3(xpos, _tilemap.transform.position.y, _tilemap.transform.position.z);
             if (InPersecute)
             {
-                if (transform.position.x < -23)
-                {
-                    print("X");
-                    transform.position = new Vector3(0, 0, 0);
+                float xpos = CamaraTransform.position.x * ParalaxxEfectMuliply;
+            float Ypos = CamaraTransform.position.y * ParalaxxEfectMuliply;
+            _tilemap.transform.position += new Vector3(xpos, _tilemap.transform.position.y, _tilemap.transform.position.z);
+           
+               
+                    if (transform.position.x < -23)
+                    {
 
-                }
-                else
-                {
-                    print("Y");
-                }
+                        transform.position = new Vector3(0, 0, 0);
+
+                    }
+                
+              
+
+
             }
             else
             {
                 transform.position = new Vector3(0, 0, 0);
             }
-           
+
+
         }
      
 

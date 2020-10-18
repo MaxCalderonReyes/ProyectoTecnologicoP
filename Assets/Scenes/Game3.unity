@@ -1521,6 +1521,7 @@ GameObject:
   m_Component:
   - component: {fileID: 173504790}
   - component: {fileID: 173504789}
+  - component: {fileID: 173504791}
   - component: {fileID: 173504788}
   m_Layer: 0
   m_Name: ObjetivoSalirNivel
@@ -1539,7 +1540,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 60d176b43278d8b4bbe3c938c5c454ac, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 3.8159056, y: -2.4282007}
@@ -1619,6 +1620,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &173504791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173504787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb96626629afd994991b77099d06b042, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &188377203
 GameObject:
   m_ObjectHideFlags: 0
@@ -5719,6 +5732,7 @@ MonoBehaviour:
   - {fileID: 1289040670002056456, guid: 29341bdda27d3c44ea9f9386fc06c0b2, type: 3}
   staticParalax: {fileID: 1802181074}
   intro: {fileID: 1349932195}
+  Bridge: {fileID: 1802181074}
 --- !u!1 &942503670
 GameObject:
   m_ObjectHideFlags: 0
@@ -6290,7 +6304,7 @@ MonoBehaviour:
   ground:
     serializedVersion: 2
     m_Bits: 256
-  DistanceTOGround: 1.52
+  DistanceTOGround: 1.36
   jumpForce: 10
   prefab: {fileID: 2694216852373266838, guid: ef10adb531f70e64984c289c5741fc9a, type: 3}
   Panel: {fileID: 92401098}
