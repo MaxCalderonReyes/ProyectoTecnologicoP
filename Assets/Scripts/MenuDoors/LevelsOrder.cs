@@ -7,7 +7,7 @@ public class LevelsOrder : MonoBehaviour
     public List<GameObject> puertas;
     void Start()
     {
-        
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame

@@ -4505,7 +4505,7 @@ MonoBehaviour:
   jumpForce: 10
   prefab: {fileID: 2694216852373266838, guid: ef10adb531f70e64984c289c5741fc9a, type: 3}
   Panel: {fileID: 92401098}
-  SecondsToShoot: 0.5
+  SecondsToShoot: 0.42
   musica: {fileID: 2077710022}
   musicaOver: {fileID: 748045078}
 --- !u!61 &1018586066
@@ -5899,6 +5899,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6336491055742018620, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -11.400024
+      objectReference: {fileID: 0}
     - target: {fileID: 6336491056077190561, guid: 7986fbbbf336b2b47ac45d305c621b58,
         type: 3}
       propertyPath: m_Name
@@ -6623,6 +6628,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6336491055742018620, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -11.400024
+      objectReference: {fileID: 0}
     - target: {fileID: 6336491056077190561, guid: 7986fbbbf336b2b47ac45d305c621b58,
         type: 3}
       propertyPath: m_Name
@@ -8190,6 +8200,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6336491055742018620, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -11.400024
+      objectReference: {fileID: 0}
     - target: {fileID: 6336491056077190561, guid: 7986fbbbf336b2b47ac45d305c621b58,
         type: 3}
       propertyPath: m_Name
@@ -81058,6 +81073,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6336491055742018620, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -11.400024
+      objectReference: {fileID: 0}
     - target: {fileID: 6336491056077190561, guid: 7986fbbbf336b2b47ac45d305c621b58,
         type: 3}
       propertyPath: m_Name
@@ -81126,8 +81146,8 @@ PrefabInstance:
     - target: {fileID: 6336491056077190565, guid: 7986fbbbf336b2b47ac45d305c621b58,
         type: 3}
       propertyPath: historiaNota
-      value: "El Sapa Inca (emperador supremo del Tahuantinsuyo) Huayna C\xE1pac
-        antes de fallecer nombr\xF3 heredero a su hijo Ninan Cuyochi, pero lastimosamente
+      value: "El Sapa Inca (emperador supremo del Tahuantinsuyo) Huayna C\xE1pac antes
+        de fallecer nombr\xF3 heredero a su hijo Ninan Cuyochi, pero lastimosamente
         tambi\xE9n falleci\xF3."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
