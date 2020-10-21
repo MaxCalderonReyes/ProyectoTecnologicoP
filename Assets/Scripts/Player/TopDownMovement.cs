@@ -19,11 +19,11 @@ public class TopDownMovement : MonoBehaviour
         {
             instancia = this;
         }
-        Path = Application.dataPath + "Datos.json";
+     
     }
     void Start()
     {
-      
+        Path = Application.dataPath + "Datos.json";
         rgbd = GetComponent<Rigidbody2D>();
         if (File.Exists(Path))
         {
@@ -43,14 +43,14 @@ public class TopDownMovement : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Puerta" &&Dts.level<3)
+        if (collision.gameObject.tag == "Puerta" &&Dts.level<5)
         {
             SceneManager.LoadScene(2);
-        }else if(collision.gameObject.tag == "Puerta" && Dts.level == 4)
+        }else if(collision.gameObject.tag == "Puerta" && Dts.level <7&&Dts.level>4)
         {
             SceneManager.LoadScene(5);
         }
-        else if(collision.gameObject.tag == "Puerta" && Dts.level == 7)
+        else if(collision.gameObject.tag == "Puerta" && Dts.level <11&&Dts.level>7)
         {
             SceneManager.LoadScene(8);
         }
