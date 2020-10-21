@@ -4508,7 +4508,6 @@ MonoBehaviour:
   SecondsToShoot: 0.42
   musica: {fileID: 2077710022}
   musicaOver: {fileID: 748045078}
-  Path: 
 --- !u!61 &1018586066
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4913,6 +4912,75 @@ MonoBehaviour:
   dieSound: {fileID: 0}
   shootSound: {fileID: 0}
   jump: {fileID: 0}
+--- !u!1001 &1066509550
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7886639722430165941, guid: 5efd05ffd86c9864c9d2e964ab79bf8b,
+        type: 3}
+      propertyPath: m_Name
+      value: SaveProgress
+      objectReference: {fileID: 0}
+    - target: {fileID: 7886639722430165943, guid: 5efd05ffd86c9864c9d2e964ab79bf8b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -46.07994
+      objectReference: {fileID: 0}
+    - target: {fileID: 7886639722430165943, guid: 5efd05ffd86c9864c9d2e964ab79bf8b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 18.386421
+      objectReference: {fileID: 0}
+    - target: {fileID: 7886639722430165943, guid: 5efd05ffd86c9864c9d2e964ab79bf8b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -42.486393
+      objectReference: {fileID: 0}
+    - target: {fileID: 7886639722430165943, guid: 5efd05ffd86c9864c9d2e964ab79bf8b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7886639722430165943, guid: 5efd05ffd86c9864c9d2e964ab79bf8b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7886639722430165943, guid: 5efd05ffd86c9864c9d2e964ab79bf8b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7886639722430165943, guid: 5efd05ffd86c9864c9d2e964ab79bf8b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7886639722430165943, guid: 5efd05ffd86c9864c9d2e964ab79bf8b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 7886639722430165943, guid: 5efd05ffd86c9864c9d2e964ab79bf8b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7886639722430165943, guid: 5efd05ffd86c9864c9d2e964ab79bf8b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7886639722430165943, guid: 5efd05ffd86c9864c9d2e964ab79bf8b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5efd05ffd86c9864c9d2e964ab79bf8b, type: 3}
 --- !u!1 &1152896673
 GameObject:
   m_ObjectHideFlags: 0
@@ -81078,8 +81146,8 @@ PrefabInstance:
     - target: {fileID: 6336491056077190565, guid: 7986fbbbf336b2b47ac45d305c621b58,
         type: 3}
       propertyPath: historiaNota
-      value: "El Sapa Inca (emperador supremo del Tahuantinsuyo) Huayna C\xE1pac
-        antes de fallecer nombr\xF3 heredero a su hijo Ninan Cuyochi, pero lastimosamente
+      value: "El Sapa Inca (emperador supremo del Tahuantinsuyo) Huayna C\xE1pac antes
+        de fallecer nombr\xF3 heredero a su hijo Ninan Cuyochi, pero lastimosamente
         tambi\xE9n falleci\xF3."
       objectReference: {fileID: 0}
     m_RemovedComponents: []

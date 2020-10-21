@@ -8,6 +8,11 @@ using UnityEngine.UI;
 
 public class WheelManager : MonoBehaviour
 {
+    private bool LevelSucess;
+    public bool _LevelSucess
+    {
+        get { return LevelSucess; }
+    }
     private Wheel wheel;
     private int numberCorrectAnswers;
     private float timerShowCongratulations;
@@ -44,6 +49,7 @@ public class WheelManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        LevelSucess = false;
         textBtnSpin.text = "GIRAR";
         result.text = "";
         numberCorrectAnswers = 0;
@@ -227,6 +233,7 @@ public class WheelManager : MonoBehaviour
 
     public void museo()
     {
+        LevelSucess = true;
         SceneManager.LoadScene("Museo");
     }
 }

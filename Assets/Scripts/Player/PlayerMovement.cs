@@ -41,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
     private float width;
     private bool InGround;
     //Para el guardado de dato
-    [HideInInspector]public string Path;
+    
     public void Awake()
     {
         if (instancie == null) instancie = this;
@@ -66,7 +66,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        Path = Application.dataPath + "Datos.json";
+       
         musicaOver.SetActive(false);
         playerSpri = GameObject.FindGameObjectWithTag("Player");
 
@@ -74,9 +74,7 @@ public class PlayerMovement : MonoBehaviour
        
         Panel.SetActive(false);
         rgbd = GetComponent<Rigidbody2D>();
-        BaseDatosNivel bd = new BaseDatosNivel(SceneManager.GetActiveScene().buildIndex);
-        string content = JsonUtility.ToJson(bd, true);
-        File.WriteAllText(Path, content);
+     
 
     }
 
