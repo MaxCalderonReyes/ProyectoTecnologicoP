@@ -5088,7 +5088,7 @@ MonoBehaviour:
   _damage: 5.85
   speedy: 3.86
   Radio: 15.09
-  live: 2
+  live: 10
   Boss: 0
 --- !u!212 &936781281
 SpriteRenderer:
@@ -11768,8 +11768,8 @@ PrefabInstance:
     - target: {fileID: 6336491056077190565, guid: 7986fbbbf336b2b47ac45d305c621b58,
         type: 3}
       propertyPath: historiaNota
-      value: "El ej\xE9rcito de Hu\xE1scar en esta ocasi\xF3n es superior y hace retroceder
-        a las fuerzas de Atahualpa. "
+      value: "El ej\xE9rcito de Hu\xE1scar en esta ocasi\xF3n es superior y hace
+        retroceder a las fuerzas de Atahualpa. "
       objectReference: {fileID: 0}
     - target: {fileID: 6336491057359583935, guid: 7986fbbbf336b2b47ac45d305c621b58,
         type: 3}
