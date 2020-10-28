@@ -16,6 +16,8 @@ TagManager:
   - Puerta
   - Tumi
   - BOSS2
+  - joystick
+  - buttonJump
   layers:
   - Default
   - TransparentFX
