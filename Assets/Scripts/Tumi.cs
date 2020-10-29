@@ -11,8 +11,8 @@ public class Tumi : MonoBehaviour
     [SerializeField]private Text textHistoria;
     [SerializeField] private String historiaNota;
 
-    [SerializeField] private GameObject joystick;
-    [SerializeField] private GameObject buttonJump;
+    private GameObject joystick;
+    private GameObject buttonJump;
     private bool mostrarBtn;
 
     public bool MostrarBtn { get => mostrarBtn; set => mostrarBtn = value; }

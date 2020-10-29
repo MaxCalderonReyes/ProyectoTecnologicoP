@@ -755,6 +755,7 @@ GameObject:
   - component: {fileID: 173504790}
   - component: {fileID: 173504789}
   - component: {fileID: 173504788}
+  - component: {fileID: 173504791}
   m_Layer: 0
   m_Name: ObjetivoSalirNivel
   m_TagString: Untagged
@@ -772,7 +773,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 60d176b43278d8b4bbe3c938c5c454ac, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -3.896056, y: -2.3874166}
@@ -852,6 +853,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &173504791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173504787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb96626629afd994991b77099d06b042, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &247945291 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3655191402384384692, guid: 9a00941d4f61fc040816a0a3b482721b,
@@ -1044,7 +1057,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 308552887}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.744108, y: -6.380259, z: -108.45931}
+  m_LocalPosition: {x: -20.744108, y: -6.380259, z: -106.9605}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6336491057271470985}
@@ -4694,6 +4707,11 @@ PrefabInstance:
         fue coronado en el Cuzco como Inca con el apoyo de las principales panakas
         (familias reales)."
       objectReference: {fileID: 0}
+    - target: {fileID: 6336491057359583935, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7986fbbbf336b2b47ac45d305c621b58, type: 3}
 --- !u!4 &1487487122 stripped
@@ -5179,6 +5197,11 @@ PrefabInstance:
       value: "Hu\xE1scar comenz\xF3 a sospechar de su medio hermano Atahualpa por
         no asistir a su coronaci\xF3n y decidi\xF3 empezar una campa\xF1a militar
         contra \xE9l, para consolidar su autoridad sobre el imperio."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491057359583935, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7986fbbbf336b2b47ac45d305c621b58, type: 3}
@@ -6647,6 +6670,11 @@ PrefabInstance:
       propertyPath: historiaNota
       value: "Atoc tambi\xE9n llamado \u201Cel zorro\u201D era un gran general del
         ej\xE9rcito de Hu\xE1scar."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491057359583935, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7986fbbbf336b2b47ac45d305c621b58, type: 3}
@@ -79322,6 +79350,11 @@ PrefabInstance:
       value: "El Sapa Inca (emperador supremo del Tahuantinsuyo) Huayna C\xE1pac
         antes de fallecer nombr\xF3 heredero a su hijo Ninan Cuyochi, pero lastimosamente
         tambi\xE9n falleci\xF3."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336491057359583935, guid: 7986fbbbf336b2b47ac45d305c621b58,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7986fbbbf336b2b47ac45d305c621b58, type: 3}
