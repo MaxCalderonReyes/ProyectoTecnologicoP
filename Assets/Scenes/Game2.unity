@@ -748,6 +748,7 @@ GameObject:
   - component: {fileID: 124723742}
   - component: {fileID: 124723747}
   - component: {fileID: 124723746}
+  - component: {fileID: 124723748}
   m_Layer: 0
   m_Name: EnemigoDisparador (3)
   m_TagString: Enemy
@@ -999,6 +1000,25 @@ MonoBehaviour:
   dieSound: {fileID: 0}
   shootSound: {fileID: 0}
   jump: {fileID: 0}
+--- !u!95 &124723748
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124723740}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0093f5ee658d18046a4c218e33643ea8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &158472576
 GameObject:
   m_ObjectHideFlags: 0
@@ -1228,6 +1248,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3655191401367566919, guid: 9a00941d4f61fc040816a0a3b482721b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 71.30005
+      objectReference: {fileID: 0}
+    - target: {fileID: 3655191401367566919, guid: 9a00941d4f61fc040816a0a3b482721b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -27.599976
       objectReference: {fileID: 0}
     - target: {fileID: 3655191401446257410, guid: 9a00941d4f61fc040816a0a3b482721b,
         type: 3}
@@ -2172,6 +2202,7 @@ GameObject:
   - component: {fileID: 557140407}
   - component: {fileID: 557140412}
   - component: {fileID: 557140411}
+  - component: {fileID: 557140413}
   m_Layer: 0
   m_Name: EnemigoDisparador (8)
   m_TagString: Enemy
@@ -2423,6 +2454,25 @@ MonoBehaviour:
   dieSound: {fileID: 0}
   shootSound: {fileID: 0}
   jump: {fileID: 0}
+--- !u!95 &557140413
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557140405}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0093f5ee658d18046a4c218e33643ea8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &557300697
 GameObject:
   m_ObjectHideFlags: 0
@@ -2689,6 +2739,7 @@ GameObject:
   - component: {fileID: 627333249}
   - component: {fileID: 627333254}
   - component: {fileID: 627333253}
+  - component: {fileID: 627333255}
   m_Layer: 0
   m_Name: EnemigoDisparador (11)
   m_TagString: Enemy
@@ -2940,6 +2991,25 @@ MonoBehaviour:
   dieSound: {fileID: 0}
   shootSound: {fileID: 0}
   jump: {fileID: 0}
+--- !u!95 &627333255
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627333247}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0093f5ee658d18046a4c218e33643ea8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &642304492 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5173204420810250880, guid: 94fd4c2919913dc4d8b1d7912dd4f5f9,
@@ -4117,6 +4187,7 @@ GameObject:
   - component: {fileID: 854864371}
   - component: {fileID: 854864376}
   - component: {fileID: 854864375}
+  - component: {fileID: 854864377}
   m_Layer: 0
   m_Name: EnemigoDisparador (6)
   m_TagString: Enemy
@@ -4368,6 +4439,25 @@ MonoBehaviour:
   dieSound: {fileID: 0}
   shootSound: {fileID: 0}
   jump: {fileID: 0}
+--- !u!95 &854864377
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854864369}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0093f5ee658d18046a4c218e33643ea8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &900728553
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5400,6 +5490,7 @@ GameObject:
   - component: {fileID: 1121793762}
   - component: {fileID: 1121793767}
   - component: {fileID: 1121793766}
+  - component: {fileID: 1121793768}
   m_Layer: 0
   m_Name: EnemigoDisparador (9)
   m_TagString: Enemy
@@ -5651,6 +5742,25 @@ MonoBehaviour:
   dieSound: {fileID: 0}
   shootSound: {fileID: 0}
   jump: {fileID: 0}
+--- !u!95 &1121793768
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121793760}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0093f5ee658d18046a4c218e33643ea8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1152896673
 GameObject:
   m_ObjectHideFlags: 0
@@ -7324,6 +7434,7 @@ GameObject:
   - component: {fileID: 1387246175}
   - component: {fileID: 1387246180}
   - component: {fileID: 1387246179}
+  - component: {fileID: 1387246181}
   m_Layer: 0
   m_Name: EnemigoDisparador (2)
   m_TagString: Enemy
@@ -7575,6 +7686,25 @@ MonoBehaviour:
   dieSound: {fileID: 0}
   shootSound: {fileID: 0}
   jump: {fileID: 0}
+--- !u!95 &1387246181
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387246173}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0093f5ee658d18046a4c218e33643ea8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1416047305
 GameObject:
   m_ObjectHideFlags: 0
@@ -7789,6 +7919,7 @@ GameObject:
   - component: {fileID: 1479231367}
   - component: {fileID: 1479231372}
   - component: {fileID: 1479231371}
+  - component: {fileID: 1479231373}
   m_Layer: 0
   m_Name: EnemigoDisparador (10)
   m_TagString: Enemy
@@ -8040,6 +8171,25 @@ MonoBehaviour:
   dieSound: {fileID: 0}
   shootSound: {fileID: 0}
   jump: {fileID: 0}
+--- !u!95 &1479231373
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479231365}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0093f5ee658d18046a4c218e33643ea8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1492582069
 GameObject:
   m_ObjectHideFlags: 0
@@ -8305,6 +8455,7 @@ GameObject:
   - component: {fileID: 1543291410}
   - component: {fileID: 1543291415}
   - component: {fileID: 1543291414}
+  - component: {fileID: 1543291416}
   m_Layer: 0
   m_Name: EnemigoDisparador (1)
   m_TagString: Enemy
@@ -8556,6 +8707,25 @@ MonoBehaviour:
   dieSound: {fileID: 0}
   shootSound: {fileID: 0}
   jump: {fileID: 0}
+--- !u!95 &1543291416
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543291408}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0093f5ee658d18046a4c218e33643ea8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1548383441
 GameObject:
   m_ObjectHideFlags: 0
@@ -9485,6 +9655,7 @@ GameObject:
   - component: {fileID: 1810394475}
   - component: {fileID: 1810394480}
   - component: {fileID: 1810394479}
+  - component: {fileID: 1810394481}
   m_Layer: 0
   m_Name: EnemigoDisparador (5)
   m_TagString: Enemy
@@ -9736,6 +9907,25 @@ MonoBehaviour:
   dieSound: {fileID: 0}
   shootSound: {fileID: 0}
   jump: {fileID: 0}
+--- !u!95 &1810394481
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810394473}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0093f5ee658d18046a4c218e33643ea8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1827009577
 GameObject:
   m_ObjectHideFlags: 0
@@ -9796,6 +9986,7 @@ GameObject:
   - component: {fileID: 1837862437}
   - component: {fileID: 1837862439}
   - component: {fileID: 1837862438}
+  - component: {fileID: 1837862440}
   m_Layer: 0
   m_Name: EnemigoDisparador
   m_TagString: Enemy
@@ -10047,6 +10238,25 @@ MonoBehaviour:
   dieSound: {fileID: 0}
   shootSound: {fileID: 0}
   jump: {fileID: 0}
+--- !u!95 &1837862440
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837862432}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0093f5ee658d18046a4c218e33643ea8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1844360615
 GameObject:
   m_ObjectHideFlags: 0
@@ -10325,6 +10535,7 @@ GameObject:
   - component: {fileID: 1914471653}
   - component: {fileID: 1914471658}
   - component: {fileID: 1914471657}
+  - component: {fileID: 1914471659}
   m_Layer: 0
   m_Name: EnemigoDisparador (7)
   m_TagString: Enemy
@@ -10576,6 +10787,25 @@ MonoBehaviour:
   dieSound: {fileID: 0}
   shootSound: {fileID: 0}
   jump: {fileID: 0}
+--- !u!95 &1914471659
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914471651}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0093f5ee658d18046a4c218e33643ea8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1930939303
 GameObject:
   m_ObjectHideFlags: 0
@@ -95155,6 +95385,7 @@ GameObject:
   - component: {fileID: 2097107758}
   - component: {fileID: 2097107763}
   - component: {fileID: 2097107762}
+  - component: {fileID: 2097107764}
   m_Layer: 0
   m_Name: EnemigoDisparador (4)
   m_TagString: Enemy
@@ -95406,6 +95637,25 @@ MonoBehaviour:
   dieSound: {fileID: 0}
   shootSound: {fileID: 0}
   jump: {fileID: 0}
+--- !u!95 &2097107764
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097107756}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0093f5ee658d18046a4c218e33643ea8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2143689481
 GameObject:
   m_ObjectHideFlags: 0

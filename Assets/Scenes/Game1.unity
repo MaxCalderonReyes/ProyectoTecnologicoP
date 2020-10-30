@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 12442899}
   - component: {fileID: 12442898}
   - component: {fileID: 12442902}
+  - component: {fileID: 12442903}
   m_Layer: 0
   m_Name: BOSS
   m_TagString: Enemy
@@ -294,6 +295,25 @@ MonoBehaviour:
   bala: {fileID: 1289040670002056456, guid: 29341bdda27d3c44ea9f9386fc06c0b2, type: 3}
   Charge: 5
   defensa: 0
+--- !u!95 &12442903
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12442896}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &16906987
 GameObject:
   m_ObjectHideFlags: 0
@@ -1964,6 +1984,7 @@ GameObject:
   - component: {fileID: 667460880}
   - component: {fileID: 667460882}
   - component: {fileID: 667460881}
+  - component: {fileID: 667460883}
   m_Layer: 0
   m_Name: EnemigoDisparador (2)
   m_TagString: Enemy
@@ -2215,6 +2236,25 @@ MonoBehaviour:
   dieSound: {fileID: 0}
   shootSound: {fileID: 0}
   jump: {fileID: 0}
+--- !u!95 &667460883
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667460875}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0093f5ee658d18046a4c218e33643ea8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &726937936
 GameObject:
   m_ObjectHideFlags: 0
@@ -3492,6 +3532,7 @@ GameObject:
   - component: {fileID: 1051865506}
   - component: {fileID: 1051865511}
   - component: {fileID: 1051865510}
+  - component: {fileID: 1051865512}
   m_Layer: 0
   m_Name: EnemigoDisparador (3)
   m_TagString: Enemy
@@ -3743,6 +3784,25 @@ MonoBehaviour:
   dieSound: {fileID: 0}
   shootSound: {fileID: 0}
   jump: {fileID: 0}
+--- !u!95 &1051865512
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051865504}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0093f5ee658d18046a4c218e33643ea8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1066509550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5334,6 +5394,7 @@ GameObject:
   - component: {fileID: 1813556084}
   - component: {fileID: 1813556086}
   - component: {fileID: 1813556085}
+  - component: {fileID: 1813556087}
   m_Layer: 0
   m_Name: EnemigoDisparador (1)
   m_TagString: Enemy
@@ -5585,6 +5646,25 @@ MonoBehaviour:
   dieSound: {fileID: 0}
   shootSound: {fileID: 0}
   jump: {fileID: 0}
+--- !u!95 &1813556087
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813556079}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0093f5ee658d18046a4c218e33643ea8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1827009577
 GameObject:
   m_ObjectHideFlags: 0
@@ -5645,6 +5725,7 @@ GameObject:
   - component: {fileID: 1837862437}
   - component: {fileID: 1837862439}
   - component: {fileID: 1837862438}
+  - component: {fileID: 1837862440}
   m_Layer: 0
   m_Name: EnemigoDisparador
   m_TagString: Enemy
@@ -5691,7 +5772,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6a87c01d793e76849a4a563d05b39734, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bab72c6bf2ef6c04cb0c3854865c8ad3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -5710,8 +5791,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837862432}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -21.49, y: -1.4412162, z: 2.1743479}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -20.67, y: -1.37, z: 2.1743479}
+  m_LocalScale: {x: 1, y: 1.0116454, z: 1}
   m_Children: []
   m_Father: {fileID: 1911130812}
   m_RootOrder: 0
@@ -5754,7 +5835,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2111553, y: 1.9764512}
+    oldSize: {x: 0.944, y: 2.072}
     newSize: {x: 15.2, y: 24.804462}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5896,6 +5977,25 @@ MonoBehaviour:
   dieSound: {fileID: 0}
   shootSound: {fileID: 0}
   jump: {fileID: 0}
+--- !u!95 &1837862440
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837862432}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0093f5ee658d18046a4c218e33643ea8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1844360615
 GameObject:
   m_ObjectHideFlags: 0
@@ -79065,6 +79165,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3655191401367566919, guid: 9a00941d4f61fc040816a0a3b482721b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 71.29999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3655191401367566919, guid: 9a00941d4f61fc040816a0a3b482721b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -27.599976
       objectReference: {fileID: 0}
     - target: {fileID: 3655191401446257410, guid: 9a00941d4f61fc040816a0a3b482721b,
         type: 3}
