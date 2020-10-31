@@ -28,6 +28,11 @@ public class Enemy : MonoBehaviour
    
     [SerializeField] private int live;
     [SerializeField] private bool Boss;
+
+
+
+
+
     public int Live
     {
         get { return live; }
@@ -35,10 +40,12 @@ public class Enemy : MonoBehaviour
     }
     private void Awake()
     {
+      
         if (enmi == null) enmi = this;
     }
     void Start()
     {
+      
         sprite = GetComponent<SpriteRenderer>();
         Player = GameObject.FindGameObjectWithTag("Player");
         if (horizontal) startPosition = transform.position.x;
@@ -58,7 +65,7 @@ public class Enemy : MonoBehaviour
             if (actualPosition < lastPosition)
             {
                 sprite.flipX = false;
-          
+               
             }
 
             if (actualPosition > lastPosition)
