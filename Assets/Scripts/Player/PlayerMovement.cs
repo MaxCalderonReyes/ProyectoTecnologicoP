@@ -20,6 +20,8 @@ public class PlayerMovement : MonoBehaviour
     private bool Shoot=true;
     private bool ActionsCan=true;
 
+    [SerializeField] private Joystick joystick;
+
     public bool _ActionCan
     {
         get { return ActionsCan; }
@@ -86,7 +88,7 @@ public class PlayerMovement : MonoBehaviour
                        || Physics2D.Raycast((Vector2)transform.position + Vector2.right * width / 2, Vector2.down, DistanceTOGround, ground));
 
 
-            float x = Input.GetAxis("Horizontal");
+        float x = joystick.Horizontal;
             if (ActionsCan)
             {
                 rgbd.velocity = new Vector3(x * speed, rgbd.velocity.y, 0);
@@ -98,20 +100,15 @@ public class PlayerMovement : MonoBehaviour
                 {
                     playerSpri.GetComponent<SpriteRenderer>().flipX = false;
                 }
-                if (InGround)
-                {
-                    if (Input.GetKeyDown(KeyCode.Space))
-                    {
-                        SFXController.intance.OnJump();
-                        rgbd.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-                    }
-                }
-                shoot();
-                Mousepos();
-            }
 
-        
-       
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    Jump();
+                }
+
+              
+              //  Mousepos();
+            }
 
 
 
@@ -124,23 +121,33 @@ public class PlayerMovement : MonoBehaviour
             musicaOver.SetActive(true);   
         }
     }
+
+    public void Jump()
+    {
+        if (InGround)
+        {
+            SFXController.intance.OnJump();
+            rgbd.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+        }
+    }
+
     private void OnDrawGizmos()
     {
         Gizmos.DrawLine(transform.position, transform.position + Vector3.down * DistanceTOGround);
     }
     public void shoot()
     {
-        if (Input.GetMouseButtonDown(0)&&Shoot)
+        if (Shoot)
         {
             SFXController.intance.OnShoot();
          GameObject prfb=   Instantiate(prefab,transform.position,transform.rotation);
             if (!playerSpri.GetComponent<SpriteRenderer>().flipX)
             {
-                prfb.GetComponent<BullDirections>().Direction(Mousepos());
+                prfb.GetComponent<BullDirections>().Direction(Vector3.right);
             }
             else
             {
-                prfb.GetComponent<BullDirections>().Direction(Mousepos());
+                prfb.GetComponent<BullDirections>().Direction(Vector3.left);
             }
           
             prfb.GetComponent<BullDirections>().velocityShoot(15);

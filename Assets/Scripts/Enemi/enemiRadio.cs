@@ -68,18 +68,13 @@ public class enemiRadio : MonoBehaviour
 
         if (live <= 0)
         {
-            if (Boss)
-            {
+           
                 SFXController.intance.OnHurt();
+                SceneManager.LoadScene("Wheel-2");
                 Destroy(gameObject);
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            }
-            else
-            {
-                SFXController.intance.OnHurt();
-                Destroy(gameObject);
-            }
-
+               
+            
+         
         }
     }
     

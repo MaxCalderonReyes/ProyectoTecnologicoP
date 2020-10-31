@@ -9,8 +9,10 @@ public class TopDownMovement : MonoBehaviour
     private Rigidbody2D rgbd;
     [SerializeField]private float speed;
     public static TopDownMovement instancia;
+    [SerializeField] private Joystick joystick;
+
     //Guardar informacion en Jsons
-   public BaseDatosNivel Dts;
+    public BaseDatosNivel Dts;
     private string Path;
     private void Awake()
     {
@@ -37,8 +39,8 @@ public class TopDownMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float x = Input.GetAxis("Horizontal");
-        float y = Input.GetAxis("Vertical");
+        float x = joystick.Horizontal;
+        float y = joystick.Vertical;
         rgbd.velocity = new Vector2(x * speed, y * speed);
     }
     private void OnTriggerEnter2D(Collider2D collision)

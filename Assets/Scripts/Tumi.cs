@@ -10,10 +10,17 @@ public class Tumi : MonoBehaviour
     [SerializeField]private GameObject panelHistoria;
     [SerializeField]private Text textHistoria;
     [SerializeField] private String historiaNota;
+
+    [SerializeField] private GameObject joystick;
+    [SerializeField] private GameObject buttonJump;
     private bool mostrarBtn;
 
     public bool MostrarBtn { get => mostrarBtn; set => mostrarBtn = value; }
-
+    private void Awake()
+    {
+        joystick = GameObject.FindGameObjectWithTag("joystick");
+        buttonJump = GameObject.FindGameObjectWithTag("buttonJump");
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -42,11 +49,17 @@ public class Tumi : MonoBehaviour
         textHistoria.text = historiaNota;
         panelHistoria.SetActive(true);
         mostrarBtn = false;
+
+        joystick.SetActive(false);
+        buttonJump.SetActive(false);
     }
 
     public void ocultarHistoria()
     {
         panelHistoria.SetActive(false);
         textHistoria.text = "";
+
+        joystick.SetActive(true);
+        buttonJump.SetActive(true);
     }
 }
