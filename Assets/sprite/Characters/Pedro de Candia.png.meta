@@ -1,0 +1,746 @@
+fileFormatVersion: 2
+guid: 01527679353fbeb4f8e9b0a1c0eec864
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8297176959782171410
+    second: Pedro de Candia_0
+  - first:
+      213: 2195285231373501957
+    second: Pedro de Candia_1
+  - first:
+      213: 3956496113737762674
+    second: Pedro de Candia_2
+  - first:
+      213: 4189342013860063031
+    second: Pedro de Candia_3
+  - first:
+      213: 5292718515073186530
+    second: Pedro de Candia_4
+  - first:
+      213: 3002264926902892038
+    second: Pedro de Candia_0
+  - first:
+      213: -337500023096438375
+    second: Pedro de Candia_1
+  - first:
+      213: 5627436267179771
+    second: Pedro de Candia_2
+  - first:
+      213: 6358238651786969076
+    second: Pedro de Candia_5
+  - first:
+      213: 18993462724798180
+    second: Pedro de Candia_6
+  - first:
+      213: 2825355989204662101
+    second: Pedro de Candia_7
+  - first:
+      213: 8639442473923962593
+    second: Pedro de Candia_8
+  - first:
+      213: -6356671335743030426
+    second: Pedro de Candia_9
+  - first:
+      213: 5106620082947924434
+    second: Pedro de Candia_10
+  - first:
+      213: -3421721998754446621
+    second: Pedro de Candia_11
+  - first:
+      213: -5274825542628450864
+    second: Pedro de Candia_12
+  - first:
+      213: 1259601965904924048
+    second: Pedro de Candia_13
+  - first:
+      213: -3061295387061021366
+    second: Pedro de Candia_14
+  - first:
+      213: -5944807864014606179
+    second: Pedro de Candia_15
+  - first:
+      213: 513759523382718199
+    second: Pedro de Candia_16
+  - first:
+      213: 8846506682722030234
+    second: Pedro de Candia_17
+  - first:
+      213: 2173941160679219207
+    second: Pedro de Candia_18
+  - first:
+      213: 8832446068201796381
+    second: Pedro de Candia_19
+  - first:
+      213: 3112498003850698078
+    second: Pedro de Candia_20
+  - first:
+      213: 7317082135032600402
+    second: Pedro de Candia_21
+  - first:
+      213: -1246894362216023861
+    second: Pedro de Candia_22
+  - first:
+      213: -5745962264234078714
+    second: Pedro de Candia_23
+  - first:
+      213: -7382682008188935052
+    second: Pedro de Candia_24
+  - first:
+      213: 2460068241514269258
+    second: Pedro de Candia_25
+  - first:
+      213: -6156255470792045984
+    second: Pedro de Candia_26
+  - first:
+      213: 5127659602941228158
+    second: Pedro de Candia_27
+  - first:
+      213: 4425844600991400796
+    second: Pedro de Candia_28
+  - first:
+      213: -4742744463908086423
+    second: Pedro de Candia_29
+  - first:
+      213: -7899764046503333968
+    second: Pedro de Candia_30
+  - first:
+      213: -221835105051148047
+    second: Pedro de Candia_31
+  - first:
+      213: -3652401500385523475
+    second: Pedro de Candia_32
+  - first:
+      213: -5782140001688350908
+    second: Pedro de Candia_33
+  - first:
+      213: -7810623902118073215
+    second: Pedro de Candia_34
+  - first:
+      213: -1080357350887385473
+    second: Pedro de Candia_35
+  - first:
+      213: -6975279435553552062
+    second: Pedro de Candia_36
+  - first:
+      213: 9009325482148286981
+    second: Pedro de Candia_37
+  - first:
+      213: 3287587346034140179
+    second: Pedro de Candia_38
+  - first:
+      213: 3679494570227199980
+    second: Pedro de Candia_39
+  - first:
+      213: 1846821142458506202
+    second: Pedro de Candia_40
+  - first:
+      213: -7045050394670125633
+    second: Pedro de Candia_41
+  - first:
+      213: -316893225184267829
+    second: Pedro de Candia_42
+  - first:
+      213: -6638835449635665288
+    second: Pedro de Candia_43
+  - first:
+      213: 575219884908571047
+    second: Pedro de Candia_44
+  - first:
+      213: -3075012354345492296
+    second: Pedro de Candia_45
+  - first:
+      213: -3006425002575982118
+    second: Pedro de Candia_46
+  - first:
+      213: 8565993713361790094
+    second: Pedro de Candia_47
+  - first:
+      213: 4276113437725717767
+    second: Pedro de Candia_48
+  - first:
+      213: 3605060915423955711
+    second: Pedro de Candia_49
+  - first:
+      213: 4521676451324497946
+    second: Pedro de Candia_50
+  - first:
+      213: 2936625417742298971
+    second: Pedro de Candia_51
+  - first:
+      213: 4260311909228990335
+    second: Pedro de Candia_52
+  - first:
+      213: -5182033680792654332
+    second: Pedro de Candia_53
+  - first:
+      213: 2846109583405357286
+    second: Pedro de Candia_54
+  - first:
+      213: -8651603026537497499
+    second: Pedro de Candia_55
+  - first:
+      213: 8552816693171383432
+    second: Pedro de Candia_56
+  - first:
+      213: -8384045266743499602
+    second: Pedro de Candia_57
+  - first:
+      213: -8867494951608245813
+    second: Pedro de Candia_58
+  - first:
+      213: 2523214246546886850
+    second: Pedro de Candia_59
+  - first:
+      213: -8216692887807780947
+    second: Pedro de Candia_60
+  - first:
+      213: -1031679527912495038
+    second: Pedro de Candia_61
+  - first:
+      213: 5938114214989702646
+    second: Pedro de Candia_62
+  - first:
+      213: -3696926247502923717
+    second: Pedro de Candia_63
+  - first:
+      213: -414475552019301070
+    second: Pedro de Candia_64
+  - first:
+      213: -5249514013564284795
+    second: Pedro de Candia_65
+  - first:
+      213: 6664098007724798333
+    second: Pedro de Candia_66
+  - first:
+      213: -4032292807768147579
+    second: Pedro de Candia_67
+  - first:
+      213: -8316637674386546113
+    second: Pedro de Candia_68
+  - first:
+      213: 8678745257702753935
+    second: Pedro de Candia_69
+  - first:
+      213: -8926297974558196058
+    second: Pedro de Candia_70
+  - first:
+      213: 4927753514304850724
+    second: Pedro de Candia_71
+  - first:
+      213: -7543959503594254828
+    second: Pedro de Candia_72
+  - first:
+      213: -8647921618619905332
+    second: Pedro de Candia_73
+  - first:
+      213: -2662745460014754250
+    second: Pedro de Candia_74
+  - first:
+      213: -6450400452191347524
+    second: Pedro de Candia_75
+  - first:
+      213: -1861645604484314118
+    second: Pedro de Candia_76
+  - first:
+      213: 6220172212701045647
+    second: Pedro de Candia_77
+  - first:
+      213: 2035027114496199797
+    second: Pedro de Candia_78
+  - first:
+      213: -2542128882386135931
+    second: Pedro de Candia_79
+  - first:
+      213: -6006040288429285560
+    second: Pedro de Candia_80
+  - first:
+      213: 4324011411313125757
+    second: Pedro de Candia_81
+  - first:
+      213: -7480170157613866004
+    second: Pedro de Candia_82
+  - first:
+      213: 1799452334895778930
+    second: Pedro de Candia_83
+  - first:
+      213: 6380852701792220351
+    second: Pedro de Candia_84
+  - first:
+      213: 665503392917803447
+    second: Pedro de Candia_85
+  - first:
+      213: -345153746352054677
+    second: Pedro de Candia_86
+  - first:
+      213: -3186964296610416484
+    second: Pedro de Candia_87
+  - first:
+      213: -3676361726039018518
+    second: Pedro de Candia_88
+  - first:
+      213: -3249815110312649146
+    second: Pedro de Candia_89
+  - first:
+      213: -3847342629541517533
+    second: Pedro de Candia_90
+  - first:
+      213: -5669092840366447609
+    second: Pedro de Candia_91
+  - first:
+      213: 1400117588807739158
+    second: Pedro de Candia_92
+  - first:
+      213: -1463652355602256455
+    second: Pedro de Candia_93
+  - first:
+      213: 8184034673386549720
+    second: Pedro de Candia_94
+  - first:
+      213: 8297739547058809726
+    second: Pedro de Candia_95
+  - first:
+      213: -7832800969388484335
+    second: Pedro de Candia_96
+  - first:
+      213: 2045273147927088570
+    second: Pedro de Candia_97
+  - first:
+      213: -4451600705807575114
+    second: Pedro de Candia_98
+  - first:
+      213: -2023090728946442800
+    second: Pedro de Candia_99
+  - first:
+      213: -4921205180746546610
+    second: Pedro de Candia_100
+  - first:
+      213: -6501340929042107377
+    second: Pedro de Candia_101
+  - first:
+      213: 7989234852593188145
+    second: Pedro de Candia_102
+  - first:
+      213: 1170920579400851196
+    second: Pedro de Candia_103
+  - first:
+      213: 7207309140579426078
+    second: Pedro de Candia_104
+  - first:
+      213: 1905834305671671607
+    second: Pedro de Candia_105
+  - first:
+      213: 8533543880725568796
+    second: Pedro de Candia_106
+  - first:
+      213: 4137087363562892859
+    second: Pedro de Candia_107
+  - first:
+      213: 4524969070229596012
+    second: Pedro de Candia_108
+  - first:
+      213: 2249013270046197682
+    second: Pedro de Candia_109
+  - first:
+      213: -3889260226902563766
+    second: Pedro de Candia_110
+  - first:
+      213: -4994768371383574596
+    second: Pedro de Candia_111
+  - first:
+      213: 7473557723880402170
+    second: Pedro de Candia_112
+  - first:
+      213: 1615865856231456214
+    second: Pedro de Candia_113
+  - first:
+      213: 6411754372969286708
+    second: Pedro de Candia_114
+  - first:
+      213: -7367503078293928194
+    second: Pedro de Candia_115
+  - first:
+      213: -4845049361849273655
+    second: Pedro de Candia_116
+  - first:
+      213: 3647009571324018666
+    second: Pedro de Candia_117
+  - first:
+      213: 7591876683699828858
+    second: Pedro de Candia_118
+  - first:
+      213: 8092547061019942436
+    second: Pedro de Candia_119
+  - first:
+      213: -5547322984330901377
+    second: Pedro de Candia_120
+  - first:
+      213: 1566110595093266924
+    second: Pedro de Candia_121
+  - first:
+      213: -8203081879355496773
+    second: Pedro de Candia_122
+  - first:
+      213: -40668235537745067
+    second: Pedro de Candia_123
+  - first:
+      213: -514048220344659900
+    second: Pedro de Candia_124
+  - first:
+      213: 4827785990975666547
+    second: Pedro de Candia_125
+  - first:
+      213: 5061677028592034211
+    second: Pedro de Candia_126
+  - first:
+      213: 3998595854829932438
+    second: Pedro de Candia_127
+  - first:
+      213: 2733488869487067099
+    second: Pedro de Candia_128
+  - first:
+      213: -5954338026556377794
+    second: Pedro de Candia_129
+  - first:
+      213: 7083779369470764379
+    second: Pedro de Candia_130
+  - first:
+      213: -7986108482458854058
+    second: Pedro de Candia_131
+  - first:
+      213: -5467108002667251664
+    second: Pedro de Candia_132
+  - first:
+      213: 9021098947262145158
+    second: Pedro de Candia_133
+  - first:
+      213: -9091521512261727168
+    second: Pedro de Candia_134
+  - first:
+      213: 7256477866181068747
+    second: Pedro de Candia_135
+  - first:
+      213: -2638695696495831404
+    second: Pedro de Candia_136
+  - first:
+      213: -6629789429703928526
+    second: Pedro de Candia_137
+  - first:
+      213: -877018733301884808
+    second: Pedro de Candia_138
+  - first:
+      213: 8103296882450482034
+    second: Pedro de Candia_139
+  - first:
+      213: 2817649648199565123
+    second: Pedro de Candia_140
+  - first:
+      213: -2551351049868798013
+    second: Pedro de Candia_141
+  - first:
+      213: 3732801121486027339
+    second: Pedro de Candia_142
+  - first:
+      213: 8137173722640334736
+    second: Pedro de Candia_143
+  - first:
+      213: -3391450503257211124
+    second: Pedro de Candia_144
+  - first:
+      213: -8447317811299188990
+    second: Pedro de Candia_145
+  - first:
+      213: 1856139722881393665
+    second: Pedro de Candia_146
+  - first:
+      213: -1285964054957182115
+    second: Pedro de Candia_147
+  - first:
+      213: -411031090545657888
+    second: Pedro de Candia_148
+  - first:
+      213: -2322334549400924314
+    second: Pedro de Candia_149
+  - first:
+      213: -1628646888239134988
+    second: Pedro de Candia_150
+  - first:
+      213: 5894253690867974744
+    second: Pedro de Candia_151
+  - first:
+      213: 7163082434335027632
+    second: Pedro de Candia_152
+  - first:
+      213: -5581135431047408150
+    second: Pedro de Candia_153
+  - first:
+      213: 1520773059744910148
+    second: Pedro de Candia_154
+  - first:
+      213: 1705164390148814992
+    second: Pedro de Candia_155
+  - first:
+      213: 2393961244748764722
+    second: Pedro de Candia_156
+  - first:
+      213: 2076036187452944066
+    second: Pedro de Candia_157
+  - first:
+      213: 8913414087460437513
+    second: Pedro de Candia_158
+  - first:
+      213: 8197334080820002943
+    second: Pedro de Candia_159
+  - first:
+      213: -1005284880880339804
+    second: Pedro de Candia_160
+  - first:
+      213: 3773526728509456559
+    second: Pedro de Candia_161
+  - first:
+      213: 9136369211787058505
+    second: Pedro de Candia_162
+  - first:
+      213: 802170985126912483
+    second: Pedro de Candia_163
+  - first:
+      213: -7914057368632991870
+    second: Pedro de Candia_164
+  - first:
+      213: 3290370292129326819
+    second: Pedro de Candia_165
+  - first:
+      213: -7303308795716068019
+    second: Pedro de Candia_166
+  - first:
+      213: 1730117429588168729
+    second: Pedro de Candia_167
+  - first:
+      213: 245398605895059777
+    second: Pedro de Candia_168
+  - first:
+      213: -2522983203720648910
+    second: Pedro de Candia_169
+  - first:
+      213: -6679977427328532562
+    second: Pedro de Candia_170
+  - first:
+      213: -4143708908062651396
+    second: Pedro de Candia_171
+  - first:
+      213: -5707894383636676202
+    second: Pedro de Candia_172
+  - first:
+      213: 4633771731646397603
+    second: Pedro de Candia_173
+  - first:
+      213: 2073255680192709267
+    second: Pedro de Candia_174
+  - first:
+      213: 2806994931542656318
+    second: Pedro de Candia_175
+  - first:
+      213: -1278808640505106180
+    second: Pedro de Candia_176
+  - first:
+      213: -4063225313928877593
+    second: Pedro de Candia_177
+  - first:
+      213: -2097968804619425154
+    second: Pedro de Candia_178
+  - first:
+      213: -5586744899949957124
+    second: Pedro de Candia_179
+  - first:
+      213: 9177395197493983927
+    second: Pedro de Candia_180
+  - first:
+      213: 8846625153292787711
+    second: Pedro de Candia_181
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pedro de Candia_0
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 228
+        width: 225
+        height: 548
+      alignment: 9
+      pivot: {x: 0.56037897, y: 0.5836688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60639a95b003aa920800000000000000
+      internalID: 3002264926902892038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro de Candia_1
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 228
+        width: 223
+        height: 738
+      alignment: 9
+      pivot: {x: 0.5685356, y: 0.43557036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99196a36485f05bf0800000000000000
+      internalID: -337500023096438375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro de Candia_2
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 228
+        width: 440
+        height: 548
+      alignment: 9
+      pivot: {x: 0.7933211, y: 0.58986694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe83bb9f1ef31000800000000000000
+      internalID: 5627436267179771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

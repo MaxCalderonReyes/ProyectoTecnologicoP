@@ -18,6 +18,8 @@ TagManager:
   - BOSS2
   - joystick
   - buttonJump
+  - PedroDeCandia
+  - "bullCa\xF1onero"
   layers:
   - Default
   - TransparentFX
