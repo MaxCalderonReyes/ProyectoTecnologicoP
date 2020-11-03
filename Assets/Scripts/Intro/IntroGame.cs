@@ -11,6 +11,8 @@ public class IntroGame : MonoBehaviour
     private bool InIntro=false;
     private bool JustLook=false;
     [SerializeField]private bool Mcamera;
+    public static IntroGame intance;
+
     public bool _IntroGame
     {
         get { return InIntro; }
@@ -24,7 +26,7 @@ public class IntroGame : MonoBehaviour
     void Start()
     {
         brain = GetComponent<CinemachineVirtualCamera>();
-       
+        intance = this;
     }
 
     // Update is called once per frame
@@ -46,11 +48,13 @@ public class IntroGame : MonoBehaviour
         {
             brain.Follow = FollowIntro.transform;
             PlayerMovement.instancie._ActionCan = false;
+           
         }
         if (!InIntro)
         {
             brain.Follow = PlayerMovement.instancie.transform;
             PlayerMovement.instancie._ActionCan = true;
+            Omitir.instance.desactivar();
         }
 
     }
@@ -65,5 +69,11 @@ public class IntroGame : MonoBehaviour
         {
             brain.Follow = PlayerMovement.instancie.transform;
         }
+    }
+
+    public void omitir()
+    {
+        InIntro = false;
+
     }
 }
