@@ -74,6 +74,6 @@ public class IntroGame : MonoBehaviour
     public void omitir()
     {
         InIntro = false;
-
+        JustLook = false;
     }
 }

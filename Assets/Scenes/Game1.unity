@@ -5538,6 +5538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Omitir_: {fileID: 1447908227}
+  Omitir2: {fileID: 1266490669}
 --- !u!4 &1810882888
 Transform:
   m_ObjectHideFlags: 0
