@@ -151,8 +151,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 12442896}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 100.035614, y: -28.318783, z: 2.1743479}
-  m_LocalScale: {x: 1.6827, y: 1.6827, z: 1.6827}
+  m_LocalPosition: {x: 99.85, y: -26.79, z: 2.1743479}
+  m_LocalScale: {x: -1.6827, y: 1.6827, z: 1.6827}
   m_Children:
   - {fileID: 1972867121}
   m_Father: {fileID: 0}
@@ -192,18 +192,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.06300193}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2111553, y: 1.9764512}
+    oldSize: {x: 1.21, y: 3.76}
     newSize: {x: 15.2, y: 24.804462}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2111553, y: 1.9764512}
+  m_Size: {x: 1.21, y: 3.6339965}
   m_EdgeRadius: 0
 --- !u!114 &12442900
 MonoBehaviour:
@@ -265,9 +265,10 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6a87c01d793e76849a4a563d05b39734, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_FlipX: 1
+  m_Sprite: {fileID: 7177697156808761250, guid: 0aba3307f0046064fac1f43ea490842d,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 15.2, y: 24.804462}
@@ -308,7 +309,7 @@ Animator:
   m_GameObject: {fileID: 12442896}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3404f80e79c7ee54bbe3186011052cd0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3264,6 +3265,7 @@ GameObject:
   - component: {fileID: 1018586068}
   - component: {fileID: 1018586066}
   - component: {fileID: 1018586067}
+  - component: {fileID: 1018586069}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3331,7 +3333,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 555d4cd82df7cf646bcec02e0dae205b, type: 3}
+  m_Sprite: {fileID: 659797372610145418, guid: f5331d59057061e42bd5adb78b7a7161, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3399,7 +3401,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2109375, y: 2.001614}
+    oldSize: {x: 1.068, y: 1.98}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3520,6 +3522,25 @@ MonoBehaviour:
   dieSound: {fileID: 0}
   shootSound: {fileID: 8300000, guid: c12f3665dbbe0cb44a09dc7ebb6d71fc, type: 3}
   jump: {fileID: 8300000, guid: 1faba67401f1bbe498039c9dfb530335, type: 3}
+--- !u!95 &1018586069
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018586061}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 80d3502512f27d246adc2c6f04450649, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1051865504
 GameObject:
   m_ObjectHideFlags: 0
@@ -79292,6 +79313,16 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 2187994276242228747, guid: 1c9d2decae1053c44aa30a4a9cb174c0,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 100.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2187994276242228747, guid: 1c9d2decae1053c44aa30a4a9cb174c0,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -24.51
+      objectReference: {fileID: 0}
     - target: {fileID: 2187994277697215130, guid: 1c9d2decae1053c44aa30a4a9cb174c0,
         type: 3}
       propertyPath: m_AnchorMax.x
