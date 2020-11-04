@@ -140,5 +140,10 @@ public class Enemy : MonoBehaviour
         {
             live -= 0;
         }
+        if (collision.CompareTag("bullCañonero"))
+        {
+            live -= 1;
+            Destroy(collision.gameObject);
+        }
     }
 }

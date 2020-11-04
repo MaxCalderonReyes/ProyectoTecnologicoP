@@ -72,9 +72,7 @@ public class enemiRadio : MonoBehaviour
                 SFXController.intance.OnHurt();
                 SceneManager.LoadScene("Wheel-2");
                 Destroy(gameObject);
-               
-            
-         
+                  
         }
     }
     

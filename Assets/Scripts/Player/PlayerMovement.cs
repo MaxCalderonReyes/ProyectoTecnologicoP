@@ -212,6 +212,11 @@ public class PlayerMovement : MonoBehaviour
         {
             other.gameObject.GetComponent<Tumi>().MostrarBtn = false;
         }
+
+        if (other.CompareTag("PedroDeCandia"))
+        {
+            other.gameObject.GetComponent<PedroDeCandia>().ActivarAtaque = true;
+        }
     }
     IEnumerator canShoot()
     {
