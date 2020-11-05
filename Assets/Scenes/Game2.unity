@@ -1856,6 +1856,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2187994276242228746, guid: 1c9d2decae1053c44aa30a4a9cb174c0,
+        type: 3}
+      propertyPath: m_MaxValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2187994276242228746, guid: 1c9d2decae1053c44aa30a4a9cb174c0,
+        type: 3}
+      propertyPath: m_Value
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2187994276242228747, guid: 1c9d2decae1053c44aa30a4a9cb174c0,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -4795,6 +4805,7 @@ MonoBehaviour:
   Radio: 15.09
   live: 10
   Boss: 0
+  slider: {fileID: 427957653}
 --- !u!212 &936781281
 SpriteRenderer:
   m_ObjectHideFlags: 0

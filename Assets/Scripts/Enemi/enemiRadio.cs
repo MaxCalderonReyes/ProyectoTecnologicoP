@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class enemiRadio : MonoBehaviour
 {
@@ -18,7 +19,8 @@ public class enemiRadio : MonoBehaviour
     private Vector2 _posLastFrame;
     [SerializeField] private int live;
     [SerializeField] private bool Boss;
-    // Start is called before the first frame update
+
+    [SerializeField]private Slider slider;
 
     private void Awake()
     {
@@ -46,7 +48,7 @@ public class enemiRadio : MonoBehaviour
   
     void Update()
     {
-
+        slider.value = Live;
          Physics2D.Raycast((Vector2)transform.position + Vector2.right  / 2, Vector2.down, ground);
         Vector3 target = inicioPosition;
         float dist = Vector3.Distance(player.transform.position, transform.position);
