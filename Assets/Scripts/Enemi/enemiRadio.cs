@@ -48,13 +48,13 @@ public class enemiRadio : MonoBehaviour
   
     void Update()
     {
-<<<<<<< HEAD
+// HEAD
 
          Physics2D.Raycast((Vector2)transform.position + Vector2.right  / 2, Vector2.right, ground);
-=======
+//
         slider.value = Live;
          Physics2D.Raycast((Vector2)transform.position + Vector2.right  / 2, Vector2.down, ground);
->>>>>>> f68e9bcbc19315d20e9f1e6069c9f7f8f98b897c
+// f68e9bcbc19315d20e9f1e6069c9f7f8f98b897c
         Vector3 target = inicioPosition;
         float dist = Vector3.Distance(player.transform.position, transform.position);
         transform.position = new Vector2( transform.position.x, Mathf.Clamp(transform.position.y, minY, maxY)); 
