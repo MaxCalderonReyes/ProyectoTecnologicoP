@@ -4720,7 +4720,6 @@ GameObject:
   m_Component:
   - component: {fileID: 936781277}
   - component: {fileID: 936781281}
-  - component: {fileID: 936781282}
   - component: {fileID: 936781280}
   - component: {fileID: 936781279}
   - component: {fileID: 936781278}
@@ -4809,7 +4808,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ground:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   _damage: 5.85
   speedy: 3.86
   Radio: 15.09
@@ -4867,24 +4866,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &936781282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 936781276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a529494182ea8b41a618e1493f64699, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  BullDirection:
-  - {x: 2.27, y: 0.45, z: 0}
-  - {x: 0.72, y: 0.9, z: 0}
-  bala: {fileID: 1289040670002056456, guid: 29341bdda27d3c44ea9f9386fc06c0b2, type: 3}
-  Charge: 35
-  defensa: 0
 --- !u!82 &936781283
 AudioSource:
   m_ObjectHideFlags: 0

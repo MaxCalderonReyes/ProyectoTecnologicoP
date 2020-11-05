@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Bross : MonoBehaviour
 {
@@ -25,7 +26,7 @@ public class Bross : MonoBehaviour
     // Start is called before the first frame update
     //Vida del enemigo
     public static Bross enmi;
-   
+    [SerializeField]private Slider slider;
     [SerializeField] private int live;
     public int Live
     {
@@ -47,6 +48,7 @@ public class Bross : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        slider.value = live;
         SoldierEF();
         counter += Time.deltaTime * speed;
 
