@@ -107,8 +107,8 @@ public class PlayerMovement : MonoBehaviour
                 Jump();
                 }
 
-                shoot();
-                Mousepos();
+              
+              //  Mousepos();
             }
 
 
@@ -139,17 +139,17 @@ public class PlayerMovement : MonoBehaviour
     }
     public void shoot()
     {
-        if (Input.GetMouseButtonDown(0)&&Shoot)
+        if (Shoot)
         {
            
          GameObject prfb=   Instantiate(prefab,transform.position,transform.rotation);
             if (!playerSpri.GetComponent<SpriteRenderer>().flipX)
             {
-                prfb.GetComponent<BullDirections>().Direction(Mousepos());
+                prfb.GetComponent<BullDirections>().Direction(Vector3.right);
             }
             else
             {
-                prfb.GetComponent<BullDirections>().Direction(Mousepos());
+                prfb.GetComponent<BullDirections>().Direction(Vector3.left);
             }
           
             prfb.GetComponent<BullDirections>().velocityShoot(15);

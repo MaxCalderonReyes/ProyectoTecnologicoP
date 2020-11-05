@@ -45,6 +45,10 @@ public class BullDirections : MonoBehaviour
         }
         if (collision.gameObject.tag == "Enemy"&&!Enemi)
         {
+           
+        }
+        if (collision.gameObject.layer == 8)
+        {
             Destroy(gameObject);
         }
       

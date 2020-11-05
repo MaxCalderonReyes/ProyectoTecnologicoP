@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BOSS : MonoBehaviour
 {
@@ -16,6 +17,8 @@ public class BOSS : MonoBehaviour
    
     private float SecuenciaHabilidades;
     bool startcountAtack;
+    [SerializeField]private Slider slider;
+   [SerializeField] private Enemy boss;
     private void Awake()
     {
         if (instancia == null) instancia = this;
@@ -30,8 +33,8 @@ public class BOSS : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        slider.value = boss.Live;
 
-      
             SecuenciaHabilidades += Time.deltaTime;
 
        
