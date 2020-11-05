@@ -4741,7 +4741,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 936781276}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 29.21, y: -59.39, z: 2.1743479}
+  m_LocalPosition: {x: 29.21, y: -59.1, z: 2.1743479}
   m_LocalScale: {x: 1.3614459, y: 1.3614459, z: 1.3614459}
   m_Children:
   - {fileID: 427957652}
@@ -4811,8 +4811,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   _damage: 5.85
-  minY: 0
-  maxY: 0
   speedy: 3.86
   Radio: 15.09
   live: 10
