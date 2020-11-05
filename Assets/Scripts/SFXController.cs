@@ -8,7 +8,7 @@ public class SFXController : MonoBehaviour
     public GameObject hurtSound;
     public AudioClip dieSound;
     public AudioClip shootSound;
-    public AudioClip jump;
+    public GameObject jump;
     private AudioSource _audioSource;
 
     public static SFXController intance;
@@ -17,6 +17,7 @@ public class SFXController : MonoBehaviour
     private void Awake()
     {
         hurtSound.SetActive(false);
+        jump.SetActive(false);
         intance = this;
         _audioSource = GetComponent<AudioSource>();
     }
@@ -37,7 +38,11 @@ public class SFXController : MonoBehaviour
     }
     public void OnJump()
     {
-        if (jump != null) _audioSource.PlayOneShot(jump);
+        jump.SetActive(true);
+    }
+    public void OffJump()
+    {
+        jump.SetActive(false);
     }
 }
 

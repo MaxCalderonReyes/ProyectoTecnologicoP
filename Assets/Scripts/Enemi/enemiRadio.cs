@@ -7,7 +7,7 @@ public class enemiRadio : MonoBehaviour
 {
 
     [SerializeField] private LayerMask ground;
-    public float _damage;
+    public float _damage ,minY, maxY;
     public float speedy;
     public float Radio;
     private GameObject player;
@@ -47,10 +47,10 @@ public class enemiRadio : MonoBehaviour
     void Update()
     {
 
-         Physics2D.Raycast((Vector2)transform.position + Vector2.right  / 2, Vector2.down, ground);
+         Physics2D.Raycast((Vector2)transform.position + Vector2.right  / 2, Vector2.right, ground);
         Vector3 target = inicioPosition;
         float dist = Vector3.Distance(player.transform.position, transform.position);
-        Vector3 dir = (target - transform.position).normalized;
+        transform.position = new Vector2( transform.position.x, Mathf.Clamp(transform.position.y, minY, maxY)); 
 
 
         if (dist < Radio)

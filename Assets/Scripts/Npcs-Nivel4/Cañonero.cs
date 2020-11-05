@@ -10,10 +10,13 @@ public class Cañonero : MonoBehaviour
     private float timer;
     private bool startAttack;
     private PedroDeCandia pedroDeCandia;
+    public GameObject sonidoDisparo;
+    public static Cañonero intance;
 
 
     void Awake()
     {
+        intance = this;
         anim = GetComponent<Animator>();
         pedroDeCandia = GameObject.FindGameObjectWithTag("PedroDeCandia").GetComponent<PedroDeCandia>();
     }
@@ -21,6 +24,7 @@ public class Cañonero : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        sonidoDisparo.SetActive(false);
         timer = 1.8f;
         startAttack = false;
     }
@@ -28,6 +32,7 @@ public class Cañonero : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+     
         startAttack = pedroDeCandia.ActivarAtaque;
 
         if (startAttack)
@@ -35,16 +40,36 @@ public class Cañonero : MonoBehaviour
             timer -= Time.deltaTime;
             if (timer <= 0)
             {
+                
                 Shoot();
+                
                 anim.SetTrigger("disparar");
                 timer = 1.8f;
-            }
-        }              
+                
+
+            }             
+        }
+        
+      
+    }
+    public void descativar()
+    {
+        sonidoDisparo.SetActive(false);
+    }
+    public void activar()
+    {
+        sonidoDisparo.SetActive(true);
     }
 
     private void Shoot()
     {
+
+       
         bulletPrefab.transform.position = cañon.position;
+      
         Instantiate(bulletPrefab);
+       
     }
+
+  
 }

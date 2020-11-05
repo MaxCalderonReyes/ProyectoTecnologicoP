@@ -103,7 +103,8 @@ public class PlayerMovement : MonoBehaviour
 
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
-                    Jump();
+               // SFXController.intance.OnJump();
+                Jump();
                 }
 
                 shoot();
@@ -115,7 +116,7 @@ public class PlayerMovement : MonoBehaviour
         if (live <= 0)
         {
             vida();
-            SFXController.intance.OnHurt();
+          SFXController.intance.OnHurt();
            
             musica.SetActive(false);
             musicaOver.SetActive(true);   
@@ -126,8 +127,9 @@ public class PlayerMovement : MonoBehaviour
     {
         if (InGround)
         {
-            SFXController.intance.OnJump();
+            audio();
             rgbd.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            StartCoroutine(audio());
         }
     }
 
@@ -139,7 +141,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0)&&Shoot)
         {
-            SFXController.intance.OnShoot();
+           
          GameObject prfb=   Instantiate(prefab,transform.position,transform.rotation);
             if (!playerSpri.GetComponent<SpriteRenderer>().flipX)
             {
@@ -195,7 +197,10 @@ public class PlayerMovement : MonoBehaviour
             other.gameObject.GetComponent<Tumi>().MostrarBtn = true;
         }
 
-       
+        if (other.CompareTag("Bumeran"))
+        {
+            live -= 1;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -223,5 +228,11 @@ public class PlayerMovement : MonoBehaviour
         Shoot = false;
         yield return new WaitForSecondsRealtime(SecondsToShoot);
         Shoot = true;
+    }
+    IEnumerator audio()
+    {
+        SFXController.intance.OnJump();
+        yield return new WaitForSecondsRealtime(1);
+        SFXController.intance.OffJump();
     }
 }
