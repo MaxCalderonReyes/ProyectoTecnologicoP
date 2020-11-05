@@ -226,7 +226,9 @@ public class PlayerMovement : MonoBehaviour
     IEnumerator canShoot()
     {
         Shoot = false;
+        SFXController.intance.OnShoot();
         yield return new WaitForSecondsRealtime(SecondsToShoot);
+        SFXController.intance.OffShoot();
         Shoot = true;
     }
     IEnumerator audio()
@@ -235,4 +237,7 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSecondsRealtime(1);
         SFXController.intance.OffJump();
     }
+
+   
+
 }
