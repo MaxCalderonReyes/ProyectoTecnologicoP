@@ -103,11 +103,12 @@ public class PlayerMovement : MonoBehaviour
 
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
-                    Jump();
+               // SFXController.intance.OnJump();
+                Jump();
                 }
 
-                shoot();
-                Mousepos();
+              
+              //  Mousepos();
             }
 
 
@@ -115,7 +116,7 @@ public class PlayerMovement : MonoBehaviour
         if (live <= 0)
         {
             vida();
-            SFXController.intance.OnHurt();
+          SFXController.intance.OnHurt();
            
             musica.SetActive(false);
             musicaOver.SetActive(true);   
@@ -126,8 +127,9 @@ public class PlayerMovement : MonoBehaviour
     {
         if (InGround)
         {
-            SFXController.intance.OnJump();
+            audio();
             rgbd.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            StartCoroutine(audio());
         }
     }
 
@@ -137,17 +139,17 @@ public class PlayerMovement : MonoBehaviour
     }
     public void shoot()
     {
-        if (Input.GetMouseButtonDown(0)&&Shoot)
+        if (Shoot)
         {
-            SFXController.intance.OnShoot();
+           
          GameObject prfb=   Instantiate(prefab,transform.position,transform.rotation);
             if (!playerSpri.GetComponent<SpriteRenderer>().flipX)
             {
-                prfb.GetComponent<BullDirections>().Direction(Mousepos());
+                prfb.GetComponent<BullDirections>().Direction(Vector3.right);
             }
             else
             {
-                prfb.GetComponent<BullDirections>().Direction(Mousepos());
+                prfb.GetComponent<BullDirections>().Direction(Vector3.left);
             }
           
             prfb.GetComponent<BullDirections>().velocityShoot(15);
@@ -195,7 +197,10 @@ public class PlayerMovement : MonoBehaviour
             other.gameObject.GetComponent<Tumi>().MostrarBtn = true;
         }
 
-       
+        if (other.CompareTag("Bumeran"))
+        {
+            live -= 1;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -221,7 +226,18 @@ public class PlayerMovement : MonoBehaviour
     IEnumerator canShoot()
     {
         Shoot = false;
+        SFXController.intance.OnShoot();
         yield return new WaitForSecondsRealtime(SecondsToShoot);
+        SFXController.intance.OffShoot();
         Shoot = true;
     }
+    IEnumerator audio()
+    {
+        SFXController.intance.OnJump();
+        yield return new WaitForSecondsRealtime(1);
+        SFXController.intance.OffJump();
+    }
+
+   
+
 }
