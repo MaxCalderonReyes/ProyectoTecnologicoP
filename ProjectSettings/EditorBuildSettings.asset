@@ -48,6 +48,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Wheel-4.unity
     guid: b9db78cede492e040ad18a084e9a8656
   - enabled: 1
+    path: Assets/Scenes/Prologo-5.unity
+    guid: 56efbbcdbea0a264ea65b78b449637fd
+  - enabled: 1
+    path: Assets/Scenes/Wheel-5.unity
+    guid: 3334775631e731147ad0ab377d1a0c48
+  - enabled: 1
     path: Assets/Scenes/Win.unity
     guid: d5aa5a76b1f477341bc7605453e19d7f
   m_configObjects: {}
