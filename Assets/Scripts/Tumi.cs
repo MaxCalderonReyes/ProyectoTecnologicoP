@@ -13,6 +13,7 @@ public class Tumi : MonoBehaviour
 
     private GameObject joystick;
     private GameObject buttonJump;
+    private GameObject buttonShoot;
     private bool mostrarBtn;
 
     public bool MostrarBtn { get => mostrarBtn; set => mostrarBtn = value; }
@@ -20,6 +21,7 @@ public class Tumi : MonoBehaviour
     {
         joystick = GameObject.FindGameObjectWithTag("joystick");
         buttonJump = GameObject.FindGameObjectWithTag("buttonJump");
+        buttonShoot = GameObject.FindGameObjectWithTag("buttonShoot");
     }
     // Start is called before the first frame update
     void Start()
@@ -52,6 +54,7 @@ public class Tumi : MonoBehaviour
 
         joystick.SetActive(false);
         buttonJump.SetActive(false);
+        buttonShoot.SetActive(false);
     }
 
     public void ocultarHistoria()
@@ -61,5 +64,6 @@ public class Tumi : MonoBehaviour
 
         joystick.SetActive(true);
         buttonJump.SetActive(true);
+        buttonShoot.SetActive(true);
     }
 }

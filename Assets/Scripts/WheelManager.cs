@@ -236,4 +236,10 @@ public class WheelManager : MonoBehaviour
         LevelSucess = true;
         SceneManager.LoadScene("Museo");
     }
+
+    public void win()
+    {
+        LevelSucess = true;
+        SceneManager.LoadScene("Win");
+    }
 }

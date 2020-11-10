@@ -21,6 +21,7 @@ TagManager:
   - PedroDeCandia
   - "bullCa\xF1onero"
   - Bumeran
+  - buttonShoot
   layers:
   - Default
   - TransparentFX
