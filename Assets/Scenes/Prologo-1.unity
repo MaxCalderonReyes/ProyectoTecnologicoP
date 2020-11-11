@@ -415,8 +415,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.0000038146973}
-  m_SizeDelta: {x: 650.80414, y: 207.91193}
+  m_AnchoredPosition: {x: 0, y: -5.9739}
+  m_SizeDelta: {x: 650.80414, y: 257.0157}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &868073561
 MonoBehaviour:
@@ -454,7 +454,8 @@ MonoBehaviour:
     incaico a su m\xE1ximo esplendor, se dedic\xF3 a pacificar su imperio hasta que
     cay\xF3 enfermo de viruela y muri\xF3. Y al no tener un gobernante el imperio
     cay\xF3 en crisis.\r\n\nTe encuentras en Quito y ser\xE1s parte del ej\xE9rcito
-    de Atahualpa (hijo de Huayna C\xE1pac).\r\n"
+    de Atahualpa (hijo de Huayna C\xE1pac).\r\nLee los mensajes del Tumi te servir\xE1n
+    m\xE1s adelante."
 --- !u!222 &868073562
 CanvasRenderer:
   m_ObjectHideFlags: 0
