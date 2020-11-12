@@ -10,7 +10,7 @@ public class Rute : MonoBehaviour
     [SerializeField]private IntroGame IGame;
     [SerializeField] private Animator presentacion;
     private bool AnimacionBossFInal=false; float countFinal = 0; float countStart = 0;
-   
+    public string ANIMNAME;
     void Awake()
     {
         IGame._IntroGame = true;
@@ -43,7 +43,11 @@ public class Rute : MonoBehaviour
         if (Pactual == positions.Count-1 && Distancia<1)
         {
             AnimacionBossFInal = true;
-            presentacion.SetBool("GeneralAtoc", true);
+            if (presentacion != null)
+            {
+                presentacion.SetBool(ANIMNAME, true);
+            }
+            
             if (countFinal>5)
             {
                 IGame._IntroGame = false;
