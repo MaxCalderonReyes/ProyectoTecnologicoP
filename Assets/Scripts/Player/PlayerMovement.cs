@@ -21,7 +21,8 @@ public class PlayerMovement : MonoBehaviour
     private bool ActionsCan=true;
 
     [SerializeField] private Joystick joystick;
-
+    //Animation
+    private Animator animacionController;
     public bool _ActionCan
     {
         get { return ActionsCan; }
@@ -68,7 +69,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-       
+        animacionController = GetComponent<Animator>();
         musicaOver.SetActive(false);
         playerSpri = GameObject.FindGameObjectWithTag("Player");
 
@@ -86,20 +87,37 @@ public class PlayerMovement : MonoBehaviour
        
             InGround = (Physics2D.Raycast(transform.position, Vector2.down, DistanceTOGround, ground) || Physics2D.Raycast((Vector2)transform.position + Vector2.left * width / 2, Vector2.down, DistanceTOGround, ground)
                        || Physics2D.Raycast((Vector2)transform.position + Vector2.right * width / 2, Vector2.down, DistanceTOGround, ground));
-
-
+        //Flujo de animaciones dependiendo de la velocidad del palyer (se usa blend three)0
+        animacionController.SetFloat("Walk", Mathf.Abs(rgbd.velocity.x / speed));
+        animacionController.SetFloat("Jump", rgbd.velocity.y / speed);
+        animacionController.SetBool("OnGround",InGround);
+        ////////////////////////
         float x = joystick.Horizontal;
             if (ActionsCan)
             {
                 rgbd.velocity = new Vector3(x * speed, rgbd.velocity.y, 0);
+            animacionController.SetFloat("Walk", Mathf.Abs( rgbd.velocity.x/speed));
                 if (x < 0)
                 {
-                    playerSpri.GetComponent<SpriteRenderer>().flipX = true;
+                
+                
+                
+                playerSpri.GetComponent<SpriteRenderer>().flipX = true;
                 }
-                else
+                else if(x>0)
                 {
+               
+                 
+                
+               
                     playerSpri.GetComponent<SpriteRenderer>().flipX = false;
-                }
+                }else if (x == 0)
+            {
+                
+                
+                
+              
+            }
 
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
@@ -124,13 +142,17 @@ public class PlayerMovement : MonoBehaviour
     }
 
     public void Jump()
+
     {
+     
         if (InGround)
         {
             audio();
             rgbd.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             StartCoroutine(audio());
+
         }
+       
     }
 
     private void OnDrawGizmos()
@@ -234,7 +256,9 @@ public class PlayerMovement : MonoBehaviour
     IEnumerator audio()
     {
         SFXController.intance.OnJump();
+     
         yield return new WaitForSecondsRealtime(1);
+   
         SFXController.intance.OffJump();
     }
 

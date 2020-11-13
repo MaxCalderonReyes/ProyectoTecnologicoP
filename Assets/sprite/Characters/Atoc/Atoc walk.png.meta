@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: 0aba3307f0046064fac1f43ea490842d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5109064670890321831
+    second: Atoc walk_0
+  - first:
+      213: -4949620398222081513
+    second: Atoc walk_1
+  - first:
+      213: -1018860232849982718
+    second: Atoc walk_2
+  - first:
+      213: 7177697156808761250
+    second: Atoc walk_3
+  - first:
+      213: -339917648559005732
+    second: Atoc walk_4
+  - first:
+      213: -721853147102310191
+    second: Atoc walk_5
+  - first:
+      213: 1711061987525067908
+    second: Atoc walk_6
+  - first:
+      213: 7825479904269139967
+    second: Atoc walk_7
+  - first:
+      213: -4149662659202289599
+    second: Atoc walk_8
+  - first:
+      213: 8859483612163487682
+    second: Atoc walk_9
+  - first:
+      213: -2078434778190542188
+    second: Atoc walk_10
+  - first:
+      213: -4821925108961918389
+    second: Atoc walk_11
+  - first:
+      213: -8204476158018588004
+    second: Atoc walk_12
+  - first:
+      213: -6474370401433549802
+    second: Atoc walk_13
+  - first:
+      213: 3331001891239208599
+    second: Atoc walk_14
+  - first:
+      213: -9022687941432858622
+    second: Atoc walk_15
+  - first:
+      213: 8042481510936527842
+    second: Atoc walk_16
+  - first:
+      213: -2265771939798562228
+    second: Atoc walk_17
+  - first:
+      213: 8987642731731288547
+    second: Atoc walk_18
+  - first:
+      213: -6221251220990850830
+    second: Atoc walk_19
+  - first:
+      213: 7305744610315571804
+    second: Atoc walk_20
+  - first:
+      213: 1013554784322757511
+    second: Atoc walk_21
+  - first:
+      213: 1609526374313958663
+    second: Atoc walk_22
+  - first:
+      213: 3238944501382515389
+    second: Atoc walk_23
+  - first:
+      213: -1130417757463054156
+    second: Atoc walk_24
+  - first:
+      213: 2373528959272134748
+    second: Atoc walk_25
+  - first:
+      213: -2722017883573822729
+    second: Atoc walk_26
+  - first:
+      213: -6459629578202377611
+    second: Atoc walk_27
+  - first:
+      213: 486006962036003000
+    second: Atoc walk_28
+  - first:
+      213: 968934729819430015
+    second: Atoc walk_29
+  - first:
+      213: 2039484861021500606
+    second: Atoc walk_30
+  - first:
+      213: -1533641871233220666
+    second: Atoc walk_31
+  - first:
+      213: -1893256088905360151
+    second: Atoc walk_32
+  - first:
+      213: -1305207653576292876
+    second: Atoc walk_33
+  - first:
+      213: -2494305710655619167
+    second: Atoc walk_34
+  - first:
+      213: -1886715955633342687
+    second: Atoc walk_35
+  - first:
+      213: 585275300766616141
+    second: Atoc walk_36
+  - first:
+      213: 7192983095747448886
+    second: Atoc walk_37
+  - first:
+      213: -2575884518938935437
+    second: Atoc walk_38
+  - first:
+      213: 3066004974756189784
+    second: Atoc walk_39
+  - first:
+      213: 2452692158189116899
+    second: Atoc walk_40
+  - first:
+      213: 2622681712594046038
+    second: Atoc walk_41
+  - first:
+      213: 3955531898251048891
+    second: Atoc walk_42
+  - first:
+      213: -8826149673065861339
+    second: Atoc walk_43
+  - first:
+      213: -175516843115318233
+    second: Atoc walk_44
+  - first:
+      213: 414055409115774320
+    second: Atoc walk_45
+  - first:
+      213: 7682167662236592971
+    second: Atoc walk_46
+  - first:
+      213: 3077902060867274363
+    second: Atoc walk_47
+  - first:
+      213: 6990712365532016904
+    second: Atoc walk_48
+  - first:
+      213: 1562546185754393723
+    second: Atoc walk_49
+  - first:
+      213: 3413879448344065640
+    second: Atoc walk_50
+  - first:
+      213: 3316568602275041417
+    second: Atoc walk_51
+  - first:
+      213: 5077206147211852388
+    second: Atoc walk_52
+  - first:
+      213: 8547381673389660069
+    second: Atoc walk_53
+  - first:
+      213: -1383863738863528412
+    second: Atoc walk_54
+  - first:
+      213: -883007198008160733
+    second: Atoc walk_55
+  - first:
+      213: -769307872471425883
+    second: Atoc walk_56
+  - first:
+      213: 7106026997917376527
+    second: Atoc walk_57
+  - first:
+      213: 4600192232503807634
+    second: Atoc walk_58
+  - first:
+      213: 1499861336595730976
+    second: Atoc walk_59
+  - first:
+      213: -2267978558571466779
+    second: Atoc walk_60
+  - first:
+      213: 2327123323854248860
+    second: Atoc walk_61
+  - first:
+      213: 7716555130578109779
+    second: Atoc walk_62
+  - first:
+      213: -2243227053788677560
+    second: Atoc walk_63
+  - first:
+      213: -9225106895116237
+    second: Atoc walk_64
+  - first:
+      213: 6725911022180215278
+    second: Atoc walk_65
+  - first:
+      213: -8981794404377101474
+    second: Atoc walk_66
+  - first:
+      213: 7023498753579326794
+    second: Atoc walk_67
+  - first:
+      213: -2093558310491893399
+    second: Atoc walk_68
+  - first:
+      213: 1136451705031309773
+    second: Atoc walk_69
+  - first:
+      213: 3964855462228506144
+    second: Atoc walk_70
+  - first:
+      213: -353016046197639054
+    second: Atoc walk_71
+  - first:
+      213: -1651082856622252625
+    second: Atoc walk_72
+  - first:
+      213: -597812773781857313
+    second: Atoc walk_73
+  - first:
+      213: -264280379846900586
+    second: Atoc walk_74
+  - first:
+      213: 3304239939865157676
+    second: Atoc walk_75
+  - first:
+      213: -2488753250137610370
+    second: Atoc walk_76
+  - first:
+      213: 8173753357090611801
+    second: Atoc walk_77
+  - first:
+      213: -5433512758648782897
+    second: Atoc walk_78
+  - first:
+      213: -4854612994836827187
+    second: Atoc walk_79
+  - first:
+      213: -6633321965344369326
+    second: Atoc walk_80
+  - first:
+      213: -2124187436425856804
+    second: Atoc walk_81
+  - first:
+      213: 1701965411628929337
+    second: Atoc walk_82
+  - first:
+      213: -6654649448204388324
+    second: Atoc walk_83
+  - first:
+      213: -9143081556441378528
+    second: Atoc walk_84
+  - first:
+      213: 4794264565709848747
+    second: Atoc walk_85
+  - first:
+      213: 617048882040469608
+    second: Atoc walk_86
+  - first:
+      213: -6534913362099037160
+    second: Atoc walk_87
+  - first:
+      213: -244584415963819894
+    second: Atoc walk_88
+  - first:
+      213: -4923749122918559667
+    second: Atoc walk_89
+  - first:
+      213: -4254213569350691799
+    second: Atoc walk_90
+  - first:
+      213: 9070448473915757486
+    second: Atoc walk_91
+  - first:
+      213: -7309882069027766908
+    second: Atoc walk_92
+  - first:
+      213: 8970252980736712572
+    second: Atoc walk_93
+  - first:
+      213: 5471524211451133072
+    second: Atoc walk_94
+  - first:
+      213: -1419807633160919986
+    second: Atoc walk_95
+  - first:
+      213: 5635815388486052141
+    second: Atoc walk_96
+  - first:
+      213: 3506865788987159454
+    second: Atoc walk_97
+  - first:
+      213: 7057581271923562390
+    second: Atoc walk_98
+  - first:
+      213: -5179024522431049107
+    second: Atoc walk_99
+  - first:
+      213: -3140387254832456412
+    second: Atoc walk_100
+  - first:
+      213: 830087600110098199
+    second: Atoc walk_101
+  - first:
+      213: 3438859445585057457
+    second: Atoc walk_102
+  - first:
+      213: 698294251907391167
+    second: Atoc walk_103
+  - first:
+      213: 672380680451717608
+    second: Atoc walk_104
+  - first:
+      213: 4484278139615913200
+    second: Atoc walk_105
+  - first:
+      213: -6539910382019755027
+    second: Atoc walk_106
+  - first:
+      213: -1787370404147566169
+    second: Atoc walk_107
+  - first:
+      213: 8989757217490280553
+    second: Atoc walk_108
+  - first:
+      213: 762630679377176098
+    second: Atoc walk_109
+  - first:
+      213: -1872871839180301944
+    second: Atoc walk_110
+  - first:
+      213: 4164327412184561162
+    second: Atoc walk_111
+  - first:
+      213: 5199781308826554140
+    second: Atoc walk_112
+  - first:
+      213: 8527869989922243139
+    second: Atoc walk_113
+  - first:
+      213: -1365511200866417928
+    second: Atoc walk_114
+  - first:
+      213: -1481813375894100931
+    second: Atoc walk_115
+  - first:
+      213: 736679326306518471
+    second: Atoc walk_116
+  - first:
+      213: 8405257759205827348
+    second: Atoc walk_117
+  - first:
+      213: 9055770638949825322
+    second: Atoc walk_118
+  - first:
+      213: -19607752782149063
+    second: Atoc walk_119
+  - first:
+      213: -7234508250640813021
+    second: Atoc walk_120
+  - first:
+      213: -8321262251436754252
+    second: Atoc walk_121
+  - first:
+      213: 349431285440489894
+    second: Atoc walk_122
+  - first:
+      213: 7107069925329666746
+    second: Atoc walk_123
+  - first:
+      213: 4978694104421074013
+    second: Atoc walk_124
+  - first:
+      213: -150474854698970929
+    second: Atoc walk_125
+  - first:
+      213: 761227855056795645
+    second: Atoc walk_126
+  - first:
+      213: 9107756285717009268
+    second: Atoc walk_127
+  - first:
+      213: -556271354697568013
+    second: Atoc walk_128
+  - first:
+      213: -2097676983237651010
+    second: Atoc walk_129
+  - first:
+      213: 5023336167472671450
+    second: Atoc walk_130
+  - first:
+      213: 6092413874538649116
+    second: Atoc walk_131
+  - first:
+      213: 4354033557441329437
+    second: Atoc walk_132
+  - first:
+      213: 2993182070505752184
+    second: Atoc walk_133
+  - first:
+      213: -5136358021803973524
+    second: Atoc walk_134
+  - first:
+      213: -9101223610964791144
+    second: Atoc walk_135
+  - first:
+      213: 3363388701816695614
+    second: Atoc walk_136
+  - first:
+      213: -2669046032471088166
+    second: Atoc walk_137
+  - first:
+      213: -2779203819461255612
+    second: Atoc walk_138
+  - first:
+      213: -4647921185316652695
+    second: Atoc walk_139
+  - first:
+      213: -9096707342410902381
+    second: Atoc walk_140
+  - first:
+      213: 4588334023445911164
+    second: Atoc walk_141
+  - first:
+      213: 7880591378776010131
+    second: Atoc walk_142
+  - first:
+      213: 8632468169910392873
+    second: Atoc walk_143
+  - first:
+      213: -7532007497373045494
+    second: Atoc walk_144
+  - first:
+      213: 3415986688021962932
+    second: Atoc walk_145
+  - first:
+      213: -3647661907782396744
+    second: Atoc walk_146
+  - first:
+      213: 1648280609287073058
+    second: Atoc walk_147
+  - first:
+      213: -566872384910289583
+    second: Atoc walk_148
+  - first:
+      213: -2077924116836282650
+    second: Atoc walk_149
+  - first:
+      213: 4137010278806509460
+    second: Atoc walk_150
+  - first:
+      213: -946600838338016525
+    second: Atoc walk_151
+  - first:
+      213: -1007783049657699817
+    second: Atoc walk_152
+  - first:
+      213: -3851887268044175891
+    second: Atoc walk_153
+  - first:
+      213: -8204619535061427620
+    second: Atoc walk_154
+  - first:
+      213: 7523452475913484839
+    second: Atoc walk_155
+  - first:
+      213: 4897454384544922512
+    second: Atoc walk_156
+  - first:
+      213: 4635373763116459981
+    second: Atoc walk_157
+  - first:
+      213: -8181555449856285565
+    second: Atoc walk_158
+  - first:
+      213: 6910443833497928139
+    second: Atoc walk_159
+  - first:
+      213: 5333217207431537868
+    second: Atoc walk_160
+  - first:
+      213: -6466624838884495129
+    second: Atoc walk_161
+  - first:
+      213: -2682077946708539058
+    second: Atoc walk_162
+  - first:
+      213: -7893957553203404351
+    second: Atoc walk_163
+  - first:
+      213: 2966170898629571193
+    second: Atoc walk_164
+  - first:
+      213: -5524119250223156790
+    second: Atoc walk_165
+  - first:
+      213: -7598107787333935426
+    second: Atoc walk_166
+  - first:
+      213: 3322983949590207505
+    second: Atoc walk_167
+  - first:
+      213: -3940432638377775941
+    second: Atoc walk_168
+  - first:
+      213: 7476331995199431217
+    second: Atoc walk_169
+  - first:
+      213: -7413537367706514852
+    second: Atoc walk_170
+  - first:
+      213: -5113416323190696829
+    second: Atoc walk_171
+  - first:
+      213: 1029068429475900635
+    second: Atoc walk_172
+  - first:
+      213: 4904173461943842896
+    second: Atoc walk_173
+  - first:
+      213: -5516709575021788618
+    second: Atoc walk_174
+  - first:
+      213: -2257223773197454405
+    second: Atoc walk_175
+  - first:
+      213: 3691146083067593401
+    second: Atoc walk_176
+  - first:
+      213: 5542325859894834855
+    second: Atoc walk_177
+  - first:
+      213: -7218164608590891965
+    second: Atoc walk_178
+  - first:
+      213: -4112240905500128563
+    second: Atoc walk_179
+  - first:
+      213: -8343025637098534819
+    second: Atoc walk_180
+  - first:
+      213: 7879406157266648667
+    second: Atoc walk_181
+  - first:
+      213: 8424943166558366893
+    second: Atoc walk_182
+  - first:
+      213: -6227015422859384692
+    second: Atoc walk_183
+  - first:
+      213: 2803933505607153651
+    second: Atoc walk_184
+  - first:
+      213: 3129552192918859070
+    second: Atoc walk_185
+  - first:
+      213: -3909513360106663185
+    second: Atoc walk_186
+  - first:
+      213: 2913816952947522677
+    second: Atoc walk_187
+  - first:
+      213: 4547656548397590829
+    second: Atoc walk_188
+  - first:
+      213: 8522769660752780094
+    second: Atoc walk_189
+  - first:
+      213: -5149647869316494449
+    second: Atoc walk_190
+  - first:
+      213: 4598549053449431074
+    second: Atoc walk_191
+  - first:
+      213: -386594015726367616
+    second: Atoc walk_192
+  - first:
+      213: 1535952343869856365
+    second: Atoc walk_193
+  - first:
+      213: -8534394219724630700
+    second: Atoc walk_194
+  - first:
+      213: 3257883756007492259
+    second: Atoc walk_195
+  - first:
+      213: 3526562500361491373
+    second: Atoc walk_196
+  - first:
+      213: -6307239234254831703
+    second: Atoc walk_197
+  - first:
+      213: -2890827238438608199
+    second: Atoc walk_198
+  - first:
+      213: 3026674556317963359
+    second: Atoc walk_199
+  - first:
+      213: 6597184806165879959
+    second: Atoc walk_200
+  - first:
+      213: -1338454395151996204
+    second: Atoc walk_201
+  - first:
+      213: -1215943773354440742
+    second: Atoc walk_202
+  - first:
+      213: 6645253075803320983
+    second: Atoc walk_203
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Atoc walk_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 588
+        width: 213
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958951530c4f819b0800000000000000
+      internalID: -5109064670890321831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atoc walk_1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 578
+        width: 242
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71202f6d87a6f4bb0800000000000000
+      internalID: -4949620398222081513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atoc walk_2
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 569
+        width: 185
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b743134084cd1f0800000000000000
+      internalID: -1018860232849982718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atoc walk_3
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 558
+        width: 121
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afdae8f88d4c9360800000000000000
+      internalID: 7177697156808761250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atoc walk_4
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 569
+        width: 169
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf11c813be584bf0800000000000000
+      internalID: -339917648559005732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atoc walk_5
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 113
+        width: 212
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d018f223667bf5f0800000000000000
+      internalID: -721853147102310191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atoc walk_6
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 225
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4840b13efc9eeb710800000000000000
+      internalID: 1711061987525067908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atoc walk_7
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 106
+        width: 233
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff7be20380b99c60800000000000000
+      internalID: 7825479904269139967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atoc walk_8
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 116
+        width: 221
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1407b8c1ccf6966c0800000000000000
+      internalID: -4149662659202289599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atoc walk_9
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 111
+        width: 165
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7366cd76533fa70800000000000000
+      internalID: 8859483612163487682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atoc walk_10
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 110
+        width: 116
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a822dc49ae723e0800000000000000
+      internalID: -2078434778190542188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atoc walk_11
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 115
+        width: 212
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42c9ca39a4151db0800000000000000
+      internalID: -4821925108961918389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atoc walk_12
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 204
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92f3294768d32e80800000000000000
+      internalID: -8204476158018588004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
