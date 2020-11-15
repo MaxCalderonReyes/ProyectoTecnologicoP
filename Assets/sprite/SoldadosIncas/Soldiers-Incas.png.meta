@@ -1,0 +1,560 @@
+fileFormatVersion: 2
+guid: 3cf48b25ea800cb4a8c64496277d6e69
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 294943191856175190
+    second: Soldiers-Incas_0
+  - first:
+      213: 4511243638828803821
+    second: Soldiers-Incas_1
+  - first:
+      213: 2399467042831244962
+    second: Soldiers-Incas_2
+  - first:
+      213: 1650538192252776974
+    second: Soldiers-Incas_3
+  - first:
+      213: -1774414979512421326
+    second: Soldiers-Incas_4
+  - first:
+      213: 4007150459262441098
+    second: Soldiers-Incas_5
+  - first:
+      213: 4965959758026460599
+    second: Soldiers-Incas_6
+  - first:
+      213: -6666456807899598908
+    second: Soldiers-Incas_7
+  - first:
+      213: -2073509617736974944
+    second: Soldiers-Incas_8
+  - first:
+      213: -5469689237326987008
+    second: Soldiers-Incas_9
+  - first:
+      213: -7714886374028506533
+    second: Soldiers-Incas_10
+  - first:
+      213: 8910026421596370795
+    second: Soldiers-Incas_11
+  - first:
+      213: 8730736208231542755
+    second: Soldiers-Incas_12
+  - first:
+      213: -2126856160967758630
+    second: Soldiers-Incas_13
+  - first:
+      213: 8763455191945771871
+    second: Soldiers-Incas_14
+  - first:
+      213: 3996822671181197421
+    second: Soldiers-Incas_15
+  - first:
+      213: 7782455577309711218
+    second: Soldiers-Incas_16
+  - first:
+      213: -1430439618036704146
+    second: Soldiers-Incas_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 310
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Soldiers-Incas_0
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 893
+        width: 319
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658d1833549d71400800000000000000
+      internalID: 294943191856175190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldiers-Incas_1
+      rect:
+        serializedVersion: 2
+        x: 3569
+        y: 893
+        width: 314
+        height: 607
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6a1ab10382b9e30800000000000000
+      internalID: 4511243638828803821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldiers-Incas_2
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 893
+        width: 224
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae9632009e9c4120800000000000000
+      internalID: 2399467042831244962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldiers-Incas_3
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 891
+        width: 262
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02317dadb3e7e610800000000000000
+      internalID: 1650538192252776974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldiers-Incas_4
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 892
+        width: 274
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234b7063af20067e0800000000000000
+      internalID: -1774414979512421326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldiers-Incas_5
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 893
+        width: 242
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8691e5ac124c9730800000000000000
+      internalID: 4007150459262441098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldiers-Incas_6
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 893
+        width: 233
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd4d02d612aae440800000000000000
+      internalID: 4965959758026460599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldiers-Incas_7
+      rect:
+        serializedVersion: 2
+        x: 2857
+        y: 891
+        width: 294
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfe8a68adcfb73a0800000000000000
+      internalID: -6666456807899598908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldiers-Incas_8
+      rect:
+        serializedVersion: 2
+        x: 3187
+        y: 892
+        width: 356
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad7e641df96933e0800000000000000
+      internalID: -2073509617736974944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldiers-Incas_9
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 0
+        width: 319
+        height: 607
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00109594e92c714b0800000000000000
+      internalID: -5469689237326987008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldiers-Incas_10
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 0
+        width: 224
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a8781d7b73fe490800000000000000
+      internalID: -7714886374028506533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldiers-Incas_11
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 0
+        width: 262
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67b896b2d5c6ab70800000000000000
+      internalID: 8910026421596370795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldiers-Incas_12
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 0
+        width: 274
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef284fe25ec92970800000000000000
+      internalID: 8730736208231542755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldiers-Incas_13
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 0
+        width: 242
+        height: 607
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc6a251793eb72e0800000000000000
+      internalID: -2126856160967758630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldiers-Incas_14
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 0
+        width: 233
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bfaf8f01c0e9970800000000000000
+      internalID: 8763455191945771871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldiers-Incas_15
+      rect:
+        serializedVersion: 2
+        x: 2857
+        y: 0
+        width: 294
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60bbf91b01977730800000000000000
+      internalID: 3996822671181197421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldiers-Incas_16
+      rect:
+        serializedVersion: 2
+        x: 3187
+        y: 0
+        width: 356
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b8dc54d16d00c60800000000000000
+      internalID: 7782455577309711218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldiers-Incas_17
+      rect:
+        serializedVersion: 2
+        x: 3569
+        y: 0
+        width: 314
+        height: 607
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cd6460fbe062ce0800000000000000
+      internalID: -1430439618036704146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3922c31cc4483d04aaad5f1daa1534f3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
