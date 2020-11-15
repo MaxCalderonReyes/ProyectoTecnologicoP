@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Net.Http.Headers;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Enemy : MonoBehaviour
@@ -29,7 +30,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private int live;
     [SerializeField] private bool Boss;
 
-
+    
 
 
 
@@ -56,7 +57,23 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         SoldierEF();
-        counter += Time.deltaTime * speed;
+        if (Boss)
+        {
+            if (BOSS.instancia._PingPong == true)
+            {
+                counter += Time.deltaTime * speed;
+            }
+            else
+            {
+                counter += 0;
+            }
+        }
+        else
+        {
+            counter += Time.deltaTime * speed;
+        }
+       
+      
 
         if (horizontal)
         {
