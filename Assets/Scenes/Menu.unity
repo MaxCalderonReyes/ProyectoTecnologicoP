@@ -784,7 +784,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1529127223}
-        m_MethodName: nextLevel
+        m_MethodName: creditos
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
