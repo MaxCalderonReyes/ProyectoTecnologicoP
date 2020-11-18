@@ -2027,7 +2027,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2111553, y: 1.9764512}
+    oldSize: {x: 1.0290322, y: 1.9612904}
     newSize: {x: 15.2, y: 24.804462}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2053,8 +2053,8 @@ MonoBehaviour:
   horizontal: 1
   Soldier: 1
   DistancieEnemigo: 7
-  Bull: {fileID: 1289040670002056456, guid: 29341bdda27d3c44ea9f9386fc06c0b2, type: 3}
-  velocidadBull: 5
+  Bull: {fileID: 1289040670002056456, guid: 109afeffc5107e048913af66ae604a8e, type: 3}
+  velocidadBull: 14
   live: 5
   Boss: 0
 --- !u!212 &667460879
@@ -2096,7 +2096,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6a87c01d793e76849a4a563d05b39734, type: 3}
+  m_Sprite: {fileID: 294943191856175190, guid: 3cf48b25ea800cb4a8c64496277d6e69, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -2250,7 +2250,7 @@ Animator:
   m_GameObject: {fileID: 667460875}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0093f5ee658d18046a4c218e33643ea8, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9ef03783b12380e4ba8fe1b9b0d32e05, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3629,7 +3629,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2111553, y: 1.9764512}
+    oldSize: {x: 1.0290322, y: 1.9612904}
     newSize: {x: 15.2, y: 24.804462}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3655,8 +3655,8 @@ MonoBehaviour:
   horizontal: 1
   Soldier: 1
   DistancieEnemigo: 7
-  Bull: {fileID: 1289040670002056456, guid: 29341bdda27d3c44ea9f9386fc06c0b2, type: 3}
-  velocidadBull: 5
+  Bull: {fileID: 1289040670002056456, guid: 109afeffc5107e048913af66ae604a8e, type: 3}
+  velocidadBull: 14
   live: 5
   Boss: 0
 --- !u!212 &1051865509
@@ -3698,7 +3698,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6a87c01d793e76849a4a563d05b39734, type: 3}
+  m_Sprite: {fileID: 294943191856175190, guid: 3cf48b25ea800cb4a8c64496277d6e69, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -3831,7 +3831,7 @@ Animator:
   m_GameObject: {fileID: 1051865504}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0093f5ee658d18046a4c218e33643ea8, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9ef03783b12380e4ba8fe1b9b0d32e05, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5776,7 +5776,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2111553, y: 1.9764512}
+    oldSize: {x: 1.0290322, y: 1.9612904}
     newSize: {x: 15.2, y: 24.804462}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5802,8 +5802,8 @@ MonoBehaviour:
   horizontal: 1
   Soldier: 1
   DistancieEnemigo: 7
-  Bull: {fileID: 1289040670002056456, guid: 29341bdda27d3c44ea9f9386fc06c0b2, type: 3}
-  velocidadBull: 5
+  Bull: {fileID: 1289040670002056456, guid: 109afeffc5107e048913af66ae604a8e, type: 3}
+  velocidadBull: 14
   live: 5
   Boss: 0
 --- !u!212 &1813556083
@@ -5845,7 +5845,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6a87c01d793e76849a4a563d05b39734, type: 3}
+  m_Sprite: {fileID: 294943191856175190, guid: 3cf48b25ea800cb4a8c64496277d6e69, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -5999,7 +5999,7 @@ Animator:
   m_GameObject: {fileID: 1813556079}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0093f5ee658d18046a4c218e33643ea8, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9ef03783b12380e4ba8fe1b9b0d32e05, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -6115,7 +6115,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: bab72c6bf2ef6c04cb0c3854865c8ad3, type: 3}
+  m_Sprite: {fileID: 294943191856175190, guid: 3cf48b25ea800cb4a8c64496277d6e69, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -6157,8 +6157,8 @@ MonoBehaviour:
   horizontal: 1
   Soldier: 1
   DistancieEnemigo: 7
-  Bull: {fileID: 1289040670002056456, guid: 29341bdda27d3c44ea9f9386fc06c0b2, type: 3}
-  velocidadBull: 5
+  Bull: {fileID: 1289040670002056456, guid: 109afeffc5107e048913af66ae604a8e, type: 3}
+  velocidadBull: 14
   live: 5
   Boss: 0
 --- !u!61 &1837862436
@@ -6178,7 +6178,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.944, y: 2.072}
+    oldSize: {x: 1.0290322, y: 1.9612904}
     newSize: {x: 15.2, y: 24.804462}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6330,7 +6330,7 @@ Animator:
   m_GameObject: {fileID: 1837862432}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0093f5ee658d18046a4c218e33643ea8, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9ef03783b12380e4ba8fe1b9b0d32e05, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
