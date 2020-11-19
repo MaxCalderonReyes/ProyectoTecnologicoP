@@ -7523,7 +7523,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -498, y: 332}
+  m_AnchoredPosition: {x: -971, y: 454}
   m_SizeDelta: {x: 192.72159, y: 36.1353}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1102592326
@@ -10528,7 +10528,7 @@ GameObject:
   - component: {fileID: 1802181070}
   - component: {fileID: 1802181074}
   - component: {fileID: 1802181069}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FondoRepetirCinematic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
