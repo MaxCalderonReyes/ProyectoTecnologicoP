@@ -22,7 +22,8 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private Joystick joystick;
     //Animation
-    private Animator animacionController;
+   [HideInInspector] public Animator animacionController;
+    public bool Level3;
     public bool _ActionCan
     {
         get { return ActionsCan; }
@@ -69,6 +70,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        Level3 = false;
         animacionController = GetComponent<Animator>();
         musicaOver.SetActive(false);
         playerSpri = GameObject.FindGameObjectWithTag("Player");
@@ -84,11 +86,21 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        print(Level3);
             InGround = (Physics2D.Raycast(transform.position, Vector2.down, DistanceTOGround, ground) || Physics2D.Raycast((Vector2)transform.position + Vector2.left * width / 2, Vector2.down, DistanceTOGround, ground)
                        || Physics2D.Raycast((Vector2)transform.position + Vector2.right * width / 2, Vector2.down, DistanceTOGround, ground));
         //Flujo de animaciones dependiendo de la velocidad del palyer (se usa blend three)0
-        animacionController.SetFloat("Walk", Mathf.Abs(rgbd.velocity.x / speed));
+        if (!Level3)
+        {
+            Debug.Log("ejecutandoaca");
+            animacionController.SetFloat("Walk", Mathf.Abs(rgbd.velocity.x / speed));
+        }
+        else
+        {
+            Debug.Log("Ejecutandoestomejor");
+            animacionController.SetFloat("Walk",(rgbd.velocity.x*0)+1);
+        }
+       
         animacionController.SetFloat("Jump", rgbd.velocity.y / speed);
         animacionController.SetBool("OnGround",InGround);
         ////////////////////////
@@ -96,7 +108,7 @@ public class PlayerMovement : MonoBehaviour
             if (ActionsCan)
             {
                 rgbd.velocity = new Vector3(x * speed, rgbd.velocity.y, 0);
-            animacionController.SetFloat("Walk", Mathf.Abs( rgbd.velocity.x/speed));
+        
                 if (x < 0)
                 {
                 

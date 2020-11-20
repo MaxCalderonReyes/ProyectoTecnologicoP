@@ -372,8 +372,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 158.89996, y: -30.9}
-  m_SizeDelta: {x: 167.7, y: 53.2}
+  m_AnchoredPosition: {x: 75.6001, y: -13.800049}
+  m_SizeDelta: {x: 151.15198, y: 27.599983}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &24694116
 MonoBehaviour:
@@ -713,7 +713,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &92401099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2504,7 +2504,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -611, y: 345.8}
+  m_AnchoredPosition: {x: -756, y: 428}
   m_SizeDelta: {x: 278.95322, y: 90.91018}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &551712441
@@ -2558,9 +2558,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'ATAHUALPA
-
-'
+  m_Text: HUASCAR
 --- !u!222 &551712443
 CanvasRenderer:
   m_ObjectHideFlags: 0

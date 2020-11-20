@@ -43,6 +43,7 @@ public class SpecialBossLevel3 : MonoBehaviour
     public void StartOfFight()
     {
         staticParalax._InPersecute = true;
+     
     }
     public void DesactiveBoxC()
     {
@@ -85,6 +86,7 @@ public class SpecialBossLevel3 : MonoBehaviour
             count += Time.deltaTime;
             if (count < 40)
             {
+                PlayerMovement.instancie.Level3 = true;
                 print("Se esta ejectando");
                  Run();
               
@@ -97,7 +99,7 @@ public class SpecialBossLevel3 : MonoBehaviour
             if (count > 40)
             {
                 tt = true;
-               
+                PlayerMovement.instancie.Level3 = false;
                 Carrera = false;
                 intro._JustLook = false;
                 Bridge._InPersecute = false;
