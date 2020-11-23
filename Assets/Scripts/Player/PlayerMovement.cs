@@ -213,7 +213,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (other.CompareTag("LanzasTrampa"))
         {
-            live -= 10;
+            live -= 5;
         }
 
         if (other.CompareTag("PisoFalso"))
