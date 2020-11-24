@@ -88,6 +88,7 @@ public class Bross : MonoBehaviour
         if (live <= 0)
         {
             Destroy(gameObject);
+            PuertaD.intance.s();
         }
     }
    

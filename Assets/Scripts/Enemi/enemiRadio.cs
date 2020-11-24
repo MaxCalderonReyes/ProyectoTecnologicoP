@@ -14,8 +14,8 @@ public class enemiRadio : MonoBehaviour
     private GameObject player;
     private Vector3 inicioPosition;
     private SpriteRenderer _sprite; 
-    private Rigidbody2D _rgbd;   
-   
+    private Rigidbody2D _rgbd;
+    
     private Vector2 _posLastFrame;
     [SerializeField] private int live;
     [SerializeField] private bool Boss;
@@ -79,7 +79,7 @@ public class enemiRadio : MonoBehaviour
                 SFXController.intance.OnHurt();
                 SceneManager.LoadScene("Wheel-2");
                 Destroy(gameObject);
-                  
+                PuertaD.intance.s();
         }
     }
     

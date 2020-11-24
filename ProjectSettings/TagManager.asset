@@ -22,6 +22,7 @@ TagManager:
   - "bullCa\xF1onero"
   - Bumeran
   - buttonShoot
+  - Vida
   layers:
   - Default
   - TransparentFX
