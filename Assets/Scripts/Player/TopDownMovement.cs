@@ -58,11 +58,11 @@ public class TopDownMovement : MonoBehaviour
         }
         else if (collision.gameObject.tag == "Puerta" && Dts.level < 13 && Dts.level > 10)
         {
-            SceneManager.LoadScene(8);
+            SceneManager.LoadScene(11);
         }
         else if (collision.gameObject.tag == "Puerta" && Dts.level < 17 && Dts.level >13)
         {
-            SceneManager.LoadScene(8);
+            SceneManager.LoadScene(14);
         }
     }
 }

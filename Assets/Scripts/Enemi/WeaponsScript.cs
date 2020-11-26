@@ -16,9 +16,9 @@ public class WeaponsScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.right * (Time.deltaTime * _speed));
+        transform.Translate(Vector3.down * (Time.deltaTime * _speed));
 
-        if(transform.position.x > _endPosX)
+        if(transform.position.y < _endPosX)
         {
             Destroy(gameObject);
         }
