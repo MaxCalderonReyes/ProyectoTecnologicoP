@@ -141,7 +141,10 @@ public class PlayerMovement : MonoBehaviour
               //  Mousepos();
             }
 
-
+        if (live >= 20)
+        {
+            live = 20;
+        }
 
         if (live <= 0)
         {
@@ -213,7 +216,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (other.CompareTag("LanzasTrampa"))
         {
-            live -= 10;
+            live -= 5;
         }
 
         if (other.CompareTag("PisoFalso"))
@@ -234,6 +237,11 @@ public class PlayerMovement : MonoBehaviour
         if (other.CompareTag("Bumeran"))
         {
             live -= 1;
+        }
+        if (other.CompareTag("Vida"))
+        {
+            live += 1;
+            Destroy(other.gameObject);
         }
     }
 

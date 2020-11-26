@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour
     [SerializeField]private float lenght;
     private float counter;
     private float startPosition;
-
+   
     private float actualPosition;
     private float lastPosition;
 
@@ -104,12 +104,14 @@ public class Enemy : MonoBehaviour
             {
                 SFXController.intance.OnHurt();
                 Destroy(gameObject);
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                PuertaD.intance.s();
+                //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
             else
             {
                 SFXController.intance.OnHurt();
                 Destroy(gameObject);
+                
             }
            
         }
