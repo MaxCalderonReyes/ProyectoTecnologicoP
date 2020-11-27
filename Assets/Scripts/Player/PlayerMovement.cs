@@ -240,7 +240,7 @@ public class PlayerMovement : MonoBehaviour
         }
         if (other.CompareTag("Vida"))
         {
-            live += 1;
+            live += 4;
             Destroy(other.gameObject);
         }
     }
