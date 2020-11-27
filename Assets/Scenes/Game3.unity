@@ -1658,7 +1658,7 @@ Transform:
   m_LocalScale: {x: 1.5981253, y: 1.94227, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &173504791
 MonoBehaviour:
@@ -2100,7 +2100,7 @@ Transform:
   - {fileID: 1702479107}
   - {fileID: 588493220}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &454591273
 GameObject:
@@ -3565,7 +3565,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &749693190
 GameObject:
@@ -5791,7 +5791,7 @@ Transform:
   m_Children:
   - {fileID: 158472577}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1018586065
 MonoBehaviour:
@@ -5816,6 +5816,8 @@ MonoBehaviour:
   Panel: {fileID: 92401098}
   SecondsToShoot: 2
   joystick: {fileID: 2043573885}
+  animacionController: {fileID: 0}
+  Level3: 0
   musica: {fileID: 2077710022}
   musicaOver: {fileID: 748045078}
 --- !u!61 &1018586066
@@ -7823,7 +7825,7 @@ Transform:
   - {fileID: 1365032557}
   - {fileID: 1924660078}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1152896673
 GameObject:
@@ -9407,7 +9409,7 @@ Transform:
   - {fileID: 1402707267}
   - {fileID: 974882120}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1402707267 stripped
 Transform:
@@ -10103,7 +10105,7 @@ Transform:
   - {fileID: 1066330668}
   - {fileID: 1802181068}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1549501298
 GameObject:
@@ -10498,7 +10500,7 @@ Transform:
   - {fileID: 1032406904}
   - {fileID: 476762684}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1751899300
 GameObject:
@@ -10873,7 +10875,7 @@ GameObject:
   - component: {fileID: 1802181070}
   - component: {fileID: 1802181074}
   - component: {fileID: 1802181069}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FondoRepetirCinematic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20637,7 +20639,7 @@ PrefabInstance:
     - target: {fileID: 3655191401446257410, guid: 9a00941d4f61fc040816a0a3b482721b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3655191401446257410, guid: 9a00941d4f61fc040816a0a3b482721b,
         type: 3}
