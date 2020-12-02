@@ -6,13 +6,13 @@ PlayerSettings:
   serializedVersion: 20
   productGUID: 7b50e2344e124564aabe03479b206347
   AndroidProfiler: 0
-  AndroidFilterTouchesWhenObscured: 0
+  AndroidFilterTouchesWhenObscured: 1
   AndroidEnableSustainedPerformanceMode: 0
   defaultScreenOrientation: 2
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: MAX-VCR
+  companyName: Aprendiendo jugando
   productName: Caida del imperio incaico
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -246,15 +246,15 @@ PlayerSettings:
   AndroidTargetArchitectures: 1
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: 
-  AndroidKeyaliasName: 
+  AndroidKeystoreName: C:/Users/sistemas/Music/key/imperio.keystore
+  AndroidKeyaliasName: saulo
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
   AndroidIsGame: 1
   AndroidEnableTango: 0
   androidEnableBanner: 1
   androidUseLowAccuracyLocation: 0
-  androidUseCustomKeystore: 0
+  androidUseCustomKeystore: 1
   m_AndroidBanners:
   - width: 320
     height: 180
