@@ -4,25 +4,14 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy
-  - Wheel
-  - PlayerBull
-  - Boleadora
-  - LanzasTrampa
-  - PisoFalso
+  - "bullCa\xF1onero"
   - Rocas
-  - BOSS
-  - Ground
-  - Puerta
+  - Vida
   - Tumi
-  - BOSS2
   - joystick
   - buttonJump
-  - PedroDeCandia
-  - "bullCa\xF1onero"
-  - Bumeran
   - buttonShoot
-  - Vida
+  - PlayerBull
   layers:
   - Default
   - TransparentFX
@@ -32,7 +21,7 @@ TagManager:
   - UI
   - 
   - 
-  - Ground
+  - 
   - 
   - 
   - 
@@ -59,10 +48,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: IU
-    uniqueID: 2251952909
-    locked: 0
-  - name: New Layer
-    uniqueID: 3299130111
     locked: 0

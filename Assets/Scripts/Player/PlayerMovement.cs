@@ -44,6 +44,7 @@ public class PlayerMovement : MonoBehaviour
     private Collider2D collider;
     private float width;
     private bool InGround;
+
     //Para el guardado de dato
     
     public void Awake()
