@@ -15,7 +15,7 @@ public class Weapons : MonoBehaviour
     void Start()
     {
         startPos = transform.position;
-        Prewarm();
+      //  Prewarm();
         Invoke("AttemptSpawn", spawnInterval);
     }
 
@@ -25,16 +25,16 @@ public class Weapons : MonoBehaviour
         GameObject weapon = Instantiate(weapons[randomIndex]);
 
         //Create Position Prefabs 
-        float startY = UnityEngine.Random.Range(startPos.y - 1.5f, startPos.y + 1.5f); 
-        weapon.transform.position = new Vector3(startPos.x, startY, startPos.z);
+        float startX = UnityEngine.Random.Range(startPos.x - 20f, startPos.x + 20f); 
+        weapon.transform.position = new Vector3(startX, startPos.y, startPos.z);
 
         //Scale Prefabs
-        float scale = UnityEngine.Random.Range(0.8f, 1.6f);
+        float scale = UnityEngine.Random.Range(0.8f, 1f);
         weapon.transform.localScale = new Vector2(scale, scale);
 
         //Speed Prefabs
-        float speed = UnityEngine.Random.Range(5f, 7f);
-        weapon.GetComponent<WeaponsScript>().StartFloating(speed, endPoint.transform.position.x);
+        float speed = UnityEngine.Random.Range(1f, 2f);
+        weapon.GetComponent<WeaponsScript>().StartFloating(speed, endPoint.transform.position.y);
     }
 
     void AttemptSpawn()

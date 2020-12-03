@@ -7,6 +7,7 @@ public class SpecialBossLevel3 : MonoBehaviour
     public static SpecialBossLevel3 instnacie;
     public Animator animator;
      public Animator textPresentation;
+    bool Oneretirade=false;
     private bool Carrera;
     public bool _Carrera
     {
@@ -81,17 +82,20 @@ public class SpecialBossLevel3 : MonoBehaviour
         }
         if (Carrera)
         {
+          
             PlayerMovement.instancie.transform.position = new Vector3(Mathf.Clamp(PlayerMovement.instancie.transform.position.x, 354, 380), PlayerMovement.instancie.transform.position.y, 0);
             
             count += Time.deltaTime;
             if (count < 40)
             {
+                animator.SetBool("RUN", true);
                 PlayerMovement.instancie.Level3 = true;
                 print("Se esta ejectando");
                  Run();
               
 
             }
+
          
             
 
@@ -103,7 +107,10 @@ public class SpecialBossLevel3 : MonoBehaviour
                 Carrera = false;
                 intro._JustLook = false;
                 Bridge._InPersecute = false;
+                Oneretirade = true;
+                animator.SetBool("Retirade", true);
             }
+          
         }
      
       
