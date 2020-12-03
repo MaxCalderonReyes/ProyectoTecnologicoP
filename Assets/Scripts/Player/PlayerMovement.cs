@@ -87,18 +87,18 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print(Level3);
+
             InGround = (Physics2D.Raycast(transform.position, Vector2.down, DistanceTOGround, ground) || Physics2D.Raycast((Vector2)transform.position + Vector2.left * width / 2, Vector2.down, DistanceTOGround, ground)
                        || Physics2D.Raycast((Vector2)transform.position + Vector2.right * width / 2, Vector2.down, DistanceTOGround, ground));
         //Flujo de animaciones dependiendo de la velocidad del palyer (se usa blend three)0
         if (!Level3)
         {
-            Debug.Log("ejecutandoaca");
+
             animacionController.SetFloat("Walk", Mathf.Abs(rgbd.velocity.x / speed));
         }
         else
         {
-            Debug.Log("Ejecutandoestomejor");
+          
             animacionController.SetFloat("Walk",(rgbd.velocity.x*0)+1);
         }
        

@@ -12,6 +12,14 @@ TagManager:
   - buttonJump
   - buttonShoot
   - PlayerBull
+  - Enemy
+  - PisoFalso
+  - Boleadora
+  - LanzasTrampa
+  - PedroDeCandia
+  - Puerta
+  - BOSS2
+  - Bumeran
   layers:
   - Default
   - TransparentFX

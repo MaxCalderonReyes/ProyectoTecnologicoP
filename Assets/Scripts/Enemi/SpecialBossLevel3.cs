@@ -7,6 +7,7 @@ public class SpecialBossLevel3 : MonoBehaviour
     public static SpecialBossLevel3 instnacie;
     public Animator animator;
      public Animator textPresentation;
+    bool Oneretirade=false;
     private bool Carrera;
     public bool _Carrera
     {
@@ -94,6 +95,7 @@ public class SpecialBossLevel3 : MonoBehaviour
               
 
             }
+
          
             
 
@@ -105,7 +107,10 @@ public class SpecialBossLevel3 : MonoBehaviour
                 Carrera = false;
                 intro._JustLook = false;
                 Bridge._InPersecute = false;
+                Oneretirade = true;
+                animator.SetBool("Retirade", true);
             }
+          
         }
      
       
