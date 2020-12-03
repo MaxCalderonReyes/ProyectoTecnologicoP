@@ -13,7 +13,7 @@ public class LevelsOrder : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (TopDownMovement.instancia.Dts.level < 5)
+        if (TopDownMovement.instancia.Dts.level < 3)
         {
             puertas[0].SetActive(true);
             puertas[1].SetActive(false);
@@ -21,7 +21,7 @@ public class LevelsOrder : MonoBehaviour
             puertas[3].SetActive(false);
             puertas[4].SetActive(false);
         }
-        else if(TopDownMovement.instancia.Dts.level >4&& TopDownMovement.instancia.Dts.level<7)
+        else if(TopDownMovement.instancia.Dts.level >3&& TopDownMovement.instancia.Dts.level<7)
         {
             puertas[0].SetActive(false);
             puertas[1].SetActive(true);
@@ -29,7 +29,7 @@ public class LevelsOrder : MonoBehaviour
             puertas[3].SetActive(false);
             puertas[4].SetActive(false);
         }
-        else if (TopDownMovement.instancia.Dts.level >7&& TopDownMovement.instancia.Dts.level<11)
+        else if (TopDownMovement.instancia.Dts.level >6&& TopDownMovement.instancia.Dts.level<10)
         {
             puertas[0].SetActive(false);
             puertas[1].SetActive(false);
@@ -37,7 +37,7 @@ public class LevelsOrder : MonoBehaviour
             puertas[3].SetActive(false);
             puertas[4].SetActive(false);
         }
-        else if (TopDownMovement.instancia.Dts.level > 10 && TopDownMovement.instancia.Dts.level < 13)
+        else if (TopDownMovement.instancia.Dts.level > 9 && TopDownMovement.instancia.Dts.level < 13)
         {
             puertas[0].SetActive(false);
             puertas[1].SetActive(false);
@@ -45,7 +45,7 @@ public class LevelsOrder : MonoBehaviour
             puertas[3].SetActive(true);
             puertas[4].SetActive(false);
         }
-        else if (TopDownMovement.instancia.Dts.level > 13 && TopDownMovement.instancia.Dts.level < 17)
+        else if (TopDownMovement.instancia.Dts.level > 12 && TopDownMovement.instancia.Dts.level < 17)
         {
             puertas[0].SetActive(false);
             puertas[1].SetActive(false);

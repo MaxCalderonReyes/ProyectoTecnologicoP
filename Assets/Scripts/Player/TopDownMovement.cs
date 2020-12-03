@@ -45,22 +45,22 @@ public class TopDownMovement : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Puerta" &&Dts.level<5)
+        if (collision.gameObject.tag == "Puerta" &&Dts.level<3)
         {
             SceneManager.LoadScene(2);
-        }else if(collision.gameObject.tag == "Puerta" && Dts.level <7&&Dts.level>4)
+        }else if(collision.gameObject.tag == "Puerta" && Dts.level <7&&Dts.level>3)
         {
             SceneManager.LoadScene(5);
         }
-        else if(collision.gameObject.tag == "Puerta" && Dts.level <11&&Dts.level>7)
+        else if(collision.gameObject.tag == "Puerta" && Dts.level <10&&Dts.level>6)
         {
             SceneManager.LoadScene(8);
         }
-        else if (collision.gameObject.tag == "Puerta" && Dts.level < 13 && Dts.level > 10)
+        else if (collision.gameObject.tag == "Puerta" && Dts.level < 13 && Dts.level > 9)
         {
             SceneManager.LoadScene(11);
         }
-        else if (collision.gameObject.tag == "Puerta" && Dts.level < 17 && Dts.level >13)
+        else if (collision.gameObject.tag == "Puerta" && Dts.level < 17 && Dts.level >12)
         {
             SceneManager.LoadScene(14);
         }
