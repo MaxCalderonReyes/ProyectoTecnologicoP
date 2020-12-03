@@ -10876,7 +10876,7 @@ GameObject:
   - component: {fileID: 1802181070}
   - component: {fileID: 1802181074}
   - component: {fileID: 1802181069}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FondoRepetirCinematic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
