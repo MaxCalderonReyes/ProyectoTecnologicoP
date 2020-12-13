@@ -370,11 +370,11 @@ RectTransform:
   m_Father: {fileID: 262767998}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 158.89996, y: -32.16}
-  m_SizeDelta: {x: 163.8, y: 53.2}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -25}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &24694116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2912,7 +2912,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -611, y: 345.8}
+  m_AnchoredPosition: {x: -703, y: 718}
   m_SizeDelta: {x: 278.95322, y: 90.91018}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &551712441
@@ -13451,10 +13451,35 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7162185369471640220, guid: 146351ec39ec46849b496ae0f1c5fb68,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 64035032}
+    - target: {fileID: 7162185369471640220, guid: 146351ec39ec46849b496ae0f1c5fb68,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Reiniciar
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162185369484938684, guid: 146351ec39ec46849b496ae0f1c5fb68,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 64035032}
+    - target: {fileID: 7162185369484938684, guid: 146351ec39ec46849b496ae0f1c5fb68,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Menu
+      objectReference: {fileID: 0}
     - target: {fileID: 7162185369832086202, guid: 146351ec39ec46849b496ae0f1c5fb68,
         type: 3}
       propertyPath: m_Name
       value: CanvasGameOver
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162185369832086202, guid: 146351ec39ec46849b496ae0f1c5fb68,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7162185369832086206, guid: 146351ec39ec46849b496ae0f1c5fb68,
         type: 3}
